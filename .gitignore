@@ -21,3 +21,4 @@ $RECYCLE.BIN/
 
 # Library backup files
 *.l\#*
+*.l\#\#
