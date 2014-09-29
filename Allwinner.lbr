@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -976,8 +976,8 @@
 <symbols>
 <symbol name="A13">
 <pin name="LRADC" x="-7.62" y="1.27" length="short"/>
-<pin name="UBOOT" x="-7.62" y="3.81" length="short"/>
-<pin name="!NMI" x="-7.62" y="-1.27" length="short"/>
+<pin name="UBOOT" x="-7.62" y="-1.27" length="short"/>
+<pin name="!NMI" x="-7.62" y="3.81" length="short"/>
 <pin name="!RESET" x="-7.62" y="-3.81" length="short"/>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -1219,10 +1219,10 @@
 <text x="-4.445" y="-6.985" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="A13-AUDIO">
-<pin name="HPOUTL" x="-8.89" y="5.08" length="short"/>
-<pin name="HPBP" x="-8.89" y="2.54" length="short"/>
-<pin name="HPCOM" x="-8.89" y="0" length="short"/>
-<pin name="HPOUTR" x="-8.89" y="7.62" length="short"/>
+<pin name="HPOUTL" x="-8.89" y="7.62" length="short"/>
+<pin name="HPBP" x="-8.89" y="0" length="short"/>
+<pin name="HPCOM" x="-8.89" y="2.54" length="short"/>
+<pin name="HPOUTR" x="-8.89" y="5.08" length="short"/>
 <pin name="MIC_IN1" x="-8.89" y="-7.62" length="short"/>
 <pin name="V_MIC" x="-8.89" y="-5.08" length="short"/>
 <wire x1="-6.35" y1="8.89" x2="6.35" y2="8.89" width="0.254" layer="94"/>
