@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1270,7 +1270,7 @@
 <gate name="B" symbol="A13-AUDIO" x="0" y="-20.32"/>
 <gate name="C" symbol="A13-CSI" x="-2.54" y="-48.26"/>
 <gate name="D" symbol="A13-DDR3" x="-2.54" y="-106.68"/>
-<gate name="G$4" symbol="A13-GPIO" x="-2.54" y="-175.26"/>
+<gate name="I" symbol="A13-GPIO" x="-2.54" y="-175.26"/>
 <gate name="G" symbol="A13-I2C" x="38.1" y="-127"/>
 <gate name="H" symbol="A13-LCD" x="60.96" y="-149.86"/>
 <gate name="E" symbol="A13-NAND" x="66.04" y="-88.9"/>
@@ -1377,25 +1377,6 @@
 <connect gate="F" pin="TPY2" pad="88"/>
 <connect gate="G" pin="TWI0_SCK" pad="101"/>
 <connect gate="G" pin="TWI0_SDA" pad="102"/>
-<connect gate="G$4" pin="DZQ" pad="17"/>
-<connect gate="G$4" pin="PB10/EINT24" pad="10"/>
-<connect gate="G$4" pin="PB15" pad="105"/>
-<connect gate="G$4" pin="PB16" pad="106"/>
-<connect gate="G$4" pin="PB17" pad="161"/>
-<connect gate="G$4" pin="PB18" pad="160"/>
-<connect gate="G$4" pin="PB2/EINT16" pad="103"/>
-<connect gate="G$4" pin="PB3/EINT17" pad="150"/>
-<connect gate="G$4" pin="PB4/EINT18" pad="104"/>
-<connect gate="G$4" pin="PG0/EINT0" pad="155"/>
-<connect gate="G$4" pin="PG1/EINT1" pad="154"/>
-<connect gate="G$4" pin="PG10/SPI1_CLK/UART3_RX/EINT10" pad="13"/>
-<connect gate="G$4" pin="PG11/SPI1_MOSI/UART3_CTS/EINT11" pad="14"/>
-<connect gate="G$4" pin="PG12/SPI1_MISO/UART3_RTS/EINT12" pad="15"/>
-<connect gate="G$4" pin="PG2/EINT2" pad="153"/>
-<connect gate="G$4" pin="PG3/UART1_TX/EINT3" pad="152"/>
-<connect gate="G$4" pin="PG4/UART1_RX/EINT4" pad="151"/>
-<connect gate="G$4" pin="PG9/SPI1_CS0/UART3_TX/EINT9" pad="12"/>
-<connect gate="G$4" pin="SVREF" pad="18"/>
 <connect gate="H" pin="LCD_CLK" pad="129"/>
 <connect gate="H" pin="LCD_D10" pad="141"/>
 <connect gate="H" pin="LCD_D11" pad="140"/>
@@ -1418,6 +1399,25 @@
 <connect gate="H" pin="LCD_DE" pad="128"/>
 <connect gate="H" pin="LCD_HSYNC" pad="127"/>
 <connect gate="H" pin="LCD_VSYNC" pad="126"/>
+<connect gate="I" pin="DZQ" pad="17"/>
+<connect gate="I" pin="PB10/EINT24" pad="10"/>
+<connect gate="I" pin="PB15" pad="105"/>
+<connect gate="I" pin="PB16" pad="106"/>
+<connect gate="I" pin="PB17" pad="161"/>
+<connect gate="I" pin="PB18" pad="160"/>
+<connect gate="I" pin="PB2/EINT16" pad="103"/>
+<connect gate="I" pin="PB3/EINT17" pad="150"/>
+<connect gate="I" pin="PB4/EINT18" pad="104"/>
+<connect gate="I" pin="PG0/EINT0" pad="155"/>
+<connect gate="I" pin="PG1/EINT1" pad="154"/>
+<connect gate="I" pin="PG10/SPI1_CLK/UART3_RX/EINT10" pad="13"/>
+<connect gate="I" pin="PG11/SPI1_MOSI/UART3_CTS/EINT11" pad="14"/>
+<connect gate="I" pin="PG12/SPI1_MISO/UART3_RTS/EINT12" pad="15"/>
+<connect gate="I" pin="PG2/EINT2" pad="153"/>
+<connect gate="I" pin="PG3/UART1_TX/EINT3" pad="152"/>
+<connect gate="I" pin="PG4/UART1_RX/EINT4" pad="151"/>
+<connect gate="I" pin="PG9/SPI1_CS0/UART3_TX/EINT9" pad="12"/>
+<connect gate="I" pin="SVREF" pad="18"/>
 <connect gate="J" pin="SDC0_CLK" pad="110"/>
 <connect gate="J" pin="SDC0_CMD" pad="111"/>
 <connect gate="J" pin="SDC0_D0" pad="108"/>
