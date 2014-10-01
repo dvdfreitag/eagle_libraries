@@ -659,6 +659,27 @@
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
+<package name="CAP_POLYMER-6.5X6.5">
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="2.219225" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.219225" x2="-2.219225" y2="3.25" width="0.127" layer="51"/>
+<wire x1="-2.219225" y1="3.25" x2="2.219225" y2="3.25" width="0.127" layer="51"/>
+<wire x1="2.219225" y1="3.25" x2="3.25" y2="2.219225" width="0.127" layer="51"/>
+<wire x1="3.25" y1="2.219225" x2="3.25" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-3.25" x2="-3.25" y2="-3.25" width="0.127" layer="51"/>
+<smd name="+" x="0" y="2.8" dx="1.6" dy="3.5" layer="1"/>
+<smd name="-" x="0" y="-2.8" dx="1.6" dy="3.5" layer="1"/>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<wire x1="-1.125" y1="3.25" x2="-2.219225" y2="3.25" width="0.254" layer="21"/>
+<wire x1="-2.219225" y1="3.25" x2="-3.25" y2="2.219225" width="0.254" layer="21"/>
+<wire x1="-3.25" y1="2.219225" x2="-3.25" y2="-3.25" width="0.254" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-1.125" y2="-3.25" width="0.254" layer="21"/>
+<wire x1="1.125" y1="-3.25" x2="3.25" y2="-3.25" width="0.254" layer="21"/>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="2.219225" width="0.254" layer="21"/>
+<wire x1="3.25" y1="2.219225" x2="2.219225" y2="3.25" width="0.254" layer="21"/>
+<wire x1="2.219225" y1="3.25" x2="1.125" y2="3.25" width="0.254" layer="21"/>
+<wire x1="-1.75" y1="4.75" x2="-1.75" y2="3.75" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="4.25" x2="-1.25" y2="4.25" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -1446,6 +1467,15 @@
 </gates>
 <devices>
 <device name="-POLYMER" package="CAP_POLYMER">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-POLYMER_6.5" package="CAP_POLYMER-6.5X6.5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
