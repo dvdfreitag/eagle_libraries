@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1182,29 +1182,29 @@
 <text x="-6.985" y="-9.525" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="A13-NAND">
-<pin name="!RE" x="24.13" y="2.54" length="short" rot="R180"/>
-<pin name="!CE0" x="24.13" y="-1.27" length="short" rot="R180"/>
-<pin name="!CE1!/SPI0_CS0" x="24.13" y="-3.81" length="short" rot="R180"/>
-<pin name="!CLE!/SPI0_CLK" x="24.13" y="-7.62" length="short" rot="R180"/>
-<pin name="!ALE!/SPI0_MISO" x="24.13" y="-10.16" length="short" rot="R180"/>
-<pin name="!WE!/SPI0_MOSI" x="24.13" y="-12.7" length="short" rot="R180"/>
-<pin name="!QDS" x="24.13" y="6.35" length="short" rot="R180"/>
-<pin name="!DQ7!/SDC2_D7" x="-24.13" y="-5.08" length="short"/>
-<pin name="!DQ6!/SDC2_D6" x="-24.13" y="-2.54" length="short"/>
-<pin name="!DQ5!/SDC2_D5" x="-24.13" y="0" length="short"/>
-<pin name="!DQ4!/SDC2_D4" x="-24.13" y="2.54" length="short"/>
-<pin name="!DQ3!/SDC2_D3" x="-24.13" y="5.08" length="short"/>
-<pin name="!DQ2!/SDC2_D2" x="-24.13" y="7.62" length="short"/>
-<pin name="!DQ1!/SDC2_D1" x="-24.13" y="10.16" length="short"/>
-<pin name="!DQ0!/SDC2_D0" x="-24.13" y="12.7" length="short"/>
-<pin name="!RB1!/SDC2_CLK" x="24.13" y="10.16" length="short" rot="R180"/>
-<pin name="!RB0!/SDC2_CMD" x="24.13" y="12.7" length="short" rot="R180"/>
-<wire x1="-21.59" y1="13.97" x2="21.59" y2="13.97" width="0.254" layer="94"/>
-<wire x1="21.59" y1="13.97" x2="21.59" y2="-13.97" width="0.254" layer="94"/>
-<wire x1="21.59" y1="-13.97" x2="-21.59" y2="-13.97" width="0.254" layer="94"/>
-<wire x1="-21.59" y1="-13.97" x2="-21.59" y2="13.97" width="0.254" layer="94"/>
-<text x="-20.955" y="14.605" size="1.27" layer="95">&gt;NAME</text>
-<text x="-20.955" y="-15.875" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="!RE" x="-13.97" y="-13.97" length="short"/>
+<pin name="!CE0" x="-13.97" y="-3.81" length="short"/>
+<pin name="!CE1!/SPI0_CS0" x="-13.97" y="-6.35" length="short"/>
+<pin name="!CLE!/SPI0_CLK" x="-13.97" y="-21.59" length="short"/>
+<pin name="!ALE!/SPI0_MISO" x="-13.97" y="-19.05" length="short"/>
+<pin name="!WE!/SPI0_MOSI" x="-13.97" y="-11.43" length="short"/>
+<pin name="!QDS" x="-13.97" y="-26.67" length="short"/>
+<pin name="!DQ7!/SDC2_D7" x="-13.97" y="8.89" length="short"/>
+<pin name="!DQ6!/SDC2_D6" x="-13.97" y="11.43" length="short"/>
+<pin name="!DQ5!/SDC2_D5" x="-13.97" y="13.97" length="short"/>
+<pin name="!DQ4!/SDC2_D4" x="-13.97" y="16.51" length="short"/>
+<pin name="!DQ3!/SDC2_D3" x="-13.97" y="19.05" length="short"/>
+<pin name="!DQ2!/SDC2_D2" x="-13.97" y="21.59" length="short"/>
+<pin name="!DQ1!/SDC2_D1" x="-13.97" y="24.13" length="short"/>
+<pin name="!DQ0!/SDC2_D0" x="-13.97" y="26.67" length="short"/>
+<pin name="!RB1!/SDC2_CLK" x="-13.97" y="1.27" length="short"/>
+<pin name="!RB0!/SDC2_CMD" x="-13.97" y="3.81" length="short"/>
+<wire x1="-11.43" y1="27.94" x2="11.43" y2="27.94" width="0.254" layer="94"/>
+<wire x1="11.43" y1="27.94" x2="11.43" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-27.94" x2="-11.43" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-27.94" x2="-11.43" y2="27.94" width="0.254" layer="94"/>
+<text x="-10.795" y="28.575" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.795" y="-29.845" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="A13-RTP">
 <pin name="TPX2" x="-7.62" y="3.81" length="short"/>
