@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -491,6 +491,37 @@
 <wire x1="-1.175" y1="-1.9" x2="-1.175" y2="-2.6" width="0.127" layer="51"/>
 <text x="-3.25" y="3" size="1.27" layer="21" ratio="12" align="bottom-right">&gt;NAME</text>
 </package>
+<package name="USB-STACKED">
+<pad name="1" x="-3.5" y="0" drill="0.92"/>
+<pad name="2" x="-1" y="0" drill="0.92"/>
+<pad name="3" x="1" y="0" drill="0.92"/>
+<pad name="4" x="3.5" y="0" drill="0.92"/>
+<pad name="5" x="-3.5" y="2.62" drill="0.92"/>
+<pad name="6" x="-1" y="2.62" drill="0.92"/>
+<pad name="7" x="1" y="2.62" drill="0.92"/>
+<pad name="8" x="3.5" y="2.62" drill="0.92"/>
+<pad name="9" x="-3.5" y="5.24" drill="0.92"/>
+<pad name="10" x="-1" y="5.24" drill="0.92"/>
+<pad name="11" x="1" y="5.24" drill="0.92"/>
+<pad name="12" x="3.5" y="5.24" drill="0.92"/>
+<pad name="P$1" x="-6.57" y="-2.71" drill="2.3"/>
+<pad name="P$2" x="-6.57" y="2.97" drill="2.3"/>
+<pad name="P$3" x="6.57" y="2.97" drill="2.3"/>
+<pad name="P$4" x="6.57" y="-2.71" drill="2.3"/>
+<wire x1="-6.55" y1="-12.99" x2="6.55" y2="-12.99" width="0.127" layer="51"/>
+<wire x1="-6.55" y1="-12.99" x2="-6.55" y2="6.61" width="0.127" layer="51"/>
+<wire x1="6.55" y1="-12.99" x2="6.55" y2="6.61" width="0.127" layer="51"/>
+<wire x1="-6.55" y1="6.61" x2="6.55" y2="6.61" width="0.127" layer="51"/>
+<wire x1="-6.55" y1="4.9" x2="-6.55" y2="6.6" width="0.254" layer="21"/>
+<wire x1="-6.55" y1="6.6" x2="6.55" y2="6.6" width="0.254" layer="21"/>
+<wire x1="6.55" y1="6.6" x2="6.55" y2="4.9" width="0.254" layer="21"/>
+<wire x1="6.55" y1="1.05" x2="6.55" y2="-0.8" width="0.254" layer="21"/>
+<wire x1="-6.55" y1="1.05" x2="-6.55" y2="-0.8" width="0.254" layer="21"/>
+<wire x1="-6.55" y1="-4.6" x2="-6.55" y2="-13" width="0.254" layer="21"/>
+<wire x1="-6.55" y1="-13" x2="6.55" y2="-13" width="0.254" layer="21"/>
+<wire x1="6.55" y1="-13" x2="6.55" y2="-4.6" width="0.254" layer="21"/>
+<text x="-6.5" y="6.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICROB">
@@ -727,6 +758,30 @@
 <text x="-4.445" y="6.985" size="1.27" layer="95">&gt;NAME</text>
 <text x="-4.445" y="-8.255" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="USB-SHIELD">
+<pin name="VBUS" x="-7.62" y="3.81" length="short"/>
+<pin name="D-" x="-7.62" y="1.27" length="short"/>
+<pin name="D+" x="-7.62" y="-1.27" length="short"/>
+<pin name="GND" x="-7.62" y="-3.81" length="short"/>
+<wire x1="3.81" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<text x="-4.445" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-4.445" y="5.715" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="P$1" x="-1.27" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="P$2" x="1.27" y="-7.62" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="USB">
+<pin name="VBUS" x="-7.62" y="3.81" length="short"/>
+<pin name="D-" x="-7.62" y="1.27" length="short"/>
+<pin name="D+" x="-7.62" y="-1.27" length="short"/>
+<pin name="GND" x="-7.62" y="-3.81" length="short"/>
+<wire x1="3.81" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<text x="-4.445" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-4.445" y="5.715" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB-MICROB" prefix="J">
@@ -859,6 +914,36 @@
 <connect gate="G$1" pin="7" pad="8"/>
 <connect gate="G$1" pin="8" pad="6"/>
 <connect gate="G$1" pin="9" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-STACKED" prefix="J">
+<gates>
+<gate name="A" symbol="USB-SHIELD" x="12.7" y="30.48"/>
+<gate name="B" symbol="USB" x="12.7" y="7.62"/>
+<gate name="C" symbol="USB" x="12.7" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="USB-STACKED">
+<connects>
+<connect gate="A" pin="D+" pad="3"/>
+<connect gate="A" pin="D-" pad="2"/>
+<connect gate="A" pin="GND" pad="4"/>
+<connect gate="A" pin="P$1" pad="P$1 P$2"/>
+<connect gate="A" pin="P$2" pad="P$3 P$4"/>
+<connect gate="A" pin="VBUS" pad="1"/>
+<connect gate="B" pin="D+" pad="7"/>
+<connect gate="B" pin="D-" pad="6"/>
+<connect gate="B" pin="GND" pad="8"/>
+<connect gate="B" pin="VBUS" pad="5"/>
+<connect gate="C" pin="D+" pad="11"/>
+<connect gate="C" pin="D-" pad="10"/>
+<connect gate="C" pin="GND" pad="12"/>
+<connect gate="C" pin="VBUS" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
