@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -503,6 +503,37 @@
 <wire x1="5.1" y1="-4.5" x2="5.1" y2="-4.15" width="0.254" layer="21"/>
 <text x="-4.05" y="5.85" size="1.27" layer="21" ratio="12" align="bottom-right">&gt;NAME</text>
 </package>
+<package name="SON-8">
+<smd name="1" x="-1.475" y="0.975" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="2" x="-1.475" y="0.325" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="3" x="-1.475" y="-0.325" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="4" x="-1.475" y="-0.975" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="5" x="1.475" y="-0.975" dx="0.35" dy="0.85" layer="1" rot="R270"/>
+<smd name="6" x="1.475" y="-0.325" dx="0.35" dy="0.85" layer="1" rot="R270"/>
+<smd name="7" x="1.475" y="0.325" dx="0.35" dy="0.85" layer="1" rot="R270"/>
+<smd name="8" x="1.475" y="0.975" dx="0.35" dy="0.85" layer="1" rot="R270"/>
+<smd name="EP" x="0" y="0" dx="1.65" dy="2.4" layer="1"/>
+<rectangle x1="-1.5" y1="0.82" x2="-1.1" y2="1.13" layer="51"/>
+<rectangle x1="-1.5" y1="0.17" x2="-1.1" y2="0.48" layer="51"/>
+<rectangle x1="-1.5" y1="-0.48" x2="-1.1" y2="-0.17" layer="51"/>
+<rectangle x1="-1.5" y1="-1.13" x2="-1.1" y2="-0.82" layer="51"/>
+<rectangle x1="1.1" y1="-1.13" x2="1.5" y2="-0.82" layer="51" rot="R180"/>
+<rectangle x1="1.1" y1="-0.48" x2="1.5" y2="-0.17" layer="51" rot="R180"/>
+<rectangle x1="1.1" y1="0.17" x2="1.5" y2="0.48" layer="51" rot="R180"/>
+<rectangle x1="1.1" y1="0.82" x2="1.5" y2="1.13" layer="51" rot="R180"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.4" x2="-1.5" y2="1.5" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.254" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="-1.4" x2="-1.5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.4" width="0.254" layer="21"/>
+<circle x="-1.9" y="1.6" radius="0.1" width="0.254" layer="21"/>
+<text x="-1.5" y="1.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX232">
@@ -530,60 +561,32 @@
 <text x="-9.525" y="-12.065" size="1.27" layer="96" ratio="12">&gt;VALUE</text>
 </symbol>
 <symbol name="TUSB2077">
-<pin name="SUSPND" x="-20.32" y="-11.43" length="short"/>
-<pin name="DP0PUR" x="-20.32" y="11.43" length="short"/>
-<pin name="DP0" x="-20.32" y="8.89" length="short"/>
-<pin name="DM0" x="-20.32" y="6.35" length="short"/>
-<pin name="GND@1" x="-20.32" y="-29.21" length="short"/>
-<pin name="!RESET" x="-20.32" y="1.27" length="short"/>
-<pin name="EECLK" x="-20.32" y="16.51" length="short"/>
-<pin name="EEDATA/!GANGED" x="-20.32" y="19.05" length="short"/>
-<pin name="VCC@1" x="-20.32" y="34.29" length="short"/>
-<pin name="!BUSPWR" x="-20.32" y="24.13" length="short"/>
-<pin name="!PWRON1" x="20.32" y="34.29" length="short" rot="R180"/>
-<pin name="!OVRCUR1" x="20.32" y="31.75" length="short" rot="R180"/>
-<pin name="DM1" x="20.32" y="29.21" length="short" rot="R180"/>
-<pin name="DP1" x="20.32" y="26.67" length="short" rot="R180"/>
-<pin name="!PWRON2" x="20.32" y="24.13" length="short" rot="R180"/>
-<pin name="!OVERCUR2" x="20.32" y="21.59" length="short" rot="R180"/>
-<pin name="DM2" x="20.32" y="19.05" length="short" rot="R180"/>
-<pin name="DP2" x="20.32" y="16.51" length="short" rot="R180"/>
-<pin name="!PWRON3" x="20.32" y="13.97" length="short" rot="R180"/>
-<pin name="!OVERCUR3" x="20.32" y="11.43" length="short" rot="R180"/>
-<pin name="DM3" x="20.32" y="8.89" length="short" rot="R180"/>
-<pin name="DP3" x="20.32" y="6.35" length="short" rot="R180"/>
-<pin name="!PWRON4" x="20.32" y="3.81" length="short" rot="R180"/>
-<pin name="GND@2" x="-20.32" y="-31.75" length="short"/>
-<pin name="!OVRCUR4" x="20.32" y="1.27" length="short" rot="R180"/>
-<pin name="DM4" x="20.32" y="-1.27" length="short" rot="R180"/>
-<pin name="DP4" x="20.32" y="-3.81" length="short" rot="R180"/>
-<pin name="!PWRON5" x="20.32" y="-6.35" length="short" rot="R180"/>
-<pin name="!OVRCUR5" x="20.32" y="-8.89" length="short" rot="R180"/>
-<pin name="DM5" x="20.32" y="-11.43" length="short" rot="R180"/>
-<pin name="DP5" x="20.32" y="-13.97" length="short" rot="R180"/>
-<pin name="!PWRON6" x="20.32" y="-16.51" length="short" rot="R180"/>
-<pin name="!OVRCUR6" x="20.32" y="-19.05" length="short" rot="R180"/>
-<pin name="DM6" x="20.32" y="-21.59" length="short" rot="R180"/>
-<pin name="DP6" x="20.32" y="-24.13" length="short" rot="R180"/>
-<pin name="!PWRON7" x="20.32" y="-26.67" length="short" rot="R180"/>
-<pin name="!OVERCUR7" x="20.32" y="-29.21" length="short" rot="R180"/>
-<pin name="DM7" x="20.32" y="-31.75" length="short" rot="R180"/>
-<pin name="DP7" x="20.32" y="-34.29" length="short" rot="R180"/>
-<pin name="HUBCFG" x="-20.32" y="-3.81" length="short"/>
-<pin name="PORTPWR" x="-20.32" y="-6.35" length="short"/>
-<pin name="PORTDIS" x="-20.32" y="-8.89" length="short"/>
-<pin name="GND@3" x="-20.32" y="-34.29" length="short"/>
-<pin name="XTAL2" x="-20.32" y="-19.05" length="short"/>
-<pin name="XTAL1" x="-20.32" y="-16.51" length="short"/>
-<pin name="VCC@2" x="-20.32" y="31.75" length="short"/>
-<pin name="!EXTMEM" x="-20.32" y="26.67" length="short"/>
-<pin name="MODE" x="-20.32" y="-24.13" length="short"/>
-<wire x1="-17.78" y1="35.56" x2="17.78" y2="35.56" width="0.254" layer="94"/>
-<wire x1="17.78" y1="35.56" x2="17.78" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-35.56" x2="-17.78" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-35.56" x2="-17.78" y2="35.56" width="0.254" layer="94"/>
-<text x="-17.145" y="36.195" size="1.27" layer="95">&gt;NAME</text>
-<text x="-17.145" y="-37.465" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="SUSPND" x="-8.89" y="-11.43" length="short"/>
+<pin name="DP0PUR" x="-8.89" y="11.43" length="short"/>
+<pin name="DP0" x="-8.89" y="8.89" length="short"/>
+<pin name="DM0" x="-8.89" y="6.35" length="short"/>
+<pin name="GND@1" x="-8.89" y="-29.21" length="short"/>
+<pin name="!RESET" x="-8.89" y="1.27" length="short"/>
+<pin name="EECLK" x="-8.89" y="16.51" length="short"/>
+<pin name="EEDATA" x="-8.89" y="19.05" length="short"/>
+<pin name="VCC@1" x="-8.89" y="34.29" length="short"/>
+<pin name="!BUSPWR" x="-8.89" y="24.13" length="short"/>
+<pin name="GND@2" x="-8.89" y="-31.75" length="short"/>
+<pin name="HUBCFG" x="-8.89" y="-3.81" length="short"/>
+<pin name="PORTPWR" x="-8.89" y="-6.35" length="short"/>
+<pin name="PORTDIS" x="-8.89" y="-8.89" length="short"/>
+<pin name="GND@3" x="-8.89" y="-34.29" length="short"/>
+<pin name="XTAL2" x="-8.89" y="-19.05" length="short"/>
+<pin name="XTAL1" x="-8.89" y="-16.51" length="short"/>
+<pin name="VCC@2" x="-8.89" y="31.75" length="short"/>
+<pin name="!EXTMEM" x="-8.89" y="26.67" length="short"/>
+<pin name="MODE" x="-8.89" y="-24.13" length="short"/>
+<wire x1="-6.35" y1="35.56" x2="6.35" y2="35.56" width="0.254" layer="94"/>
+<wire x1="6.35" y1="35.56" x2="6.35" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-35.56" x2="-6.35" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-35.56" x2="-6.35" y2="35.56" width="0.254" layer="94"/>
+<text x="-5.715" y="36.195" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.715" y="-37.465" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TPS2041">
 <pin name="!EN" x="-8.89" y="1.27" length="short"/>
@@ -751,6 +754,114 @@
 <wire x1="-5.08" y1="11.43" x2="5.08" y2="11.43" width="0.254" layer="94"/>
 <text x="-4.445" y="12.065" size="1.27" layer="95">&gt;NAME</text>
 <text x="-4.445" y="-14.605" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS2042">
+<pin name="!EN" x="-8.89" y="1.27" length="short"/>
+<pin name="!OC" x="-8.89" y="-1.27" length="short"/>
+<pin name="VCC" x="8.89" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="8.89" y="-2.54" length="short" rot="R180"/>
+<pin name="OUT" x="8.89" y="0" length="short" rot="R180"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-3.81" x2="6.35" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="6.35" y1="3.81" x2="-6.35" y2="3.81" width="0.254" layer="94"/>
+<text x="-5.715" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.715" y="-5.715" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS2042-2">
+<pin name="!EN" x="-8.89" y="1.27" length="short"/>
+<pin name="!OC" x="-8.89" y="-1.27" length="short"/>
+<pin name="OUT" x="8.89" y="0" length="short" rot="R180"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<text x="-5.715" y="3.175" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.715" y="-4.445" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-1">
+<pin name="!PWRON1" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR1" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM1" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP1" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-2">
+<pin name="!PWRON2" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR2" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM2" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP2" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-3">
+<pin name="!PWRON3" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR3" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM3" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP3" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-4">
+<pin name="!PWRON4" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR4" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM4" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP4" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-5">
+<pin name="!PWRON5" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR5" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM5" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP5" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-6">
+<pin name="!PWRON6" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR6" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM6" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP6" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB2077-7">
+<pin name="!PWRON7" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="!OVRCUR7" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DM7" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="DP7" x="10.16" y="-5.08" length="short" rot="R180"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<text x="-6.985" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -933,59 +1044,89 @@
 </deviceset>
 <deviceset name="TUSB2077" prefix="U">
 <gates>
-<gate name="G$1" symbol="TUSB2077" x="0" y="0"/>
+<gate name="A" symbol="TUSB2077" x="0" y="0"/>
+<gate name="B" symbol="TUSB2077-1" x="43.18" y="76.2"/>
+<gate name="C" symbol="TUSB2077-2" x="43.18" y="55.88"/>
+<gate name="D" symbol="TUSB2077-3" x="43.18" y="35.56"/>
+<gate name="E" symbol="TUSB2077-4" x="43.18" y="15.24"/>
+<gate name="F" symbol="TUSB2077-5" x="43.18" y="-5.08"/>
+<gate name="G" symbol="TUSB2077-6" x="43.18" y="-25.4"/>
+<gate name="H" symbol="TUSB2077-7" x="43.18" y="-45.72"/>
 </gates>
 <devices>
 <device name="" package="LQFP-48">
 <connects>
-<connect gate="G$1" pin="!BUSPWR" pad="10"/>
-<connect gate="G$1" pin="!EXTMEM" pad="47"/>
-<connect gate="G$1" pin="!OVERCUR2" pad="16"/>
-<connect gate="G$1" pin="!OVERCUR3" pad="20"/>
-<connect gate="G$1" pin="!OVERCUR7" pad="37"/>
-<connect gate="G$1" pin="!OVRCUR1" pad="12"/>
-<connect gate="G$1" pin="!OVRCUR4" pad="25"/>
-<connect gate="G$1" pin="!OVRCUR5" pad="29"/>
-<connect gate="G$1" pin="!OVRCUR6" pad="33"/>
-<connect gate="G$1" pin="!PWRON1" pad="11"/>
-<connect gate="G$1" pin="!PWRON2" pad="15"/>
-<connect gate="G$1" pin="!PWRON3" pad="19"/>
-<connect gate="G$1" pin="!PWRON4" pad="23"/>
-<connect gate="G$1" pin="!PWRON5" pad="28"/>
-<connect gate="G$1" pin="!PWRON6" pad="32"/>
-<connect gate="G$1" pin="!PWRON7" pad="36"/>
-<connect gate="G$1" pin="!RESET" pad="6"/>
-<connect gate="G$1" pin="DM0" pad="4"/>
-<connect gate="G$1" pin="DM1" pad="13"/>
-<connect gate="G$1" pin="DM2" pad="17"/>
-<connect gate="G$1" pin="DM3" pad="21"/>
-<connect gate="G$1" pin="DM4" pad="26"/>
-<connect gate="G$1" pin="DM5" pad="30"/>
-<connect gate="G$1" pin="DM6" pad="34"/>
-<connect gate="G$1" pin="DM7" pad="38"/>
-<connect gate="G$1" pin="DP0" pad="3"/>
-<connect gate="G$1" pin="DP0PUR" pad="2"/>
-<connect gate="G$1" pin="DP1" pad="14"/>
-<connect gate="G$1" pin="DP2" pad="18"/>
-<connect gate="G$1" pin="DP3" pad="22"/>
-<connect gate="G$1" pin="DP4" pad="27"/>
-<connect gate="G$1" pin="DP5" pad="31"/>
-<connect gate="G$1" pin="DP6" pad="35"/>
-<connect gate="G$1" pin="DP7" pad="39"/>
-<connect gate="G$1" pin="EECLK" pad="7"/>
-<connect gate="G$1" pin="EEDATA/!GANGED" pad="8"/>
-<connect gate="G$1" pin="GND@1" pad="5"/>
-<connect gate="G$1" pin="GND@2" pad="24"/>
-<connect gate="G$1" pin="GND@3" pad="43"/>
-<connect gate="G$1" pin="HUBCFG" pad="40"/>
-<connect gate="G$1" pin="MODE" pad="48"/>
-<connect gate="G$1" pin="PORTDIS" pad="42"/>
-<connect gate="G$1" pin="PORTPWR" pad="41"/>
-<connect gate="G$1" pin="SUSPND" pad="1"/>
-<connect gate="G$1" pin="VCC@1" pad="9"/>
-<connect gate="G$1" pin="VCC@2" pad="46"/>
-<connect gate="G$1" pin="XTAL1" pad="45"/>
-<connect gate="G$1" pin="XTAL2" pad="44"/>
+<connect gate="A" pin="!BUSPWR" pad="10"/>
+<connect gate="A" pin="!EXTMEM" pad="47"/>
+<connect gate="A" pin="!RESET" pad="6"/>
+<connect gate="A" pin="DM0" pad="4"/>
+<connect gate="A" pin="DP0" pad="3"/>
+<connect gate="A" pin="DP0PUR" pad="2"/>
+<connect gate="A" pin="EECLK" pad="7"/>
+<connect gate="A" pin="EEDATA" pad="8"/>
+<connect gate="A" pin="GND@1" pad="5"/>
+<connect gate="A" pin="GND@2" pad="24"/>
+<connect gate="A" pin="GND@3" pad="43"/>
+<connect gate="A" pin="HUBCFG" pad="40"/>
+<connect gate="A" pin="MODE" pad="48"/>
+<connect gate="A" pin="PORTDIS" pad="42"/>
+<connect gate="A" pin="PORTPWR" pad="41"/>
+<connect gate="A" pin="SUSPND" pad="1"/>
+<connect gate="A" pin="VCC@1" pad="9"/>
+<connect gate="A" pin="VCC@2" pad="46"/>
+<connect gate="A" pin="XTAL1" pad="45"/>
+<connect gate="A" pin="XTAL2" pad="44"/>
+<connect gate="B" pin="!OVRCUR1" pad="12"/>
+<connect gate="B" pin="!PWRON1" pad="11"/>
+<connect gate="B" pin="DM1" pad="13"/>
+<connect gate="B" pin="DP1" pad="14"/>
+<connect gate="C" pin="!OVRCUR2" pad="16"/>
+<connect gate="C" pin="!PWRON2" pad="15"/>
+<connect gate="C" pin="DM2" pad="17"/>
+<connect gate="C" pin="DP2" pad="18"/>
+<connect gate="D" pin="!OVRCUR3" pad="20"/>
+<connect gate="D" pin="!PWRON3" pad="19"/>
+<connect gate="D" pin="DM3" pad="21"/>
+<connect gate="D" pin="DP3" pad="22"/>
+<connect gate="E" pin="!OVRCUR4" pad="25"/>
+<connect gate="E" pin="!PWRON4" pad="23"/>
+<connect gate="E" pin="DM4" pad="26"/>
+<connect gate="E" pin="DP4" pad="27"/>
+<connect gate="F" pin="!OVRCUR5" pad="29"/>
+<connect gate="F" pin="!PWRON5" pad="28"/>
+<connect gate="F" pin="DM5" pad="30"/>
+<connect gate="F" pin="DP5" pad="31"/>
+<connect gate="G" pin="!OVRCUR6" pad="33"/>
+<connect gate="G" pin="!PWRON6" pad="32"/>
+<connect gate="G" pin="DM6" pad="34"/>
+<connect gate="G" pin="DP6" pad="35"/>
+<connect gate="H" pin="!OVRCUR7" pad="37"/>
+<connect gate="H" pin="!PWRON7" pad="36"/>
+<connect gate="H" pin="DM7" pad="38"/>
+<connect gate="H" pin="DP7" pad="39"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS2042" prefix="U">
+<gates>
+<gate name="A" symbol="TPS2042" x="-2.54" y="27.94"/>
+<gate name="B" symbol="TPS2042-2" x="-2.54" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="SON-8">
+<connects>
+<connect gate="A" pin="!EN" pad="3"/>
+<connect gate="A" pin="!OC" pad="8"/>
+<connect gate="A" pin="GND" pad="1 EP"/>
+<connect gate="A" pin="OUT" pad="7"/>
+<connect gate="A" pin="VCC" pad="2"/>
+<connect gate="B" pin="!EN" pad="4"/>
+<connect gate="B" pin="!OC" pad="5"/>
+<connect gate="B" pin="OUT" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
