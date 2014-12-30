@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -92,6 +92,25 @@
 <circle x="-1.1" y="1.65" radius="0.070709375" width="0.254" layer="21"/>
 <text x="-0.75" y="1.75" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="NTS0102">
+<smd name="1" x="0.3" y="0.75" dx="0.35" dy="0.25" layer="1"/>
+<smd name="2" x="0.3" y="0.25" dx="0.35" dy="0.25" layer="1"/>
+<smd name="3" x="0.3" y="-0.25" dx="0.35" dy="0.25" layer="1"/>
+<smd name="4" x="0.3" y="-0.75" dx="0.35" dy="0.25" layer="1"/>
+<smd name="5" x="-0.3" y="-0.75" dx="0.35" dy="0.25" layer="1"/>
+<smd name="6" x="-0.3" y="-0.25" dx="0.35" dy="0.25" layer="1"/>
+<smd name="7" x="-0.3" y="0.25" dx="0.35" dy="0.25" layer="1"/>
+<smd name="8" x="-0.3" y="0.75" dx="0.35" dy="0.25" layer="1"/>
+<wire x1="0.5" y1="1" x2="-0.5" y2="1" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-1" x2="-0.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="0.5" y1="1" x2="0.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-1" x2="-0.5" y2="1" width="0.127" layer="51"/>
+<wire x1="0.65" y1="1.15" x2="0.65" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="0.65" y1="-1.15" x2="-0.65" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="-1.15" x2="-0.65" y2="1.15" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="1.15" x2="0.65" y2="1.15" width="0.127" layer="21"/>
+<text x="-0.6" y="1.3" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IP4220CZ6">
@@ -108,6 +127,22 @@
 <text x="-6.985" y="5.715" size="1.27" layer="95">&gt;NAME</text>
 <text x="-6.985" y="-6.985" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="NTS0102">
+<pin name="B2" x="11.43" y="-1.27" length="short" rot="R180"/>
+<pin name="GND" x="11.43" y="-3.81" length="short" rot="R180"/>
+<pin name="VCCA" x="-11.43" y="3.81" length="short"/>
+<pin name="A2" x="-11.43" y="-3.81" length="short"/>
+<pin name="A1" x="-11.43" y="-1.27" length="short"/>
+<pin name="VCCB" x="11.43" y="3.81" length="short" rot="R180"/>
+<pin name="OE" x="-11.43" y="1.27" length="short"/>
+<pin name="B1" x="11.43" y="1.27" length="short" rot="R180"/>
+<wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-5.08" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
+<text x="-8.255" y="5.715" size="1.27" layer="95">&gt;NAME</text>
+<text x="-8.255" y="-6.985" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IP4220CZ6" prefix="U">
@@ -123,6 +158,28 @@
 <connect gate="G$1" pin="D1-" pad="4"/>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTS0102" prefix="U">
+<gates>
+<gate name="G$1" symbol="NTS0102" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NTS0102">
+<connects>
+<connect gate="G$1" pin="A1" pad="5"/>
+<connect gate="G$1" pin="A2" pad="4"/>
+<connect gate="G$1" pin="B1" pad="8"/>
+<connect gate="G$1" pin="B2" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OE" pad="6"/>
+<connect gate="G$1" pin="VCCA" pad="3"/>
+<connect gate="G$1" pin="VCCB" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
