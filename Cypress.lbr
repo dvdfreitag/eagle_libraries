@@ -169,8 +169,8 @@
 <pin name="GPIO11/!POWER" x="22.86" y="-11.43" length="short" rot="R180"/>
 <pin name="SUSPEND" x="-22.86" y="-1.27" length="short"/>
 <pin name="WAKEUP" x="-22.86" y="-3.81" length="short"/>
-<pin name="D+" x="-22.86" y="6.35" length="short"/>
-<pin name="D-" x="-22.86" y="3.81" length="short"/>
+<pin name="D+" x="-22.86" y="3.81" length="short"/>
+<pin name="D-" x="-22.86" y="6.35" length="short"/>
 <pin name="VCCD" x="22.86" y="-16.51" length="short" rot="R180"/>
 <pin name="VSSD@2" x="-22.86" y="-11.43" length="short"/>
 <pin name="!RESET" x="-22.86" y="16.51" length="short"/>
@@ -220,7 +220,7 @@
 <connect gate="G$1" pin="VCCD" pad="12"/>
 <connect gate="G$1" pin="VDD" pad="24"/>
 <connect gate="G$1" pin="VSSA" pad="17"/>
-<connect gate="G$1" pin="VSSD@1" pad="3"/>
+<connect gate="G$1" pin="VSSD@1" pad="3 EP"/>
 <connect gate="G$1" pin="VSSD@2" pad="13"/>
 <connect gate="G$1" pin="VSSD@3" pad="16"/>
 <connect gate="G$1" pin="WAKEUP" pad="9"/>
