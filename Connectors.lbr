@@ -577,6 +577,29 @@
 <text x="-6.22" y="2.77" size="0.6096" layer="21" ratio="12">&gt;NAME</text>
 <circle x="3.42" y="3" radius="0.22360625" width="0.127" layer="21"/>
 </package>
+<package name="M05X2_SMD">
+<smd name="1" x="-5.08" y="-2.73" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-5.08" y="2.73" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="3" x="-2.54" y="-2.73" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="-2.54" y="2.73" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="5" x="0" y="-2.73" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="6" x="0" y="2.73" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="7" x="2.54" y="-2.73" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="8" x="2.54" y="2.73" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<smd name="9" x="5.08" y="-2.73" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="10" x="5.08" y="2.73" dx="2.54" dy="1.27" layer="1" rot="R270"/>
+<wire x1="-6.35" y1="2.415" x2="6.35" y2="2.415" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="-2.415" x2="6.35" y2="-2.415" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="2.415" x2="-6.35" y2="-2.415" width="0.127" layer="51"/>
+<wire x1="6.35" y1="2.415" x2="6.35" y2="-2.415" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="2.415" x2="-5.95" y2="2.415" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="2.415" x2="-6.35" y2="-2.415" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="-2.415" x2="-5.95" y2="-2.415" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-2.415" x2="5.95" y2="-2.415" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-2.415" x2="6.35" y2="2.415" width="0.254" layer="21"/>
+<wire x1="6.35" y1="2.415" x2="5.95" y2="2.415" width="0.254" layer="21"/>
+<text x="-6" y="4.5" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICROB">
@@ -1001,6 +1024,23 @@
 </technologies>
 </device>
 <device name="-50MIL_SMD2" package="3220-10-0300-00">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="7"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="6"/>
+<connect gate="G$1" pin="9" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD" package="M05X2_SMD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="2"/>

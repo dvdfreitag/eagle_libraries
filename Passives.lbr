@@ -36,10 +36,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -818,6 +818,49 @@
 <wire x1="-0.55" y1="0.8" x2="0.55" y2="0.8" width="0.127" layer="21"/>
 <wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.127" layer="21"/>
 <text x="-1.45" y="1.1" size="0.6096" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="CAP_POLYMER-8X8.7">
+<wire x1="-4.15" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="51"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-2.990259375" width="0.127" layer="51"/>
+<wire x1="4.15" y1="-2.990259375" x2="2.990259375" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="2.990259375" y1="-4.15" x2="-2.990259375" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="-2.990259375" y1="-4.15" x2="-4.15" y2="-2.990259375" width="0.127" layer="51"/>
+<wire x1="-4.15" y1="-2.990259375" x2="-4.15" y2="4.15" width="0.127" layer="51"/>
+<rectangle x1="-0.5" y1="1.6" x2="0.5" y2="4.5" layer="51"/>
+<rectangle x1="-0.5" y1="-4.5" x2="0.5" y2="-1.6" layer="51"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
+<smd name="-" x="0" y="3.1" dx="3.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="+" x="0" y="-3.1" dx="3.4" dy="1.4" layer="1" rot="R90"/>
+<wire x1="-0.95" y1="4.15" x2="-4.15" y2="4.15" width="0.254" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-3" width="0.254" layer="21"/>
+<wire x1="-4.15" y1="-3" x2="-3" y2="-4.15" width="0.254" layer="21"/>
+<wire x1="-3" y1="-4.15" x2="-0.95" y2="-4.15" width="0.254" layer="21"/>
+<wire x1="0.95" y1="4.15" x2="4.15" y2="4.15" width="0.254" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-3" width="0.254" layer="21"/>
+<wire x1="4.15" y1="-3" x2="3" y2="-4.15" width="0.254" layer="21"/>
+<wire x1="3" y1="-4.15" x2="0.95" y2="-4.15" width="0.254" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="-0.95" y="-4.15"/>
+<vertex x="-0.95" y="-1.15"/>
+<vertex x="0.95" y="-1.15"/>
+<vertex x="0.95" y="-4.15"/>
+<vertex x="3" y="-4.15"/>
+<vertex x="4.15" y="-3"/>
+<vertex x="4.15" y="-0.7"/>
+<vertex x="-4.15" y="-0.7"/>
+<vertex x="-4.15" y="-3"/>
+<vertex x="-3" y="-4.15"/>
+</polygon>
+<wire x1="1.4" y1="-4.5" x2="1.4" y2="-5.1" width="0.254" layer="21"/>
+<wire x1="1.1" y1="-4.8" x2="1.7" y2="-4.8" width="0.254" layer="21"/>
+</package>
+<package name="CAP_POL-0.35X0.5">
+<pad name="+" x="1.5875" y="0" drill="0.9" shape="square"/>
+<pad name="-" x="-1.5875" y="0" drill="0.9"/>
+<circle x="0" y="0" radius="4.064" width="0.2032" layer="21"/>
+<wire x1="1.524" y1="2.286" x2="1.524" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.016" y1="1.778" x2="2.032" y2="1.778" width="0.2032" layer="21"/>
+<text x="-2.794" y="-5.842" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1712,6 +1755,24 @@
 </technologies>
 </device>
 <device name="-POLYMER_6.5" package="CAP_POLYMER-6.5X6.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-8X8.7" package="CAP_POLYMER-8X8.7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0.35X0.5" package="CAP_POL-0.35X0.5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
