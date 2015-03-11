@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -242,6 +242,46 @@
 <text x="-6.985" y="9.525" size="1.27" layer="95">&gt;NAME</text>
 <text x="-6.985" y="-10.795" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="KSZ8851SNL">
+<pin name="LED0" x="19.05" y="10.16" length="short" rot="R180"/>
+<pin name="PME" x="-19.05" y="-11.43" length="short"/>
+<pin name="INTRN" x="-19.05" y="-13.97" length="short"/>
+<pin name="DGND@4" x="19.05" y="-22.86" length="short" rot="R180"/>
+<pin name="VDD_1.8@1" x="-19.05" y="13.97" length="short"/>
+<pin name="EDD_IO" x="-19.05" y="-17.78" length="short"/>
+<pin name="EESK" x="-19.05" y="-20.32" length="short"/>
+<pin name="AGND@1" x="19.05" y="-6.35" length="short" rot="R180"/>
+<pin name="VDD_1.8@2" x="-19.05" y="11.43" length="short"/>
+<pin name="EECS" x="-19.05" y="-22.86" length="short"/>
+<pin name="RX+" x="19.05" y="22.86" length="short" rot="R180"/>
+<pin name="RX-" x="19.05" y="20.32" length="short" rot="R180"/>
+<pin name="AGND@2" x="19.05" y="-8.89" length="short" rot="R180"/>
+<pin name="TX+" x="19.05" y="16.51" length="short" rot="R180"/>
+<pin name="TX-" x="19.05" y="13.97" length="short" rot="R180"/>
+<pin name="VDD_3.3" x="-19.05" y="17.78" length="short"/>
+<pin name="ISET" x="19.05" y="-2.54" length="short" rot="R180"/>
+<pin name="AGND@3" x="19.05" y="-11.43" length="short" rot="R180"/>
+<pin name="RSTN" x="-19.05" y="-8.89" length="short"/>
+<pin name="X1" x="19.05" y="3.81" length="short" rot="R180"/>
+<pin name="X2" x="19.05" y="1.27" length="short" rot="R180"/>
+<pin name="DGND@1" x="19.05" y="-15.24" length="short" rot="R180"/>
+<pin name="VDD_1.8@3" x="-19.05" y="8.89" length="short"/>
+<pin name="DGND@2" x="19.05" y="-17.78" length="short" rot="R180"/>
+<pin name="VDD_IO@1" x="-19.05" y="22.86" length="short"/>
+<pin name="CSN" x="-19.05" y="-3.81" length="short"/>
+<pin name="SO" x="-19.05" y="-1.27" length="short"/>
+<pin name="SCLK" x="-19.05" y="3.81" length="short"/>
+<pin name="DGND@3" x="19.05" y="-20.32" length="short" rot="R180"/>
+<pin name="VDD_IO@2" x="-19.05" y="20.32" length="short"/>
+<pin name="SI" x="-19.05" y="1.27" length="short"/>
+<pin name="LED1" x="19.05" y="7.62" length="short" rot="R180"/>
+<wire x1="-16.51" y1="24.13" x2="-16.51" y2="-24.13" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-24.13" x2="16.51" y2="-24.13" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-24.13" x2="16.51" y2="24.13" width="0.254" layer="94"/>
+<wire x1="16.51" y1="24.13" x2="-16.51" y2="24.13" width="0.254" layer="94"/>
+<text x="-15.875" y="24.765" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.875" y="-26.035" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KSZ8051MNL">
@@ -305,6 +345,52 @@
 <connect gate="G$1" pin="PGND" pad="3 EP"/>
 <connect gate="G$1" pin="SW" pad="4"/>
 <connect gate="G$1" pin="VIN" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KSZ8851SNL" prefix="U">
+<gates>
+<gate name="G$1" symbol="KSZ8851SNL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-32">
+<connects>
+<connect gate="G$1" pin="AGND@1" pad="8"/>
+<connect gate="G$1" pin="AGND@2" pad="13"/>
+<connect gate="G$1" pin="AGND@3" pad="18"/>
+<connect gate="G$1" pin="CSN" pad="26"/>
+<connect gate="G$1" pin="DGND@1" pad="4"/>
+<connect gate="G$1" pin="DGND@2" pad="22"/>
+<connect gate="G$1" pin="DGND@3" pad="24"/>
+<connect gate="G$1" pin="DGND@4" pad="29"/>
+<connect gate="G$1" pin="EDD_IO" pad="6"/>
+<connect gate="G$1" pin="EECS" pad="10"/>
+<connect gate="G$1" pin="EESK" pad="7"/>
+<connect gate="G$1" pin="INTRN" pad="3"/>
+<connect gate="G$1" pin="ISET" pad="17"/>
+<connect gate="G$1" pin="LED0" pad="1"/>
+<connect gate="G$1" pin="LED1" pad="32"/>
+<connect gate="G$1" pin="PME" pad="2"/>
+<connect gate="G$1" pin="RSTN" pad="19"/>
+<connect gate="G$1" pin="RX+" pad="11"/>
+<connect gate="G$1" pin="RX-" pad="12"/>
+<connect gate="G$1" pin="SCLK" pad="28"/>
+<connect gate="G$1" pin="SI" pad="31"/>
+<connect gate="G$1" pin="SO" pad="27"/>
+<connect gate="G$1" pin="TX+" pad="14"/>
+<connect gate="G$1" pin="TX-" pad="15"/>
+<connect gate="G$1" pin="VDD_1.8@1" pad="5"/>
+<connect gate="G$1" pin="VDD_1.8@2" pad="9"/>
+<connect gate="G$1" pin="VDD_1.8@3" pad="23"/>
+<connect gate="G$1" pin="VDD_3.3" pad="16"/>
+<connect gate="G$1" pin="VDD_IO@1" pad="25"/>
+<connect gate="G$1" pin="VDD_IO@2" pad="30"/>
+<connect gate="G$1" pin="X1" pad="20"/>
+<connect gate="G$1" pin="X2" pad="21"/>
 </connects>
 <technologies>
 <technology name=""/>
