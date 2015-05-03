@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12241,25 +12241,25 @@
 </package>
 <package name="M05X2_SHROUD">
 <pad name="1" x="-5.08" y="-1.27" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
-<pad name="5" x="5.08" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="9" x="5.08" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-7.6962" y="5.559425" size="1.27" layer="21" ratio="10">&gt;NAME</text>
 <rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
 <rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
-<pad name="2" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="0" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<pad name="4" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<pad name="6" x="5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="10" x="5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
-<pad name="9" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<pad name="8" x="0" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="0" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<pad name="7" x="2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="2.54" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<pad name="10" x="-5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-5.08" y="1.27" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
 <wire x1="-9.525" y1="4.7625" x2="-6.111875" y2="4.7625" width="0.127" layer="21"/>
 <wire x1="-6.111875" y1="4.7625" x2="-1.349375" y2="4.7625" width="0.127" layer="21"/>
@@ -19774,15 +19774,15 @@
 </symbol>
 <symbol name="M05X2">
 <pin name="1" x="-7.62" y="5.08" length="short"/>
-<pin name="2" x="-7.62" y="2.54" length="short"/>
-<pin name="3" x="-7.62" y="0" length="short"/>
-<pin name="4" x="-7.62" y="-2.54" length="short"/>
-<pin name="5" x="-7.62" y="-5.08" length="short"/>
-<pin name="6" x="7.62" y="-5.08" length="short" rot="R180"/>
-<pin name="7" x="7.62" y="-2.54" length="short" rot="R180"/>
-<pin name="8" x="7.62" y="0" length="short" rot="R180"/>
-<pin name="9" x="7.62" y="2.54" length="short" rot="R180"/>
-<pin name="10" x="7.62" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="5.08" length="short" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" length="short"/>
+<pin name="4" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="5" x="-7.62" y="0" length="short"/>
+<pin name="6" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="7" x="-7.62" y="-2.54" length="short"/>
+<pin name="8" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="9" x="-7.62" y="-5.08" length="short"/>
+<pin name="10" x="7.62" y="-5.08" length="short" rot="R180"/>
 <wire x1="-5.08" y1="6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-6.35" x2="5.08" y2="6.35" width="0.254" layer="94"/>
@@ -23225,15 +23225,15 @@ DigiKey: BU2032SM-BT-GCT-ND</description>
 <device name="-100MIL-SHROUDED" package="M05X2_SHROUD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="10" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="5"/>
+<connect gate="G$1" pin="4" pad="7"/>
+<connect gate="G$1" pin="5" pad="9"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="8"/>
+<connect gate="G$1" pin="8" pad="6"/>
+<connect gate="G$1" pin="9" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -25900,16 +25900,16 @@ DigiKey: 497-3281-1-ND</description>
 <devices>
 <device name="" package="M05X2_SHROUD">
 <connects>
-<connect gate="G$1" pin="15V" pad="10"/>
-<connect gate="G$1" pin="24V" pad="2"/>
-<connect gate="G$1" pin="3.3V" pad="5"/>
+<connect gate="G$1" pin="15V" pad="2"/>
+<connect gate="G$1" pin="24V" pad="3"/>
+<connect gate="G$1" pin="3.3V" pad="9"/>
 <connect gate="G$1" pin="5V" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="8"/>
-<connect gate="G$1" pin="GND@2" pad="9"/>
-<connect gate="G$1" pin="GND@3" pad="6"/>
-<connect gate="G$1" pin="GND@4" pad="7"/>
-<connect gate="G$1" pin="SCL" pad="4"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="GND@3" pad="10"/>
+<connect gate="G$1" pin="GND@4" pad="8"/>
+<connect gate="G$1" pin="SCL" pad="7"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

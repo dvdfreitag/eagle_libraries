@@ -230,6 +230,22 @@
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="SOD123">
+<wire x1="-1.321" y1="0.787" x2="1.321" y2="0.787" width="0.1524" layer="21"/>
+<wire x1="-1.321" y1="-0.787" x2="1.321" y2="-0.787" width="0.1524" layer="21"/>
+<wire x1="-1.321" y1="-0.787" x2="-1.321" y2="0.787" width="0.1524" layer="51"/>
+<wire x1="1.321" y1="-0.787" x2="1.321" y2="0.787" width="0.1524" layer="51"/>
+<wire x1="-0.492" y1="0" x2="0.508" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="0.5" x2="0.508" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="0.508" y1="-0.5" x2="-0.492" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.492" y1="0.5" x2="-0.492" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.492" y1="0" x2="-0.492" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="CATHODE" x="-1.7" y="0" dx="1.6" dy="0.8" layer="1"/>
+<smd name="ANODE" x="1.7" y="0" dx="1.6" dy="0.8" layer="1"/>
+<text x="-2.286" y="1.016" size="1.016" layer="21" ratio="12">&gt;NAME</text>
+<rectangle x1="-1.9558" y1="-0.3048" x2="-1.3716" y2="0.3048" layer="51"/>
+<rectangle x1="1.3716" y1="-0.3048" x2="1.9558" y2="0.3048" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AP2161DM8G-13">
@@ -409,6 +425,22 @@
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N5819" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="HW-7-F" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
 </connects>
 <technologies>
 <technology name=""/>
