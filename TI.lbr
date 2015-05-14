@@ -2299,6 +2299,191 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="UA78M33" prefix="U">
+<gates>
+<gate name="G$1" symbol="VREG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CDCYR" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC256X" prefix="U">
+<gates>
+<gate name="G$1" symbol="CC256X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ARVMT" package="QFN-DR-76">
+<connects>
+<connect gate="G$1" pin="!SHUTD" pad="A6"/>
+<connect gate="G$1" pin="ADC_PPA_LDO_OUT" pad="A8"/>
+<connect gate="G$1" pin="AUD_CLK" pad="B32"/>
+<connect gate="G$1" pin="AUD_FSYNC" pad="A35"/>
+<connect gate="G$1" pin="AUD_IN" pad="B34"/>
+<connect gate="G$1" pin="AUD_OUT" pad="B33"/>
+<connect gate="G$1" pin="BT_RF" pad="B8"/>
+<connect gate="G$1" pin="CL1.5_LDO_IN" pad="B6"/>
+<connect gate="G$1" pin="CL1.5_LDO_OUT" pad="A7"/>
+<connect gate="G$1" pin="DCO_LDO_OUT" pad="A12"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@1" pad="A2"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@2" pad="A3"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@3" pad="B15"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@4" pad="B26"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@5" pad="B27"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@6" pad="B35"/>
+<connect gate="G$1" pin="DIG_LDO_OUT@7" pad="B36"/>
+<connect gate="G$1" pin="HCI_CTS" pad="A29"/>
+<connect gate="G$1" pin="HCI_RTS" pad="A32"/>
+<connect gate="G$1" pin="HCI_RX" pad="A26"/>
+<connect gate="G$1" pin="HCI_TX" pad="A33"/>
+<connect gate="G$1" pin="MLDO_IN" pad="B5"/>
+<connect gate="G$1" pin="MLDO_OUT@1" pad="A5"/>
+<connect gate="G$1" pin="MLDO_OUT@2" pad="A9"/>
+<connect gate="G$1" pin="MLDO_OUT@3" pad="B2"/>
+<connect gate="G$1" pin="MLDO_OUT@4" pad="B7"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="SLOW_CLK" pad="A25"/>
+<connect gate="G$1" pin="SRAM_LDO_OUT" pad="B1"/>
+<connect gate="G$1" pin="TX_DBG" pad="B24"/>
+<connect gate="G$1" pin="VDD_IO@1" pad="A17"/>
+<connect gate="G$1" pin="VDD_IO@2" pad="A34"/>
+<connect gate="G$1" pin="VDD_IO@3" pad="A38"/>
+<connect gate="G$1" pin="VDD_IO@4" pad="B18"/>
+<connect gate="G$1" pin="VDD_IO@5" pad="B19"/>
+<connect gate="G$1" pin="VDD_IO@6" pad="B21"/>
+<connect gate="G$1" pin="VDD_IO@7" pad="B22"/>
+<connect gate="G$1" pin="VDD_IO@8" pad="B25"/>
+<connect gate="G$1" pin="VSS@1" pad="A24"/>
+<connect gate="G$1" pin="VSS@2" pad="A28"/>
+<connect gate="G$1" pin="VSS@3" pad="A13"/>
+<connect gate="G$1" pin="VSS@4" pad="B9"/>
+<connect gate="G$1" pin="VSS_DCO" pad="B11"/>
+<connect gate="G$1" pin="VSS_FREF" pad="B3"/>
+<connect gate="G$1" pin="XTALM/FREFM" pad="A4"/>
+<connect gate="G$1" pin="XTALP/FREFP" pad="B4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSP430F5229" prefix="U">
+<gates>
+<gate name="G$1" symbol="MSP430F5229" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IRGCR" package="QFN-64">
+<connects>
+<connect gate="G$1" pin="!RST!/NMI" pad="56"/>
+<connect gate="G$1" pin="!RTSDVCC!/SBWTDIO" pad="64"/>
+<connect gate="G$1" pin="AVCC" pad="11"/>
+<connect gate="G$1" pin="AVSS" pad="14"/>
+<connect gate="G$1" pin="BSLEN" pad="55"/>
+<connect gate="G$1" pin="DVCC" pad="15"/>
+<connect gate="G$1" pin="DVIO" pad="40"/>
+<connect gate="G$1" pin="DVSS@1" pad="16 PAD"/>
+<connect gate="G$1" pin="DVSS@2" pad="39"/>
+<connect gate="G$1" pin="P1.0/TA0CLK/ACLK" pad="18"/>
+<connect gate="G$1" pin="P1.1/TA0.0" pad="19"/>
+<connect gate="G$1" pin="P1.2/TA0.1" pad="20"/>
+<connect gate="G$1" pin="P1.3/TA0.2" pad="21"/>
+<connect gate="G$1" pin="P1.4/TA0.3" pad="22"/>
+<connect gate="G$1" pin="P1.5/TA0.4" pad="23"/>
+<connect gate="G$1" pin="P1.6/TA1CLK/CBOUT" pad="24"/>
+<connect gate="G$1" pin="P1.7/TA1.0" pad="25"/>
+<connect gate="G$1" pin="P2.0/TA1.1" pad="26"/>
+<connect gate="G$1" pin="P2.1/TA1.2" pad="27"/>
+<connect gate="G$1" pin="P2.2/TA2CLK/SMCLK" pad="28"/>
+<connect gate="G$1" pin="P2.3/TA2.0" pad="29"/>
+<connect gate="G$1" pin="P2.4/TA2.1" pad="30"/>
+<connect gate="G$1" pin="P2.5/TA2.2" pad="31"/>
+<connect gate="G$1" pin="P2.6/RTCLK/DMAE0" pad="32"/>
+<connect gate="G$1" pin="P2.7/UCB0STE/UCA0CLK" pad="33"/>
+<connect gate="G$1" pin="P3.0/UCB0SIMO/UCB0SDA" pad="34"/>
+<connect gate="G$1" pin="P3.1/UCB0SOMI/UCB0SCL" pad="35"/>
+<connect gate="G$1" pin="P3.2/UCB0CLK/UCA0STE" pad="36"/>
+<connect gate="G$1" pin="P3.3/UCA0TXD/UCA0SIMO" pad="37"/>
+<connect gate="G$1" pin="P3.4/UCA0RXD/UCA0SOMI" pad="38"/>
+<connect gate="G$1" pin="P4.0/PM_UCB1STE/PM_UCA1CLK" pad="41"/>
+<connect gate="G$1" pin="P4.1/PM_UCB1SIMO/PM_UCB1SDA" pad="42"/>
+<connect gate="G$1" pin="P4.2/PM_UCB1SOMI/PM_UCB1SCL" pad="43"/>
+<connect gate="G$1" pin="P4.3/PM_UCB1CLK/PM_UCA1STE" pad="44"/>
+<connect gate="G$1" pin="P4.4/PM_UCA1TXD/PM_UCA1SIMO" pad="45"/>
+<connect gate="G$1" pin="P4.5/PM_UCA1RXD/PM_UCA1SOMI" pad="46"/>
+<connect gate="G$1" pin="P4.6/PM_NONE" pad="47"/>
+<connect gate="G$1" pin="P4.7/PM_NONE" pad="48"/>
+<connect gate="G$1" pin="P5.0/A8/VREF+" pad="9"/>
+<connect gate="G$1" pin="P5.1/A9/VREF-" pad="10"/>
+<connect gate="G$1" pin="P5.2/XT2IN" pad="57"/>
+<connect gate="G$1" pin="P5.3/XT2OUT" pad="58"/>
+<connect gate="G$1" pin="P5.4/XIN" pad="12"/>
+<connect gate="G$1" pin="P5.5/XOUT" pad="13"/>
+<connect gate="G$1" pin="P6.0/A0/CB0" pad="1"/>
+<connect gate="G$1" pin="P6.1/A1/CB1" pad="2"/>
+<connect gate="G$1" pin="P6.2/A2/CB2" pad="3"/>
+<connect gate="G$1" pin="P6.3/A3/CB3" pad="4"/>
+<connect gate="G$1" pin="P6.4/A4/CB4" pad="5"/>
+<connect gate="G$1" pin="P6.5/A5/CB5" pad="6"/>
+<connect gate="G$1" pin="P6.6/A6/CB6" pad="7"/>
+<connect gate="G$1" pin="P6.7/A7/CB7" pad="8"/>
+<connect gate="G$1" pin="P7.0/TB0.0" pad="49"/>
+<connect gate="G$1" pin="P7.1/TB0.1" pad="50"/>
+<connect gate="G$1" pin="P7.2/TB0.2" pad="51"/>
+<connect gate="G$1" pin="P7.3/TB0.3" pad="52"/>
+<connect gate="G$1" pin="P7.4/TB0.4" pad="53"/>
+<connect gate="G$1" pin="P7.5/TB0.5" pad="54"/>
+<connect gate="G$1" pin="PJ.0/TDO" pad="60"/>
+<connect gate="G$1" pin="PJ.1/TDI/TCLK" pad="61"/>
+<connect gate="G$1" pin="PJ.2/TMS" pad="62"/>
+<connect gate="G$1" pin="PJ.3/TCK" pad="63"/>
+<connect gate="G$1" pin="TEST/SBWTCK" pad="59"/>
+<connect gate="G$1" pin="VCORE" pad="17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CD4052" prefix="U">
+<gates>
+<gate name="G$1" symbol="CD4052" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16">
+<connects>
+<connect gate="G$1" pin="A" pad="10"/>
+<connect gate="G$1" pin="B" pad="9"/>
+<connect gate="G$1" pin="INH" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="16"/>
+<connect gate="G$1" pin="VEE" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+<connect gate="G$1" pin="X0" pad="12"/>
+<connect gate="G$1" pin="X1" pad="14"/>
+<connect gate="G$1" pin="X2" pad="15"/>
+<connect gate="G$1" pin="X3" pad="11"/>
+<connect gate="G$1" pin="XCOM" pad="13"/>
+<connect gate="G$1" pin="Y0" pad="1"/>
+<connect gate="G$1" pin="Y1" pad="5"/>
+<connect gate="G$1" pin="Y2" pad="2"/>
+<connect gate="G$1" pin="Y3" pad="4"/>
+<connect gate="G$1" pin="YCOM" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="TPS62091RGTT" prefix="U">
 <gates>
 <gate name="G$1" symbol="TPS62091RGTT" x="0" y="0"/>
