@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2579,6 +2579,46 @@
 <text x="-12.065" y="18.415" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.065" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ATSAMD21E">
+<pin name="PA00/SERCOM1[0]/TCC2_WO[0]" x="-43.18" y="31.75" length="short"/>
+<pin name="PA01/SERCOM1[1]/TCC2_WO[1]" x="-43.18" y="29.21" length="short"/>
+<pin name="PA02/AIN[00]/Y[0]/VOUT" x="-43.18" y="26.67" length="short"/>
+<pin name="PA03/AIN[01]/Y[1]/VREFA" x="-43.18" y="24.13" length="short"/>
+<pin name="PA04/AIN[04]/Y[2]/VREFB/SERCOM0[0]/TCC0_WO[0]" x="-43.18" y="21.59" length="short"/>
+<pin name="PA05/AIN[05]/Y[2]/SERCOM0[1]/TCC0_WO[1]" x="-43.18" y="19.05" length="short"/>
+<pin name="PA06/AIN[06]/Y[4]/SERCOM0[2]/TCC1_WO[0]" x="-43.18" y="16.51" length="short"/>
+<pin name="PA07/AIN[07]/Y[5]/SERCOM0[3]/TCC1_WO[1]/I2S_SD[0]" x="-43.18" y="13.97" length="short"/>
+<pin name="VDDANA" x="43.18" y="26.67" length="short" rot="R180"/>
+<pin name="GND@1" x="43.18" y="-31.75" length="short" rot="R180"/>
+<pin name="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC1_WO[2]/I2S_SD[1]" x="-43.18" y="11.43" length="short"/>
+<pin name="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC1_WO[3]/I2S_MCK" x="-43.18" y="8.89" length="short"/>
+<pin name="PA10/AIN[18]/X[2]/SERCOM0[2]/TCC1_WO[0]/I2S_SCK" x="-43.18" y="6.35" length="short"/>
+<pin name="PA11/AIN[19]/X[3]/SERCOM0[3]/TCC1_WO[1]/IS2_FS" x="-43.18" y="3.81" length="short"/>
+<pin name="PA14/SERCOM2[2]/TCC0_WO[4]" x="-43.18" y="1.27" length="short"/>
+<pin name="PA15/SERCOM2[3]/TCC0_WO[5]" x="-43.18" y="-1.27" length="short"/>
+<pin name="PA16/SERCOM1[0]/TCC0_WO[6]/X[4]" x="-43.18" y="-3.81" length="short"/>
+<pin name="PA17/SERCOM1[1]/TCC0_WO[7]/X[5]" x="-43.18" y="-6.35" length="short"/>
+<pin name="PA18/SERCOM1[2]/TCC0_WO[2]/X[6]" x="-43.18" y="-8.89" length="short"/>
+<pin name="PA19/SERCOM1[3]/TCC0_WO[3]/X[7]" x="-43.18" y="-11.43" length="short"/>
+<pin name="PA22/SERCOM3[0]/TCC0_WO[4]/X[10]" x="-43.18" y="-13.97" length="short"/>
+<pin name="PA23/SERCOM3[1]/TCC0_WO[5]/X[11]" x="-43.18" y="-16.51" length="short"/>
+<pin name="PA24/SERCOM3[2]/TCC1_WO[2]/USB_D-" x="-43.18" y="-19.05" length="short"/>
+<pin name="PA25/SERCOM3[3]/TCC1_WO[3]/USB_D+" x="-43.18" y="-21.59" length="short"/>
+<pin name="PA27" x="-43.18" y="-24.13" length="short"/>
+<pin name="!RESET" x="43.18" y="31.75" length="short" rot="R180"/>
+<pin name="PA28" x="-43.18" y="-26.67" length="short"/>
+<pin name="GND@2" x="43.18" y="-29.21" length="short" rot="R180"/>
+<pin name="VDDCORE" x="43.18" y="-26.67" length="short" rot="R180"/>
+<pin name="VDDIN" x="43.18" y="29.21" length="short" rot="R180"/>
+<pin name="PA30/SWCLK" x="-43.18" y="-29.21" length="short"/>
+<pin name="PA31/SWDIO" x="-43.18" y="-31.75" length="short"/>
+<wire x1="-40.64" y1="33.02" x2="40.64" y2="33.02" width="0.254" layer="94"/>
+<wire x1="40.64" y1="33.02" x2="40.64" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-33.02" x2="-40.64" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-33.02" x2="-40.64" y2="33.02" width="0.254" layer="94"/>
+<text x="-40.005" y="33.655" size="1.778" layer="95">&gt;NAME</text>
+<text x="-40.005" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 <symbol name="ATMEGA32U4">
 <wire x1="-15.24" y1="39.37" x2="-15.24" y2="-39.37" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-39.37" x2="15.24" y2="-39.37" width="0.254" layer="94"/>
@@ -4012,6 +4052,91 @@
 <connect gate="G$1" pin="VCC@34" pad="34"/>
 <connect gate="G$1" pin="XTAL1" pad="17"/>
 <connect gate="G$1" pin="XTAL2" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATSAMD21E" prefix="U">
+<gates>
+<gate name="G$1" symbol="ATSAMD21E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MU" package="QFN-32">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="26"/>
+<connect gate="G$1" pin="GND@1" pad="10 EP"/>
+<connect gate="G$1" pin="GND@2" pad="28"/>
+<connect gate="G$1" pin="PA00/SERCOM1[0]/TCC2_WO[0]" pad="1"/>
+<connect gate="G$1" pin="PA01/SERCOM1[1]/TCC2_WO[1]" pad="2"/>
+<connect gate="G$1" pin="PA02/AIN[00]/Y[0]/VOUT" pad="3"/>
+<connect gate="G$1" pin="PA03/AIN[01]/Y[1]/VREFA" pad="4"/>
+<connect gate="G$1" pin="PA04/AIN[04]/Y[2]/VREFB/SERCOM0[0]/TCC0_WO[0]" pad="5"/>
+<connect gate="G$1" pin="PA05/AIN[05]/Y[2]/SERCOM0[1]/TCC0_WO[1]" pad="6"/>
+<connect gate="G$1" pin="PA06/AIN[06]/Y[4]/SERCOM0[2]/TCC1_WO[0]" pad="7"/>
+<connect gate="G$1" pin="PA07/AIN[07]/Y[5]/SERCOM0[3]/TCC1_WO[1]/I2S_SD[0]" pad="8"/>
+<connect gate="G$1" pin="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC1_WO[2]/I2S_SD[1]" pad="11"/>
+<connect gate="G$1" pin="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC1_WO[3]/I2S_MCK" pad="12"/>
+<connect gate="G$1" pin="PA10/AIN[18]/X[2]/SERCOM0[2]/TCC1_WO[0]/I2S_SCK" pad="13"/>
+<connect gate="G$1" pin="PA11/AIN[19]/X[3]/SERCOM0[3]/TCC1_WO[1]/IS2_FS" pad="14"/>
+<connect gate="G$1" pin="PA14/SERCOM2[2]/TCC0_WO[4]" pad="15"/>
+<connect gate="G$1" pin="PA15/SERCOM2[3]/TCC0_WO[5]" pad="16"/>
+<connect gate="G$1" pin="PA16/SERCOM1[0]/TCC0_WO[6]/X[4]" pad="17"/>
+<connect gate="G$1" pin="PA17/SERCOM1[1]/TCC0_WO[7]/X[5]" pad="18"/>
+<connect gate="G$1" pin="PA18/SERCOM1[2]/TCC0_WO[2]/X[6]" pad="19"/>
+<connect gate="G$1" pin="PA19/SERCOM1[3]/TCC0_WO[3]/X[7]" pad="20"/>
+<connect gate="G$1" pin="PA22/SERCOM3[0]/TCC0_WO[4]/X[10]" pad="21"/>
+<connect gate="G$1" pin="PA23/SERCOM3[1]/TCC0_WO[5]/X[11]" pad="22"/>
+<connect gate="G$1" pin="PA24/SERCOM3[2]/TCC1_WO[2]/USB_D-" pad="23"/>
+<connect gate="G$1" pin="PA25/SERCOM3[3]/TCC1_WO[3]/USB_D+" pad="24"/>
+<connect gate="G$1" pin="PA27" pad="25"/>
+<connect gate="G$1" pin="PA28" pad="27"/>
+<connect gate="G$1" pin="PA30/SWCLK" pad="31"/>
+<connect gate="G$1" pin="PA31/SWDIO" pad="32"/>
+<connect gate="G$1" pin="VDDANA" pad="9"/>
+<connect gate="G$1" pin="VDDCORE" pad="29"/>
+<connect gate="G$1" pin="VDDIN" pad="30"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-AU" package="TQFP-32">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="26"/>
+<connect gate="G$1" pin="GND@1" pad="10"/>
+<connect gate="G$1" pin="GND@2" pad="28"/>
+<connect gate="G$1" pin="PA00/SERCOM1[0]/TCC2_WO[0]" pad="1"/>
+<connect gate="G$1" pin="PA01/SERCOM1[1]/TCC2_WO[1]" pad="2"/>
+<connect gate="G$1" pin="PA02/AIN[00]/Y[0]/VOUT" pad="3"/>
+<connect gate="G$1" pin="PA03/AIN[01]/Y[1]/VREFA" pad="4"/>
+<connect gate="G$1" pin="PA04/AIN[04]/Y[2]/VREFB/SERCOM0[0]/TCC0_WO[0]" pad="5"/>
+<connect gate="G$1" pin="PA05/AIN[05]/Y[2]/SERCOM0[1]/TCC0_WO[1]" pad="6"/>
+<connect gate="G$1" pin="PA06/AIN[06]/Y[4]/SERCOM0[2]/TCC1_WO[0]" pad="7"/>
+<connect gate="G$1" pin="PA07/AIN[07]/Y[5]/SERCOM0[3]/TCC1_WO[1]/I2S_SD[0]" pad="8"/>
+<connect gate="G$1" pin="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC1_WO[2]/I2S_SD[1]" pad="11"/>
+<connect gate="G$1" pin="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC1_WO[3]/I2S_MCK" pad="12"/>
+<connect gate="G$1" pin="PA10/AIN[18]/X[2]/SERCOM0[2]/TCC1_WO[0]/I2S_SCK" pad="13"/>
+<connect gate="G$1" pin="PA11/AIN[19]/X[3]/SERCOM0[3]/TCC1_WO[1]/IS2_FS" pad="14"/>
+<connect gate="G$1" pin="PA14/SERCOM2[2]/TCC0_WO[4]" pad="15"/>
+<connect gate="G$1" pin="PA15/SERCOM2[3]/TCC0_WO[5]" pad="16"/>
+<connect gate="G$1" pin="PA16/SERCOM1[0]/TCC0_WO[6]/X[4]" pad="17"/>
+<connect gate="G$1" pin="PA17/SERCOM1[1]/TCC0_WO[7]/X[5]" pad="18"/>
+<connect gate="G$1" pin="PA18/SERCOM1[2]/TCC0_WO[2]/X[6]" pad="19"/>
+<connect gate="G$1" pin="PA19/SERCOM1[3]/TCC0_WO[3]/X[7]" pad="20"/>
+<connect gate="G$1" pin="PA22/SERCOM3[0]/TCC0_WO[4]/X[10]" pad="21"/>
+<connect gate="G$1" pin="PA23/SERCOM3[1]/TCC0_WO[5]/X[11]" pad="22"/>
+<connect gate="G$1" pin="PA24/SERCOM3[2]/TCC1_WO[2]/USB_D-" pad="23"/>
+<connect gate="G$1" pin="PA25/SERCOM3[3]/TCC1_WO[3]/USB_D+" pad="24"/>
+<connect gate="G$1" pin="PA27" pad="25"/>
+<connect gate="G$1" pin="PA28" pad="27"/>
+<connect gate="G$1" pin="PA30/SWCLK" pad="31"/>
+<connect gate="G$1" pin="PA31/SWDIO" pad="32"/>
+<connect gate="G$1" pin="VDDANA" pad="9"/>
+<connect gate="G$1" pin="VDDCORE" pad="29"/>
+<connect gate="G$1" pin="VDDIN" pad="30"/>
 </connects>
 <technologies>
 <technology name=""/>
