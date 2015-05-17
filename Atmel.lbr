@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2937,44 +2937,44 @@
 <text x="-37.465" y="-23.495" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="ATSAMR21E">
-<pin name="XTAL2" x="-40.64" y="-19.05" length="short"/>
-<pin name="XTAL1" x="-40.64" y="-21.59" length="short"/>
-<pin name="GNDANA@1" x="40.64" y="-13.97" length="short" rot="R180"/>
-<pin name="VDDANA" x="40.64" y="19.05" length="short" rot="R180"/>
-<pin name="AVDD" x="40.64" y="-11.43" length="short" rot="R180"/>
-<pin name="GNDANA@2" x="40.64" y="-16.51" length="short" rot="R180"/>
-<pin name="PA06/AIN[6]/Y[4]/SERCOM0[2]/TCC1_WO[0]" x="-40.64" y="21.59" length="short"/>
-<pin name="PA07/AIN[7]/Y[5]/SERCOM0[3]/TCC1_WO[1]" x="-40.64" y="19.05" length="short"/>
-<pin name="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC0_WO[0]" x="-40.64" y="16.51" length="short"/>
-<pin name="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC0_WO[1]" x="-40.64" y="13.97" length="short"/>
-<pin name="GNDANA@3" x="40.64" y="-19.05" length="short" rot="R180"/>
-<pin name="RFP" x="40.64" y="10.16" length="short" rot="R180"/>
-<pin name="RFN" x="40.64" y="7.62" length="short" rot="R180"/>
-<pin name="GNDANA@4" x="40.64" y="-21.59" length="short" rot="R180"/>
-<pin name="PA14/SERCOM2[2]/TC3_WO[0]" x="-40.64" y="11.43" length="short"/>
-<pin name="PA15/SERCOM2[3]/TC3_WO[1]" x="-40.64" y="8.89" length="short"/>
-<pin name="PA16/X[4]/SERCOM1[0]/TCC2_WO[1]" x="-40.64" y="6.35" length="short"/>
-<pin name="PA17/X[5]/SERCOM1[1]/TCC2_WO[1]" x="-40.64" y="3.81" length="short"/>
-<pin name="PA18/X[6]/SERCOM1[2]/TC3_WO[0]" x="-40.64" y="1.27" length="short"/>
-<pin name="PA19/X[7]/SERCOM1[3]/TC3_WO[1]" x="-40.64" y="-1.27" length="short"/>
-<pin name="DVDD" x="40.64" y="-2.54" length="short" rot="R180"/>
-<pin name="PA24/SERCOM3[2]/TC5_WO[0]" x="-40.64" y="-3.81" length="short"/>
-<pin name="PA25/SERCOM3[3]/TC5_WO[1]" x="-40.64" y="-6.35" length="short"/>
-<pin name="VDDIO" x="40.64" y="16.51" length="short" rot="R180"/>
-<pin name="PA27/SERCOM3[0]" x="-40.64" y="-8.89" length="short"/>
-<pin name="!RESET" x="40.64" y="21.59" length="short" rot="R180"/>
-<pin name="GND" x="40.64" y="-7.62" length="short" rot="R180"/>
-<pin name="VDDCORE" x="40.64" y="-5.08" length="short" rot="R180"/>
-<pin name="VDDIN" x="40.64" y="13.97" length="short" rot="R180"/>
-<pin name="PA30/SWCLK" x="40.64" y="3.81" length="short" rot="R180"/>
-<pin name="PA31/SWDIO" x="40.64" y="1.27" length="short" rot="R180"/>
-<pin name="PA28/SERCOM3[1]" x="-40.64" y="-11.43" length="short"/>
-<wire x1="-38.1" y1="22.86" x2="38.1" y2="22.86" width="0.254" layer="94"/>
-<wire x1="38.1" y1="22.86" x2="38.1" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-38.1" y1="-22.86" x2="-38.1" y2="22.86" width="0.254" layer="94"/>
-<text x="-37.465" y="23.495" size="1.778" layer="95">&gt;NAME</text>
-<text x="-37.465" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="XTAL2" x="-35.56" y="-19.05" length="short"/>
+<pin name="XTAL1" x="-35.56" y="-21.59" length="short"/>
+<pin name="GNDANA@1" x="35.56" y="-13.97" length="short" rot="R180"/>
+<pin name="VDDANA" x="35.56" y="19.05" length="short" rot="R180"/>
+<pin name="AVDD" x="35.56" y="-11.43" length="short" rot="R180"/>
+<pin name="GNDANA@2" x="35.56" y="-16.51" length="short" rot="R180"/>
+<pin name="PA06/AIN[6]/Y[4]/SERCOM0[2]/TCC1_WO[0]" x="-35.56" y="21.59" length="short"/>
+<pin name="PA07/AIN[7]/Y[5]/SERCOM0[3]/TCC1_WO[1]" x="-35.56" y="19.05" length="short"/>
+<pin name="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC0_WO[0]" x="-35.56" y="16.51" length="short"/>
+<pin name="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC0_WO[1]" x="-35.56" y="13.97" length="short"/>
+<pin name="GNDANA@3" x="35.56" y="-19.05" length="short" rot="R180"/>
+<pin name="RFP" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="RFN" x="35.56" y="7.62" length="short" rot="R180"/>
+<pin name="GNDANA@4" x="35.56" y="-21.59" length="short" rot="R180"/>
+<pin name="PA14/SERCOM2[2]/TC3_WO[0]" x="-35.56" y="11.43" length="short"/>
+<pin name="PA15/SERCOM2[3]/TC3_WO[1]" x="-35.56" y="8.89" length="short"/>
+<pin name="PA16/X[4]/SERCOM1[0]/TCC2_WO[1]" x="-35.56" y="6.35" length="short"/>
+<pin name="PA17/X[5]/SERCOM1[1]/TCC2_WO[1]" x="-35.56" y="3.81" length="short"/>
+<pin name="PA18/X[6]/SERCOM1[2]/TC3_WO[0]" x="-35.56" y="1.27" length="short"/>
+<pin name="PA19/X[7]/SERCOM1[3]/TC3_WO[1]" x="-35.56" y="-1.27" length="short"/>
+<pin name="DVDD" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="PA24/SERCOM3[2]/TC5_WO[0]/USB_D-" x="-35.56" y="-3.81" length="short"/>
+<pin name="PA25/SERCOM3[3]/TC5_WO[1]/USB_D+" x="-35.56" y="-6.35" length="short"/>
+<pin name="VDDIO" x="35.56" y="16.51" length="short" rot="R180"/>
+<pin name="PA27/SERCOM3[0]" x="-35.56" y="-8.89" length="short"/>
+<pin name="!RESET" x="35.56" y="21.59" length="short" rot="R180"/>
+<pin name="GND" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="VDDCORE" x="35.56" y="-5.08" length="short" rot="R180"/>
+<pin name="VDDIN" x="35.56" y="13.97" length="short" rot="R180"/>
+<pin name="PA30/SWCLK" x="35.56" y="3.81" length="short" rot="R180"/>
+<pin name="PA31/SWDIO" x="35.56" y="1.27" length="short" rot="R180"/>
+<pin name="PA28/SERCOM3[1]" x="-35.56" y="-11.43" length="short"/>
+<wire x1="-33.02" y1="22.86" x2="33.02" y2="22.86" width="0.254" layer="94"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-22.86" x2="-33.02" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-22.86" x2="-33.02" y2="22.86" width="0.254" layer="94"/>
+<text x="-32.385" y="23.495" size="1.778" layer="95">&gt;NAME</text>
+<text x="-32.385" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4512,8 +4512,8 @@
 <connect gate="G$1" pin="PA17/X[5]/SERCOM1[1]/TCC2_WO[1]" pad="18"/>
 <connect gate="G$1" pin="PA18/X[6]/SERCOM1[2]/TC3_WO[0]" pad="19"/>
 <connect gate="G$1" pin="PA19/X[7]/SERCOM1[3]/TC3_WO[1]" pad="20"/>
-<connect gate="G$1" pin="PA24/SERCOM3[2]/TC5_WO[0]" pad="22"/>
-<connect gate="G$1" pin="PA25/SERCOM3[3]/TC5_WO[1]" pad="23"/>
+<connect gate="G$1" pin="PA24/SERCOM3[2]/TC5_WO[0]/USB_D-" pad="22"/>
+<connect gate="G$1" pin="PA25/SERCOM3[3]/TC5_WO[1]/USB_D+" pad="23"/>
 <connect gate="G$1" pin="PA27/SERCOM3[0]" pad="25"/>
 <connect gate="G$1" pin="PA28/SERCOM3[1]" pad="27"/>
 <connect gate="G$1" pin="PA30/SWCLK" pad="31"/>
