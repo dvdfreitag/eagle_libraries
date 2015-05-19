@@ -754,6 +754,102 @@
 <wire x1="0.8128" y1="-0.8128" x2="-0.8128" y2="-0.8128" width="0.127" layer="21"/>
 <wire x1="-0.8128" y1="-0.8128" x2="-0.8128" y2="0.8128" width="0.127" layer="21"/>
 </package>
+<package name="BM10B(0.8)-10DP-0.4V(51)">
+<smd name="4" x="-0.4" y="-1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="6" x="0" y="-1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="3" x="-0.4" y="1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="5" x="0" y="1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="7" x="0.4" y="1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="1" x="-0.8" y="1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="9" x="0.8" y="1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="8" x="0.4" y="-1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="10" x="0.8" y="-1.01" dx="0.23" dy="0.74" layer="1"/>
+<smd name="2" x="-0.8" y="-1.01" dx="0.23" dy="0.74" layer="1"/>
+<wire x1="-1.66" y1="0.9" x2="1.66" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-1.66" y1="-0.9" x2="1.66" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="-1.66" y1="0.9" x2="-1.66" y2="-0.9" width="0.127" layer="51"/>
+<wire x1="1.66" y1="0.9" x2="1.66" y2="-0.9" width="0.127" layer="51"/>
+<smd name="P$2" x="-1.37" y="-0.68" dx="0.59" dy="0.44" layer="1" rot="R90"/>
+<smd name="P$4" x="1.37" y="-0.68" dx="0.59" dy="0.44" layer="1" rot="R90"/>
+<rectangle x1="-0.075" y1="-1.23" x2="0.075" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-0.475" y1="-1.23" x2="-0.325" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-0.875" y1="-1.23" x2="-0.725" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="0.325" y1="-1.23" x2="0.475" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="0.725" y1="-1.23" x2="0.875" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-0.075" y1="0.9" x2="0.075" y2="1.23" layer="51"/>
+<rectangle x1="0.325" y1="0.9" x2="0.475" y2="1.23" layer="51"/>
+<rectangle x1="0.725" y1="0.9" x2="0.875" y2="1.23" layer="51"/>
+<rectangle x1="-0.475" y1="0.9" x2="-0.325" y2="1.23" layer="51"/>
+<rectangle x1="-0.875" y1="0.9" x2="-0.725" y2="1.23" layer="51"/>
+<rectangle x1="-1.41" y1="-0.9" x2="-1.33" y2="-0.57" layer="51"/>
+<rectangle x1="1.33" y1="-0.9" x2="1.41" y2="-0.57" layer="51"/>
+<smd name="P$3" x="1.37" y="0.68" dx="0.59" dy="0.44" layer="1" rot="R270"/>
+<smd name="P$1" x="-1.37" y="0.68" dx="0.59" dy="0.44" layer="1" rot="R270"/>
+<rectangle x1="1.33" y1="0.57" x2="1.41" y2="0.9" layer="51" rot="R180"/>
+<rectangle x1="-1.41" y1="0.57" x2="-1.33" y2="0.9" layer="51" rot="R180"/>
+<wire x1="-0.85" y1="0.35" x2="0.85" y2="0.35" width="0.127" layer="51"/>
+<wire x1="0.85" y1="0.35" x2="0.85" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-0.35" x2="-0.85" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="-0.35" x2="-0.85" y2="0.35" width="0.127" layer="51"/>
+<circle x="-1.4" y="1.45" radius="0.2" width="0.1905" layer="21"/>
+<wire x1="-1.66" y1="-0.175" x2="-1.66" y2="0.175" width="0.1905" layer="21"/>
+<wire x1="1.66" y1="-0.175" x2="1.66" y2="0.175" width="0.1905" layer="21"/>
+<text x="-0.95" y="1.6" size="0.508" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="BM10NB(0.6)-10DS-0.4V(51)">
+<wire x1="-2.2" y1="1.49" x2="2.2" y2="1.49" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.49" x2="2.2" y2="-1.49" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.49" x2="-2.2" y2="-1.49" width="0.127" layer="51"/>
+<wire x1="2.2" y1="1.49" x2="2.2" y2="-1.49" width="0.127" layer="51"/>
+<rectangle x1="-0.04" y1="-1.49" x2="0.04" y2="-0.29" layer="51"/>
+<rectangle x1="-0.04" y1="0.29" x2="0.04" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="0.36" y1="0.29" x2="0.44" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="0.76" y1="0.29" x2="0.84" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="-0.44" y1="0.29" x2="-0.36" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="-0.84" y1="0.29" x2="-0.76" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="0.36" y1="-1.49" x2="0.44" y2="-0.29" layer="51"/>
+<rectangle x1="0.76" y1="-1.49" x2="0.84" y2="-0.29" layer="51"/>
+<rectangle x1="-0.84" y1="-1.49" x2="-0.76" y2="-0.29" layer="51"/>
+<rectangle x1="-0.44" y1="-1.49" x2="-0.36" y2="-0.29" layer="51"/>
+<rectangle x1="-1.95" y1="-1.49" x2="-1.15" y2="-1.31" layer="51"/>
+<rectangle x1="1.15" y1="-1.49" x2="1.95" y2="-1.31" layer="51"/>
+<rectangle x1="1.15" y1="1.31" x2="1.95" y2="1.49" layer="51" rot="R180"/>
+<rectangle x1="-1.95" y1="1.31" x2="-1.15" y2="1.49" layer="51" rot="R180"/>
+<wire x1="-0.95" y1="0.5" x2="0.938196875" y2="0.5" width="0.127" layer="51"/>
+<wire x1="0.938196875" y1="0.5" x2="1.05" y2="0.388196875" width="0.127" layer="51"/>
+<wire x1="1.05" y1="0.388196875" x2="1.05" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-0.4" x2="0.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="0.95" y1="-0.5" x2="-0.95" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-0.95" y1="-0.5" x2="-1.05" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-0.4" x2="-1.05" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="0.4" x2="-0.95" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1.8" y1="-0.95" x2="1.8" y2="0.85" width="0.127" layer="51"/>
+<wire x1="1.8" y1="0.85" x2="1.6" y2="1.05" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.05" x2="-1.6" y2="1.05" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.05" x2="-1.75" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="0.9" x2="-1.75" y2="-0.95" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-0.95" x2="-1.6" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.1" x2="1.65" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="1.65" y1="-1.1" x2="1.8" y2="-0.95" width="0.127" layer="51"/>
+<smd name="5" x="0" y="1.405" dx="0.23" dy="0.47" layer="1"/>
+<smd name="3" x="-0.4" y="1.405" dx="0.23" dy="0.47" layer="1"/>
+<smd name="1" x="-0.8" y="1.405" dx="0.23" dy="0.47" layer="1"/>
+<smd name="7" x="0.4" y="1.405" dx="0.23" dy="0.47" layer="1"/>
+<smd name="9" x="0.8" y="1.405" dx="0.23" dy="0.47" layer="1"/>
+<smd name="6" x="0" y="-1.405" dx="0.23" dy="0.47" layer="1" rot="R180"/>
+<smd name="8" x="0.4" y="-1.405" dx="0.23" dy="0.47" layer="1" rot="R180"/>
+<smd name="10" x="0.8" y="-1.405" dx="0.23" dy="0.47" layer="1" rot="R180"/>
+<smd name="4" x="-0.4" y="-1.405" dx="0.23" dy="0.47" layer="1" rot="R180"/>
+<smd name="2" x="-0.8" y="-1.405" dx="0.23" dy="0.47" layer="1" rot="R180"/>
+<smd name="P$1" x="-1.55" y="1.445" dx="0.92" dy="0.55" layer="1"/>
+<smd name="P$3" x="1.55" y="1.445" dx="0.92" dy="0.55" layer="1"/>
+<smd name="P$2" x="-1.55" y="-1.445" dx="0.92" dy="0.55" layer="1"/>
+<smd name="P$4" x="1.55" y="-1.445" dx="0.92" dy="0.55" layer="1"/>
+<wire x1="-2.2" y1="-0.95" x2="-2.2" y2="0.95" width="0.1904" layer="21"/>
+<wire x1="2.2" y1="-0.95" x2="2.2" y2="0.95" width="0.1904" layer="21"/>
+<text x="-1.7" y="1.9" size="0.508" layer="21" ratio="12">&gt;NAME</text>
+<circle x="-2.05" y="2.2" radius="0.2" width="0.1904" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICROB">
@@ -1079,7 +1175,7 @@
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND" pad="GND MT1 MT2 P$1 P$2"/>
 <connect gate="G$1" pin="ID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
@@ -1266,6 +1362,40 @@
 </technologies>
 </device>
 <device name="-100MIL-H" package="M05X2-100MIL_SHROUD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MEZ-H" package="BM10B(0.8)-10DP-0.4V(51)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MEZ-R" package="BM10NB(0.6)-10DS-0.4V(51)">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
