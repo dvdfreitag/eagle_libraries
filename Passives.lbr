@@ -2193,7 +2193,7 @@
 <gate name="G$1" symbol="RESISTOR-VERT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0402-RES">
+<device name="-0402" package="0402-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
