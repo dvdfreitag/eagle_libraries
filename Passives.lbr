@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1026,6 +1026,62 @@
 <wire x1="-1.85" y1="-0.8" x2="-1.85" y2="0.8" width="0.127" layer="21"/>
 <text x="-1.7" y="1" size="0.508" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="2512-RESISTOR">
+<wire x1="-3.15" y1="1.55" x2="3.15" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-3.15" y1="-1.55" x2="3.15" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-3.15" y1="1.55" x2="-3.15" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="3.15" y1="1.55" x2="3.15" y2="-1.55" width="0.127" layer="51"/>
+<rectangle x1="-3.15" y1="-1.55" x2="-1.35" y2="1.55" layer="51"/>
+<rectangle x1="1.35" y1="-1.55" x2="3.15" y2="1.55" layer="51"/>
+<smd name="1" x="-2.575" y="0" dx="3.7" dy="3" layer="1" rot="R90"/>
+<smd name="2" x="2.575" y="0" dx="3.7" dy="3" layer="1" rot="R90"/>
+<wire x1="-0.85" y1="1.55" x2="0.85" y2="1.55" width="0.1905" layer="21"/>
+<wire x1="-0.85" y1="-1.55" x2="0.85" y2="-1.55" width="0.1905" layer="21"/>
+<text x="-3.65" y="2.05" size="0.508" layer="21">&gt;NAME</text>
+</package>
+<package name="0805-RES">
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.525" y2="0.625" layer="51"/>
+<rectangle x1="0.525" y1="-0.625" x2="1" y2="0.625" layer="51" rot="R180"/>
+<smd name="1" x="-0.95" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<wire x1="-0.25" y1="0.625" x2="0.25" y2="0.625" width="0.1905" layer="21"/>
+<wire x1="-0.25" y1="-0.625" x2="0.25" y2="-0.625" width="0.1905" layer="21"/>
+<text x="-1.3" y="0.9" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="0805-CAP">
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.525" y2="0.625" layer="51"/>
+<rectangle x1="0.525" y1="-0.625" x2="1" y2="0.625" layer="51" rot="R180"/>
+<smd name="1" x="-0.95" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<wire x1="-0.25" y1="0.625" x2="0.25" y2="0.625" width="0.1905" layer="21"/>
+<wire x1="-0.25" y1="-0.625" x2="0.25" y2="-0.625" width="0.1905" layer="21"/>
+<text x="-1.3" y="0.9" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="LITTELFUSE_154">
+<wire x1="-4.865" y1="2.515" x2="4.865" y2="2.515" width="0.127" layer="51"/>
+<wire x1="-4.865" y1="-2.515" x2="4.865" y2="-2.515" width="0.127" layer="51"/>
+<wire x1="-4.865" y1="2.515" x2="-4.865" y2="-2.515" width="0.127" layer="51"/>
+<wire x1="4.865" y1="2.515" x2="4.865" y2="-2.515" width="0.127" layer="51"/>
+<smd name="1" x="-3.435" y="0" dx="3.81" dy="4.75" layer="1" rot="R270"/>
+<smd name="2" x="3.435" y="0" dx="3.81" dy="4.75" layer="1" rot="R270"/>
+<rectangle x1="-4.865" y1="-1.25" x2="-1.865" y2="1.25" layer="51"/>
+<rectangle x1="1.865" y1="-1.25" x2="4.865" y2="1.25" layer="51" rot="R180"/>
+<wire x1="-4.865" y1="2.125" x2="-4.865" y2="2.515" width="0.1905" layer="21"/>
+<wire x1="-4.865" y1="2.515" x2="4.865" y2="2.515" width="0.1905" layer="21"/>
+<wire x1="4.865" y1="2.515" x2="4.865" y2="2.125" width="0.1905" layer="21"/>
+<wire x1="4.865" y1="-2.125" x2="4.865" y2="-2.515" width="0.1905" layer="21"/>
+<wire x1="4.865" y1="-2.515" x2="-4.865" y2="-2.515" width="0.1905" layer="21"/>
+<wire x1="-4.865" y1="-2.515" x2="-4.865" y2="-2.125" width="0.1905" layer="21"/>
+<text x="-4.6" y="2.8" size="0.508" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -1669,6 +1725,14 @@
 <vertex x="-2.413" y="-1.651"/>
 </polygon>
 </symbol>
+<symbol name="FUSE">
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;Name</text>
+<text x="-7.62" y="3.175" size="1.27" layer="96">&gt;Value</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="2" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NXP-PRTR5VOU2X" prefix="D">
@@ -2186,6 +2250,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-0805" package="0805-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -2194,6 +2267,24 @@
 </gates>
 <devices>
 <device name="-0402" package="0402-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2512" package="2512-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805" package="0805-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2318,6 +2409,22 @@
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-154" package="LITTELFUSE_154">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
