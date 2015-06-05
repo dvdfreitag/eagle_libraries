@@ -420,6 +420,28 @@
 <circle x="-1.4" y="1.9" radius="0.282840625" width="0.127" layer="21"/>
 <text x="-1.9" y="2.7" size="0.6096" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="SOT-23-6">
+<wire x1="-0.775" y1="1.45" x2="-0.775" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.127" layer="51"/>
+<wire x1="-0.775" y1="-1.45" x2="0.775" y2="-1.45" width="0.127" layer="51"/>
+<rectangle x1="0.775" y1="-0.1775" x2="1.6" y2="0.1775" layer="51"/>
+<smd name="5" x="1.4" y="0" dx="0.6" dy="1.1" layer="1" rot="R90"/>
+<smd name="6" x="1.4" y="0.95" dx="0.6" dy="1.1" layer="1" rot="R90"/>
+<smd name="4" x="1.4" y="-0.95" dx="0.6" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="-1.4" y="0" dx="0.6" dy="1.1" layer="1" rot="R270"/>
+<smd name="3" x="-1.4" y="-0.95" dx="0.6" dy="1.1" layer="1" rot="R270"/>
+<smd name="1" x="-1.4" y="0.95" dx="0.6" dy="1.1" layer="1" rot="R270"/>
+<rectangle x1="0.775" y1="0.7725" x2="1.6" y2="1.1275" layer="51"/>
+<rectangle x1="0.775" y1="-1.1275" x2="1.6" y2="-0.7725" layer="51"/>
+<rectangle x1="-1.6" y1="-0.1775" x2="-0.775" y2="0.1775" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="-1.1275" x2="-0.775" y2="-0.7725" layer="51" rot="R180"/>
+<rectangle x1="-1.6" y1="0.7725" x2="-0.775" y2="1.1275" layer="51" rot="R180"/>
+<wire x1="-0.75" y1="1.45" x2="0.75" y2="1.45" width="0.1905" layer="21"/>
+<wire x1="-0.75" y1="-1.45" x2="0.75" y2="-1.45" width="0.1905" layer="21"/>
+<circle x="-1.15" y="1.85" radius="0.21213125" width="0.1905" layer="21"/>
+<text x="-0.75" y="1.65" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OP-AMP+-">
@@ -615,6 +637,20 @@
 <wire x1="-17.78" y1="-10.16" x2="-17.78" y2="10.16" width="0.254" layer="94"/>
 <text x="-17.145" y="10.795" size="1.27" layer="95">&gt;NAME</text>
 <text x="-17.145" y="-12.065" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MCP4726">
+<pin name="VOUT" x="11.43" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-11.43" y="-3.81" length="short"/>
+<pin name="VCC" x="-11.43" y="2.54" length="short"/>
+<pin name="SDA" x="11.43" y="-3.81" length="short" rot="R180"/>
+<pin name="SCL" x="11.43" y="-1.27" length="short" rot="R180"/>
+<pin name="VREF" x="-11.43" y="0" length="short"/>
+<wire x1="-8.89" y1="3.81" x2="8.89" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-5.08" x2="-8.89" y2="3.81" width="0.254" layer="94"/>
+<text x="-8.255" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-8.255" y="-6.985" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -920,6 +956,45 @@
 <connect gate="G$1" pin="SDO" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="14"/>
 <connect gate="G$1" pin="VSS" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP4726" prefix="U">
+<gates>
+<gate name="G$1" symbol="MCP4726" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A0T-E/CH" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6V11" prefix="U">
+<gates>
+<gate name="G$1" symbol="OP-AMP-+" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T-E/OT" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
