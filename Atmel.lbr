@@ -176,30 +176,31 @@
 <smd name="A5" x="0.65" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
 <smd name="A6" x="1.3" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
 <smd name="A7" x="1.95" y="1.95" dx="0.35" dy="0.35" layer="1" roundness="100"/>
-<text x="-2.85" y="1.95" size="0.25" layer="51" align="center">A</text>
-<text x="-2.85" y="1.3" size="0.25" layer="51" align="center">B</text>
-<text x="-2.85" y="0.65" size="0.25" layer="51" align="center">C</text>
-<text x="-2.85" y="0" size="0.25" layer="51" align="center">D</text>
-<text x="-2.85" y="-0.65" size="0.25" layer="51" align="center">E</text>
-<text x="-2.85" y="-1.3" size="0.25" layer="51" align="center">F</text>
-<text x="-2.85" y="-1.95" size="0.25" layer="51" align="center">G</text>
-<text x="-1.95" y="2.85" size="0.25" layer="51" align="center">1</text>
-<text x="-1.3" y="2.85" size="0.25" layer="51" align="center">2</text>
-<text x="-0.65" y="2.85" size="0.25" layer="51" align="center">3</text>
-<text x="0" y="2.85" size="0.25" layer="51" align="center">4</text>
-<text x="0.65" y="2.85" size="0.25" layer="51" align="center">5</text>
-<text x="1.3" y="2.85" size="0.25" layer="51" align="center">6</text>
-<text x="1.95" y="2.85" size="0.25" layer="51" align="center">7</text>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="-2.5" y="2"/>
-<vertex x="-2.5" y="2.5"/>
-<vertex x="-2" y="2.5"/>
+<text x="-2.95" y="1.95" size="0.25" layer="51" align="center">A</text>
+<text x="-2.95" y="1.3" size="0.25" layer="51" align="center">B</text>
+<text x="-2.95" y="0.65" size="0.25" layer="51" align="center">C</text>
+<text x="-2.95" y="0" size="0.25" layer="51" align="center">D</text>
+<text x="-2.95" y="-0.65" size="0.25" layer="51" align="center">E</text>
+<text x="-2.95" y="-1.3" size="0.25" layer="51" align="center">F</text>
+<text x="-2.95" y="-1.95" size="0.25" layer="51" align="center">G</text>
+<text x="-1.95" y="3.05" size="0.25" layer="51" align="center">1</text>
+<text x="-1.3" y="3.05" size="0.25" layer="51" align="center">2</text>
+<text x="-0.65" y="3.05" size="0.25" layer="51" align="center">3</text>
+<text x="0" y="3.05" size="0.25" layer="51" align="center">4</text>
+<text x="0.65" y="3.05" size="0.25" layer="51" align="center">5</text>
+<text x="1.3" y="3.05" size="0.25" layer="51" align="center">6</text>
+<text x="1.95" y="3.05" size="0.25" layer="51" align="center">7</text>
+<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.1905" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="-2.6" width="0.1905" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1905" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1905" layer="21"/>
+<polygon width="0.1905" layer="21">
+<vertex x="-2.6" y="1.9"/>
+<vertex x="-2.6" y="2.6"/>
+<vertex x="-1.9" y="2.6"/>
 </polygon>
-<text x="-2.5" y="2.75" size="1.27" layer="21" align="bottom-right">&gt;NAME</text>
+<text x="-2.5" y="-3.35" size="0.508" layer="21">&gt;NAME</text>
+<circle x="-3.1" y="3.1" radius="0.282840625" width="0.1905" layer="21"/>
 </package>
 <package name="TQFP-32">
 <wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
