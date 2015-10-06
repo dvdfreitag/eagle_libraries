@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -113,6 +113,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="26" fill="10" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="27" fill="10" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="28" fill="10" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="29" fill="10" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="30" fill="10" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="31" fill="10" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="32" fill="10" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -496,6 +503,36 @@
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.254" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.254" layer="21"/>
 </package>
+<package name="USOP-8">
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<rectangle x1="1.5" y1="0.8225" x2="2.4525" y2="1.1275" layer="51"/>
+<rectangle x1="1.5" y1="0.1725" x2="2.4525" y2="0.4775" layer="51"/>
+<rectangle x1="1.5" y1="-0.4775" x2="2.4525" y2="-0.1725" layer="51"/>
+<rectangle x1="1.5" y1="-1.1275" x2="2.4525" y2="-0.8225" layer="51"/>
+<rectangle x1="-2.4525" y1="-1.1275" x2="-1.5" y2="-0.8225" layer="51" rot="R180"/>
+<rectangle x1="-2.4525" y1="-0.4775" x2="-1.5" y2="-0.1725" layer="51" rot="R180"/>
+<rectangle x1="-2.4525" y1="0.1725" x2="-1.5" y2="0.4775" layer="51" rot="R180"/>
+<rectangle x1="-2.4525" y1="0.8225" x2="-1.5" y2="1.1275" layer="51" rot="R180"/>
+<smd name="1" x="-2.15" y="0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.15" y="0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="3" x="-2.15" y="-0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="4" x="-2.15" y="-0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
+<smd name="5" x="2.15" y="-0.975" dx="0.4" dy="1.35" layer="1" rot="R270"/>
+<smd name="6" x="2.15" y="-0.325" dx="0.4" dy="1.35" layer="1" rot="R270"/>
+<smd name="7" x="2.15" y="0.325" dx="0.4" dy="1.35" layer="1" rot="R270"/>
+<smd name="8" x="2.15" y="0.975" dx="0.4" dy="1.35" layer="1" rot="R270"/>
+<wire x1="-1.5" y1="1.4" x2="-1.5" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.1905" layer="21"/>
+<wire x1="-1.5" y1="-1.4" x2="-1.5" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.4" width="0.1905" layer="21"/>
+<circle x="-2" y="2" radius="0.1" width="0.5" layer="21"/>
+<text x="-1.3" y="1.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX44009">
@@ -630,6 +667,21 @@
 <wire x1="-10.16" y1="-19.05" x2="-10.16" y2="19.05" width="0.254" layer="94"/>
 <text x="-9.525" y="19.685" size="1.27" layer="95">&gt;NAME</text>
 <text x="-9.525" y="-20.955" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MAX11645">
+<pin name="VDD" x="-11.43" y="3.81" length="short"/>
+<pin name="AIN0" x="11.43" y="2.54" length="short" rot="R180"/>
+<pin name="AIN1" x="11.43" y="0" length="short" rot="R180"/>
+<pin name="REF" x="11.43" y="-2.54" length="short" rot="R180"/>
+<pin name="GND" x="-11.43" y="-3.81" length="short"/>
+<pin name="SCL" x="-11.43" y="1.27" length="short"/>
+<pin name="SDA" x="-11.43" y="-1.27" length="short"/>
+<wire x1="-8.89" y1="5.08" x2="-8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-5.08" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
+<text x="-8.255" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-8.255" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -815,6 +867,27 @@
 <connect gate="G$1" pin="V+" pad="15"/>
 <connect gate="G$1" pin="V-" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX11645" prefix="U">
+<gates>
+<gate name="G$1" symbol="MAX11645" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EUA+" package="USOP-8">
+<connects>
+<connect gate="G$1" pin="AIN0" pad="1"/>
+<connect gate="G$1" pin="AIN1" pad="2"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="REF" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
