@@ -205,17 +205,16 @@
 <text x="-1.786" y="1.678" size="1.27" layer="21" ratio="12" align="bottom-right">&gt;NAME</text>
 </package>
 <package name="1206">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-2.54" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1016" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="1" y2="-0.8" width="0.1016" layer="51"/>
+<smd name="1" x="-1.5" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="0.508" layer="21" ratio="12">&gt;NAME</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-0.45" y1="0.8" x2="0.45" y2="0.8" width="0.1906" layer="21"/>
+<wire x1="0.45" y1="-0.8" x2="-0.45" y2="-0.8" width="0.1906" layer="21"/>
 </package>
 <package name="RESONATOR_3-SMD">
 <smd name="2" x="0" y="0" dx="0.4" dy="2" layer="1"/>
@@ -1088,6 +1087,43 @@
 <wire x1="-1.5" y1="1.6" x2="1.5" y2="1.6" width="0.1905" layer="21"/>
 <wire x1="-1.5" y1="-1.6" x2="1.5" y2="-1.6" width="0.1905" layer="21"/>
 <text x="-3.3" y="2" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="1812-PTC">
+<wire x1="-2.275" y1="1.62" x2="2.275" y2="1.62" width="0.127" layer="51"/>
+<wire x1="-2.275" y1="-1.62" x2="2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="-2.275" y1="1.62" x2="-2.275" y2="-1.62" width="0.127" layer="51"/>
+<wire x1="2.275" y1="1.62" x2="2.275" y2="-1.62" width="0.127" layer="51"/>
+<rectangle x1="-2.275" y1="-1.62" x2="-1.675" y2="1.62" layer="51"/>
+<rectangle x1="1.675" y1="-1.62" x2="2.275" y2="1.62" layer="51" rot="R180"/>
+<smd name="1" x="-2.615" y="0" dx="3.5" dy="1.78" layer="1" rot="R90"/>
+<smd name="2" x="2.615" y="0" dx="3.5" dy="1.78" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="1.62" x2="1.5" y2="1.62" width="0.1905" layer="21"/>
+<wire x1="-1.5" y1="-1.62" x2="1.5" y2="-1.62" width="0.1905" layer="21"/>
+<text x="-2.7" y="2" size="0.508" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="CAL_ALUMINUM-6.3X7.7">
+<rectangle x1="-0.4" y1="-3.5" x2="0.4" y2="-1.1" layer="51" rot="R180"/>
+<rectangle x1="-0.4" y1="1.1" x2="0.4" y2="3.5" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="2.6" x2="-2.6" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="3.3" x2="2.6" y2="3.3" width="0.127" layer="51"/>
+<wire x1="2.6" y1="3.3" x2="3.3" y2="2.6" width="0.127" layer="51"/>
+<wire x1="3.3" y1="2.6" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="51"/>
+<smd name="+" x="0" y="2.6" dx="1.2" dy="3.4" layer="1"/>
+<smd name="-" x="0" y="-2.6" dx="1.2" dy="3.4" layer="1"/>
+<wire x1="-0.9" y1="3.3" x2="-2.6" y2="3.3" width="0.1906" layer="21"/>
+<wire x1="-2.6" y1="3.3" x2="-3.3" y2="2.6" width="0.1906" layer="21"/>
+<wire x1="-3.3" y1="2.6" x2="-3.3" y2="-3.3" width="0.1906" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-0.9" y2="-3.3" width="0.1906" layer="21"/>
+<wire x1="0.9" y1="-3.3" x2="3.3" y2="-3.3" width="0.1906" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="2.6" width="0.1906" layer="21"/>
+<wire x1="3.3" y1="2.6" x2="2.6" y2="3.3" width="0.1906" layer="21"/>
+<wire x1="2.6" y1="3.3" x2="0.9" y2="3.3" width="0.1906" layer="21"/>
+<circle x="0" y="0" radius="3.15" width="0.1906" layer="51"/>
+<wire x1="1.5" y1="4.75" x2="1.5" y2="3.75" width="0.1906" layer="21"/>
+<wire x1="1" y1="4.25" x2="2" y2="4.25" width="0.1906" layer="21"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="21" ratio="12" rot="R90">&gt;NAME</text>
 </package>
 <package name="HOLE-4MM">
 <pad name="P$1" x="0" y="0" drill="4" diameter="8"/>
@@ -2250,6 +2286,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-6.3X7.7" package="CAL_ALUMINUM-6.3X7.7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SP4T" prefix="S">
@@ -2401,6 +2446,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -2435,6 +2489,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RF-SHIELD">
@@ -2445,6 +2508,22 @@
 <device name="" package="RF_SHIELD-.65X.65">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTC" prefix="F" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1812" package="1812-PTC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
