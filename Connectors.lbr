@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="4.95" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1434,6 +1434,34 @@
 <wire x1="1.175" y1="-1.85" x2="1.175" y2="-2.55" width="0.127" layer="21"/>
 <text x="-6.2" y="2.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="35RASMT2BHNTRX">
+<description>3.5MM Audio Jack&lt;br&gt;&lt;br&gt;
+
+&lt;a href=http://www.digikey.com/product-detail/en/35RASMT2BHNTRX/SC1489-1-ND/2754494&gt;http://www.digikey.com/product-detail/en/35RASMT2BHNTRX/SC1489-1-ND/2754494&lt;/a&gt;</description>
+<wire x1="0" y1="3" x2="0" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0" y1="2.5" x2="0" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0" y1="-2.5" x2="0" y2="-3" width="0.127" layer="51"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="0" y1="-3" x2="14.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="0" y1="3" x2="14.5" y2="3" width="0.127" layer="51"/>
+<hole x="3.5" y="0" drill="1.6"/>
+<hole x="10.5" y="0" drill="1.6"/>
+<wire x1="0" y1="2.5" x2="-2.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="2.5" x2="-2.5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="0" y1="-2.5" x2="-2.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-2.5" x2="-2.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.25" x2="-2.5" y2="2.25" width="0.127" layer="51"/>
+<smd name="RING" x="2.4" y="-3.675" dx="2.55" dy="2.4" layer="1" rot="R270"/>
+<smd name="L" x="11.7" y="-3.575" dx="2.75" dy="2.9" layer="1" rot="R90"/>
+<smd name="R" x="4.3" y="3.675" dx="2.55" dy="2.4" layer="1" rot="R270"/>
+<wire x1="2.9" y1="3" x2="0.5" y2="3" width="0.1905" layer="21"/>
+<wire x1="1" y1="-3" x2="0.5" y2="-3" width="0.1905" layer="21"/>
+<wire x1="3.8" y1="-3" x2="10" y2="-3" width="0.1905" layer="21"/>
+<wire x1="13.4" y1="-3" x2="14.5" y2="-3" width="0.1905" layer="21"/>
+<wire x1="14.5" y1="-3" x2="14.5" y2="3" width="0.1905" layer="21"/>
+<wire x1="14.5" y1="3" x2="5.7" y2="3" width="0.1905" layer="21"/>
+<text x="5.8" y="3.3" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -1957,6 +1985,25 @@
 <wire x1="3.81" y1="-8.89" x2="10.16" y2="-8.89" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="8.89" y2="-11.43" width="0.1524" layer="94"/>
 <wire x1="8.89" y1="-11.43" x2="10.16" y2="-11.43" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="AUDIO">
+<pin name="RING" x="7.62" y="-3.81" visible="pad" length="short" rot="R180"/>
+<pin name="L" x="7.62" y="-1.27" visible="pad" length="short" rot="R180"/>
+<pin name="R" x="7.62" y="3.81" visible="pad" length="short" rot="R180"/>
+<wire x1="5.08" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="-2.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="-7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="3.81" x2="-10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="94"/>
+<text x="-9.525" y="6.35" size="1.27" layer="95">&gt;NAME</text>
+<text x="-9.525" y="4.445" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2554,6 +2601,23 @@
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AUDIO_JACK" prefix="J">
+<gates>
+<gate name="G$1" symbol="AUDIO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="35RASMT2BHNTRX">
+<connects>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="RING" pad="RING"/>
 </connects>
 <technologies>
 <technology name=""/>
