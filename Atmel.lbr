@@ -1750,6 +1750,84 @@
 <rectangle x1="2.30495" y1="3.25995" x2="2.79515" y2="4.36005" layer="51" rot="R270"/>
 <circle x="-2.54" y="5.08" radius="0.127" width="0.5" layer="21"/>
 </package>
+<package name="QFN-32-5MM">
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="2.1" y1="-0.375" x2="2.5" y2="-0.125" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-0.875" x2="2.5" y2="-0.625" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-1.375" x2="2.5" y2="-1.125" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-1.875" x2="2.5" y2="-1.625" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.125" x2="2.5" y2="0.375" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.625" x2="2.5" y2="0.875" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="1.125" x2="2.5" y2="1.375" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="1.625" x2="2.5" y2="1.875" layer="51" rot="R180"/>
+<rectangle x1="-2.5" y1="0.125" x2="-2.1" y2="0.375" layer="51"/>
+<rectangle x1="-2.5" y1="0.625" x2="-2.1" y2="0.875" layer="51"/>
+<rectangle x1="-2.5" y1="1.125" x2="-2.1" y2="1.375" layer="51"/>
+<rectangle x1="-2.5" y1="1.625" x2="-2.1" y2="1.875" layer="51"/>
+<rectangle x1="-2.5" y1="-0.375" x2="-2.1" y2="-0.125" layer="51"/>
+<rectangle x1="-2.5" y1="-0.875" x2="-2.1" y2="-0.625" layer="51"/>
+<rectangle x1="-2.5" y1="-1.375" x2="-2.1" y2="-1.125" layer="51"/>
+<rectangle x1="-2.5" y1="-1.875" x2="-2.1" y2="-1.625" layer="51"/>
+<rectangle x1="-0.45" y1="-2.425" x2="-0.05" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="-0.95" y1="-2.425" x2="-0.55" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="-1.45" y1="-2.425" x2="-1.05" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="-2.425" x2="-1.55" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="0.05" y1="-2.425" x2="0.45" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="0.55" y1="-2.425" x2="0.95" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="1.05" y1="-2.425" x2="1.45" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="1.55" y1="-2.425" x2="1.95" y2="-2.175" layer="51" rot="R90"/>
+<rectangle x1="0.05" y1="2.175" x2="0.45" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="0.55" y1="2.175" x2="0.95" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="1.05" y1="2.175" x2="1.45" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="1.55" y1="2.175" x2="1.95" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="-0.45" y1="2.175" x2="-0.05" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="-0.95" y1="2.175" x2="-0.55" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="2.175" x2="-1.05" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="-1.95" y1="2.175" x2="-1.55" y2="2.425" layer="51" rot="R270"/>
+<rectangle x1="-1.8" y1="-1.8" x2="1.8" y2="1.8" layer="51"/>
+<smd name="28" x="0.25" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="27" x="0.75" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="26" x="1.25" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="25" x="1.75" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="29" x="-0.25" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="30" x="-0.75" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="31" x="-1.25" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="32" x="-1.75" y="2.3" dx="0.25" dy="0.4" layer="1"/>
+<smd name="4" x="-2.3" y="0.25" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="-2.3" y="0.75" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-2.3" y="1.25" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-2.3" y="1.75" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-2.3" y="-0.25" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-2.3" y="-0.75" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-2.3" y="-1.25" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="-2.3" y="-1.75" dx="0.25" dy="0.4" layer="1" rot="R90"/>
+<smd name="12" x="-0.25" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="11" x="-0.75" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="10" x="-1.25" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="9" x="-1.75" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="13" x="0.25" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="14" x="0.75" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="15" x="1.25" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="16" x="1.75" y="-2.3" dx="0.25" dy="0.4" layer="1" rot="R180"/>
+<smd name="20" x="2.3" y="-0.25" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="19" x="2.3" y="-0.75" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="18" x="2.3" y="-1.25" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="17" x="2.3" y="-1.75" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="21" x="2.3" y="0.25" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="22" x="2.3" y="0.75" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="23" x="2.3" y="1.25" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="24" x="2.3" y="1.75" dx="0.25" dy="0.4" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="3.6" dy="3.6" layer="1"/>
+<wire x1="-2.75" y1="2.75" x2="2.75" y2="2.75" width="0.1905" layer="21"/>
+<wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.1905" layer="21"/>
+<wire x1="2.75" y1="-2.75" x2="-2.75" y2="-2.75" width="0.1905" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="2.75" width="0.1905" layer="21"/>
+<circle x="-3.05" y="3.05" radius="0.1" width="0.254" layer="21"/>
+<text x="-2.6" y="3.05" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATXMEGA32A4U">
@@ -4539,6 +4617,45 @@
 <connects>
 <connect gate="G$1" pin="!RESET" pad="26"/>
 <connect gate="G$1" pin="GND@1" pad="10"/>
+<connect gate="G$1" pin="GND@2" pad="28"/>
+<connect gate="G$1" pin="PA00/SERCOM1[0]/TCC2_WO[0]" pad="1"/>
+<connect gate="G$1" pin="PA01/SERCOM1[1]/TCC2_WO[1]" pad="2"/>
+<connect gate="G$1" pin="PA02/AIN[00]/Y[0]/VOUT" pad="3"/>
+<connect gate="G$1" pin="PA03/AIN[01]/Y[1]/VREFA" pad="4"/>
+<connect gate="G$1" pin="PA04/AIN[04]/Y[2]/VREFB/SERCOM0[0]/TCC0_WO[0]" pad="5"/>
+<connect gate="G$1" pin="PA05/AIN[05]/Y[2]/SERCOM0[1]/TCC0_WO[1]" pad="6"/>
+<connect gate="G$1" pin="PA06/AIN[06]/Y[4]/SERCOM0[2]/TCC1_WO[0]" pad="7"/>
+<connect gate="G$1" pin="PA07/AIN[07]/Y[5]/SERCOM0[3]/TCC1_WO[1]/I2S_SD[0]" pad="8"/>
+<connect gate="G$1" pin="PA08/AIN[16]/X[0]/SERCOM0[0]/TCC1_WO[2]/I2S_SD[1]" pad="11"/>
+<connect gate="G$1" pin="PA09/AIN[17]/X[1]/SERCOM0[1]/TCC1_WO[3]/I2S_MCK" pad="12"/>
+<connect gate="G$1" pin="PA10/AIN[18]/X[2]/SERCOM0[2]/TCC1_WO[0]/I2S_SCK" pad="13"/>
+<connect gate="G$1" pin="PA11/AIN[19]/X[3]/SERCOM0[3]/TCC1_WO[1]/IS2_FS" pad="14"/>
+<connect gate="G$1" pin="PA14/SERCOM2[2]/TCC0_WO[4]" pad="15"/>
+<connect gate="G$1" pin="PA15/SERCOM2[3]/TCC0_WO[5]" pad="16"/>
+<connect gate="G$1" pin="PA16/SERCOM1[0]/TCC0_WO[6]/X[4]" pad="17"/>
+<connect gate="G$1" pin="PA17/SERCOM1[1]/TCC0_WO[7]/X[5]" pad="18"/>
+<connect gate="G$1" pin="PA18/SERCOM1[2]/TCC0_WO[2]/X[6]" pad="19"/>
+<connect gate="G$1" pin="PA19/SERCOM1[3]/TCC0_WO[3]/X[7]" pad="20"/>
+<connect gate="G$1" pin="PA22/SERCOM3[0]/TCC0_WO[4]/X[10]" pad="21"/>
+<connect gate="G$1" pin="PA23/SERCOM3[1]/TCC0_WO[5]/X[11]" pad="22"/>
+<connect gate="G$1" pin="PA24/SERCOM3[2]/TCC1_WO[2]/USB_D-" pad="23"/>
+<connect gate="G$1" pin="PA25/SERCOM3[3]/TCC1_WO[3]/USB_D+" pad="24"/>
+<connect gate="G$1" pin="PA27" pad="25"/>
+<connect gate="G$1" pin="PA28" pad="27"/>
+<connect gate="G$1" pin="PA30/SWCLK" pad="31"/>
+<connect gate="G$1" pin="PA31/SWDIO" pad="32"/>
+<connect gate="G$1" pin="VDDANA" pad="9"/>
+<connect gate="G$1" pin="VDDCORE" pad="29"/>
+<connect gate="G$1" pin="VDDIN" pad="30"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MU2" package="QFN-32-5MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="26"/>
+<connect gate="G$1" pin="GND@1" pad="10 PAD"/>
 <connect gate="G$1" pin="GND@2" pad="28"/>
 <connect gate="G$1" pin="PA00/SERCOM1[0]/TCC2_WO[0]" pad="1"/>
 <connect gate="G$1" pin="PA01/SERCOM1[1]/TCC2_WO[1]" pad="2"/>
