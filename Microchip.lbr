@@ -2068,7 +2068,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KSZ8041">
+<deviceset name="KSZ8041" prefix="U">
 <gates>
 <gate name="G$1" symbol="KSZ8041" x="0" y="0"/>
 </gates>
