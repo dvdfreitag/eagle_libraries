@@ -1666,6 +1666,98 @@
 <wire x1="6.355" y1="0" x2="-6.355" y2="0" width="0.127" layer="51"/>
 <text x="-6.25" y="-12.75" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="TC2030-IDC">
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<hole x="-2.54" y="0" drill="0.9906"/>
+<hole x="2.54" y="1.016" drill="0.9906"/>
+<hole x="2.54" y="-1.016" drill="0.9906"/>
+<hole x="-2.54" y="2.54" drill="2.3749"/>
+<hole x="0.635" y="2.54" drill="2.3749"/>
+<hole x="0.635" y="-2.54" drill="2.3749"/>
+<hole x="-2.54" y="-2.54" drill="2.3749"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="39"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="39"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="39"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="39"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="39"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="41"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="41"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="41"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="41"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="41"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="43"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="43"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="43"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="43"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="43"/>
+<wire x1="3.0353" y1="3.048" x2="-3.0353" y2="3.048" width="0.127" layer="51"/>
+<wire x1="-3.0353" y1="3.048" x2="-4.2545" y2="1.8288" width="0.127" layer="51" curve="90"/>
+<wire x1="-4.2545" y1="1.8288" x2="-4.2545" y2="-1.8288" width="0.127" layer="51"/>
+<wire x1="3.0353" y1="3.048" x2="4.2545" y2="1.8288" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.2545" y1="-1.8288" x2="-3.0353" y2="-3.048" width="0.127" layer="51" curve="90"/>
+<wire x1="-3.0353" y1="-3.048" x2="3.0353" y2="-3.048" width="0.127" layer="51"/>
+<wire x1="3.0353" y1="-3.048" x2="4.2545" y2="-1.8288" width="0.127" layer="51" curve="90"/>
+<wire x1="4.2545" y1="-1.8288" x2="4.2545" y2="1.8288" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="-1.3952375" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-1.3952375" y1="-1.905" x2="-1.747471875" y2="-1.798353125" width="0.127" layer="51" curve="-33.689989"/>
+<wire x1="-1.747471875" y1="-1.798353125" x2="-3.01625" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="-3.01625" y1="-0.9525" x2="-3.01625" y2="0.9525" width="0.127" layer="51" curve="-112.619865"/>
+<wire x1="-3.01625" y1="0.9525" x2="-1.747471875" y2="1.798353125" width="0.127" layer="51"/>
+<wire x1="-1.747471875" y1="1.798353125" x2="-1.3952375" y2="1.905" width="0.127" layer="51" curve="-33.689989"/>
+<wire x1="-1.3952375" y1="1.905" x2="2.54" y2="1.905" width="0.127" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="0.9525" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.4925" y1="0.9525" x2="3.4925" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="-0.9525" x2="2.54" y2="-1.905" width="0.127" layer="51" curve="-90"/>
+</package>
+<package name="TC2030-ICD-NL">
+<smd name="4" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<hole x="-2.54" y="0" drill="0.9906"/>
+<hole x="2.54" y="1.016" drill="0.9906"/>
+<hole x="2.54" y="-1.016" drill="0.9906"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="39"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="39"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="39"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="39"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="39"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="41"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="41"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="41"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="41"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="41"/>
+<rectangle x1="-1.27" y1="-0.127" x2="1.27" y2="0.127" layer="43"/>
+<rectangle x1="0.508" y1="0.127" x2="0.762" y2="0.635" layer="43"/>
+<rectangle x1="0.508" y1="-0.635" x2="0.762" y2="-0.127" layer="43"/>
+<rectangle x1="-0.762" y1="-0.635" x2="-0.508" y2="-0.127" layer="43"/>
+<rectangle x1="-0.762" y1="0.127" x2="-0.508" y2="0.635" layer="43"/>
+<wire x1="2.54" y1="-1.905" x2="-1.3952375" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-1.3952375" y1="-1.905" x2="-1.747471875" y2="-1.798353125" width="0.127" layer="51" curve="-33.689989"/>
+<wire x1="-1.747471875" y1="-1.798353125" x2="-3.01625" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="-3.01625" y1="-0.9525" x2="-3.01625" y2="0.9525" width="0.127" layer="51" curve="-112.619865"/>
+<wire x1="-3.01625" y1="0.9525" x2="-1.747471875" y2="1.798353125" width="0.127" layer="51"/>
+<wire x1="-1.747471875" y1="1.798353125" x2="-1.3952375" y2="1.905" width="0.127" layer="51" curve="-33.689989"/>
+<wire x1="-1.3952375" y1="1.905" x2="2.54" y2="1.905" width="0.127" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="0.9525" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.4925" y1="0.9525" x2="3.4925" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="-0.9525" x2="2.54" y2="-1.905" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.953" y1="-1.8288" x2="-4.953" y2="1.8288" width="0.127" layer="51"/>
+<wire x1="-4.953" y1="1.8288" x2="-3.7338" y2="3.048" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3.7338" y1="3.048" x2="3.7338" y2="3.048" width="0.127" layer="51"/>
+<wire x1="-4.953" y1="-1.8288" x2="-3.7338" y2="-3.048" width="0.127" layer="51" curve="90"/>
+<wire x1="-3.7338" y1="-3.048" x2="3.7338" y2="-3.048" width="0.127" layer="51"/>
+<wire x1="3.7338" y1="3.048" x2="4.953" y2="1.8288" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.7338" y1="-3.048" x2="4.953" y2="-1.8288" width="0.127" layer="51" curve="90"/>
+<wire x1="4.953" y1="-1.8288" x2="4.953" y2="1.8288" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -3082,6 +3174,39 @@
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC2030" prefix="U">
+<gates>
+<gate name="G$1" symbol="M03X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-IDC" package="TC2030-IDC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IDC-NL" package="TC2030-ICD-NL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
