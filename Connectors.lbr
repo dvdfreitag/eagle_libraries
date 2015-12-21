@@ -1758,6 +1758,47 @@
 <wire x1="3.7338" y1="-3.048" x2="4.953" y2="-1.8288" width="0.127" layer="51" curve="90"/>
 <wire x1="4.953" y1="-1.8288" x2="4.953" y2="1.8288" width="0.127" layer="51"/>
 </package>
+<package name="1001-011-01101">
+<wire x1="6.025" y1="-4" x2="6.025" y2="-2" width="0.127" layer="51"/>
+<wire x1="6.025" y1="-2" x2="6.025" y2="0.1" width="0.127" layer="51"/>
+<wire x1="6.025" y1="0.1" x2="6.025" y2="14.8" width="0.127" layer="51"/>
+<wire x1="6.025" y1="-4" x2="5.375" y2="-4" width="0.127" layer="51"/>
+<wire x1="5.375" y1="-4" x2="-5.375" y2="-4" width="0.127" layer="51"/>
+<wire x1="-5.375" y1="-4" x2="-6.025" y2="-4" width="0.127" layer="51"/>
+<wire x1="-6.025" y1="-4" x2="-6.025" y2="-2" width="0.127" layer="51"/>
+<wire x1="-6.025" y1="-2" x2="-6.025" y2="0.1" width="0.127" layer="51"/>
+<wire x1="-6.025" y1="0.1" x2="-6.025" y2="14.8" width="0.127" layer="51"/>
+<wire x1="6.025" y1="14.8" x2="-6.025" y2="14.8" width="0.127" layer="51"/>
+<wire x1="6.025" y1="0.1" x2="-6.025" y2="0.1" width="0.127" layer="51"/>
+<wire x1="6.025" y1="-2" x2="5.375" y2="-2" width="0.127" layer="51"/>
+<hole x="-2.3" y="-3" drill="1.1"/>
+<hole x="2.3" y="-3" drill="1.1"/>
+<pad name="P$1" x="5.7" y="-3" drill="2.5" rot="R180"/>
+<pad name="P$2" x="-5.7" y="-3" drill="2.5" rot="R180"/>
+<wire x1="-5.375" y1="-2" x2="-6.025" y2="-2" width="0.127" layer="51"/>
+<wire x1="5.375" y1="-4" x2="5.375" y2="-2" width="0.127" layer="51"/>
+<wire x1="-5.375" y1="-4" x2="-5.375" y2="-2" width="0.127" layer="51"/>
+<smd name="D+" x="1" y="-5.75" dx="1.1" dy="2.5" layer="1" rot="R180"/>
+<rectangle x1="-1.4" y1="-6.5" x2="-0.6" y2="-4" layer="51"/>
+<rectangle x1="0.6" y1="-6.5" x2="1.4" y2="-4" layer="51"/>
+<rectangle x1="-3.9" y1="-6.5" x2="-3.1" y2="-4" layer="51"/>
+<rectangle x1="3.1" y1="-6.5" x2="3.9" y2="-4" layer="51"/>
+<smd name="D-" x="-1" y="-5.75" dx="1.1" dy="2.5" layer="1" rot="R180"/>
+<smd name="VBUS" x="-3.5" y="-5.75" dx="1.1" dy="2.5" layer="1" rot="R180"/>
+<smd name="GND" x="3.5" y="-5.75" dx="1.1" dy="2.5" layer="1" rot="R180"/>
+<wire x1="4.025" y1="9.8" x2="1.025" y2="9.8" width="0.127" layer="51"/>
+<wire x1="-0.975" y1="9.8" x2="-3.975" y2="9.8" width="0.127" layer="51"/>
+<wire x1="4.025" y1="7.8" x2="1.025" y2="7.8" width="0.127" layer="51"/>
+<wire x1="-0.975" y1="7.8" x2="-3.975" y2="7.8" width="0.127" layer="51"/>
+<wire x1="4.025" y1="7.8" x2="4.025" y2="9.8" width="0.127" layer="51"/>
+<wire x1="1.025" y1="7.8" x2="1.025" y2="9.8" width="0.127" layer="51"/>
+<wire x1="-0.975" y1="7.8" x2="-0.975" y2="9.8" width="0.127" layer="51"/>
+<wire x1="-3.975" y1="7.8" x2="-3.975" y2="9.8" width="0.127" layer="51"/>
+<text x="4.4" y="-6.4" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.1905" layer="21"/>
+<wire x1="-6.025" y1="-1.05" x2="-6.025" y2="-0.1" width="0.1905" layer="21"/>
+<wire x1="6.025" y1="-0.1" x2="6.025" y2="-1.05" width="0.1905" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -2979,6 +3020,19 @@
 <connect gate="G$1" pin="P$1" pad="P$5 P$7"/>
 <connect gate="G$1" pin="P$2" pad="P$6 P$8"/>
 <connect gate="G$1" pin="VBUS" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-MALE-SMT2" package="1001-011-01101">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
