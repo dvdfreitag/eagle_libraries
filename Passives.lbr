@@ -3513,6 +3513,27 @@
 <text x="1.27" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SIGNAL" x="0" y="0" visible="off" length="short" rot="R90"/>
 </symbol>
+<symbol name="15V">
+<pin name="15V" x="0" y="0" visible="off" length="point" direction="sup"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.635" y2="1.5875" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.635" y2="1.5875" width="0.1524" layer="94"/>
+<text x="0" y="3.175" size="1.778" layer="97" align="bottom-center">15V</text>
+</symbol>
+<symbol name="-15V">
+<pin name="-15V" x="0" y="0" visible="off" length="point" direction="sup"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.635" y2="1.5875" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.635" y2="1.5875" width="0.1524" layer="94"/>
+<text x="0" y="3.175" size="1.778" layer="97" align="bottom-center">-15V</text>
+</symbol>
+<symbol name="24V">
+<pin name="24V" x="0" y="0" visible="off" length="point" direction="sup"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.635" y2="1.5875" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.635" y2="1.5875" width="0.1524" layer="94"/>
+<text x="0" y="3.175" size="1.778" layer="97" align="bottom-center">24V</text>
+</symbol>
 <symbol name="RPI">
 <rectangle x1="-0.3683" y1="-9.0805" x2="0.4191" y2="-9.0551" layer="94"/>
 <rectangle x1="-0.5207" y1="-9.0551" x2="0.5969" y2="-9.0297" layer="94"/>
@@ -7375,6 +7396,42 @@
 <deviceset name="12V" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="15V" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="15V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-15V" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="-15V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="24V" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="24V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
