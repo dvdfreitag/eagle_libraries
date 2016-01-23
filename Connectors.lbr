@@ -1896,6 +1896,19 @@
 <text x="0" y="1" size="0.635" layer="51" ratio="12" align="bottom-center">WIRE</text>
 <text x="-4.5" y="-5.5" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="M03">
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<text x="-3.4925" y="1.5875" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
 <package name="RJ11-VERT">
 <hole x="5.08" y="0" drill="3.25"/>
 <hole x="-5.08" y="0" drill="3.25"/>
@@ -2682,6 +2695,17 @@
 <wire x1="-3.81" y1="-8.89" x2="-3.81" y2="8.89" width="0.254" layer="94"/>
 <text x="-3.175" y="9.525" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.175" y="-10.795" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="M03">
+<pin name="1" x="-5.08" y="2.54" length="short"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<text x="-1.905" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<pin name="2" x="-5.08" y="0" length="short"/>
+<text x="-1.905" y="-5.715" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="3" x="-5.08" y="-2.54" length="short"/>
 </symbol>
 <symbol name="RJ11-RS232">
 <pin name="DTR" x="-2.54" y="6.35" length="short"/>
@@ -3631,6 +3655,23 @@
 <connect gate="G$1" pin="GND@2" pad="5"/>
 <connect gate="G$1" pin="RXD" pad="4"/>
 <connect gate="G$1" pin="TXD" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M03" prefix="J">
+<gates>
+<gate name="G$1" symbol="M03" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="M03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

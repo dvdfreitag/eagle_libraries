@@ -1827,6 +1827,19 @@
 <text x="-8.255" y="3.175" size="1.27" layer="95">&gt;NAME</text>
 <text x="-8.255" y="-4.445" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="MIC2251">
+<pin name="SW" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="FB" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="EN/DITH" x="-10.16" y="0" length="short"/>
+<pin name="VIN" x="-10.16" y="2.54" length="short"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-3.81" x2="7.62" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-3.81" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="-7.62" y2="3.81" width="0.254" layer="94"/>
+<text x="-6.985" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-5.715" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OP_AMP" prefix="U" uservalue="yes">
@@ -2129,6 +2142,39 @@
 </gates>
 <devices>
 <device name="T-E/SO" package="SOIC-28-W">
+<connects>
+<connect gate="G$1" pin="!INTA" pad="20"/>
+<connect gate="G$1" pin="!INTB" pad="19"/>
+<connect gate="G$1" pin="!RESET" pad="18"/>
+<connect gate="G$1" pin="A0" pad="15"/>
+<connect gate="G$1" pin="A1" pad="16"/>
+<connect gate="G$1" pin="A2" pad="17"/>
+<connect gate="G$1" pin="GPA0" pad="21"/>
+<connect gate="G$1" pin="GPA1" pad="22"/>
+<connect gate="G$1" pin="GPA2" pad="23"/>
+<connect gate="G$1" pin="GPA3" pad="24"/>
+<connect gate="G$1" pin="GPA4" pad="25"/>
+<connect gate="G$1" pin="GPA5" pad="26"/>
+<connect gate="G$1" pin="GPA6" pad="27"/>
+<connect gate="G$1" pin="GPA7" pad="28"/>
+<connect gate="G$1" pin="GPB0" pad="1"/>
+<connect gate="G$1" pin="GPB1" pad="2"/>
+<connect gate="G$1" pin="GPB2" pad="3"/>
+<connect gate="G$1" pin="GPB3" pad="4"/>
+<connect gate="G$1" pin="GPB4" pad="5"/>
+<connect gate="G$1" pin="GPB5" pad="6"/>
+<connect gate="G$1" pin="GPB6" pad="7"/>
+<connect gate="G$1" pin="GPB7" pad="8"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="13"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VSS" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T-E/SS" package="SSOP-28">
 <connects>
 <connect gate="G$1" pin="!INTA" pad="20"/>
 <connect gate="G$1" pin="!INTB" pad="19"/>
@@ -2634,6 +2680,25 @@
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC2251" prefix="U">
+<gates>
+<gate name="G$1" symbol="MIC2251" x="0" y="0"/>
+</gates>
+<devices>
+<device name="YML" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN/DITH" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
