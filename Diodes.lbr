@@ -581,6 +581,20 @@
 <text x="-3.175" y="8.255" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.175" y="-9.525" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ZENER">
+<pin name="A" x="-3.81" y="0" visible="off" length="short"/>
+<pin name="C" x="3.81" y="0" visible="off" length="short" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+<vertex x="1.27" y="0"/>
+</polygon>
+<wire x1="1.905" y1="1.5875" x2="1.27" y2="0.9525" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.9525" x2="1.27" y2="-0.9525" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.9525" x2="0.635" y2="-1.5875" width="0.1524" layer="94"/>
+<text x="-3.81" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="1.905" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AP2161DM8G-13" prefix="U">
@@ -814,6 +828,22 @@
 </gates>
 <devices>
 <device name="S1-7" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BZT52C" prefix="D">
+<gates>
+<gate name="G$1" symbol="ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3V0-7-F" package="SOD123">
 <connects>
 <connect gate="G$1" pin="A" pad="ANODE"/>
 <connect gate="G$1" pin="C" pad="CATHODE"/>
