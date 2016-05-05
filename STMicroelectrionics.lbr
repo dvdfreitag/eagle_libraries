@@ -501,6 +501,26 @@
 <text x="-6.985" y="10.795" size="1.27" layer="95">&gt;NAME</text>
 <text x="-6.985" y="-12.065" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="NPN">
+<pin name="B" x="-3.81" y="0" visible="off" length="short"/>
+<pin name="C" x="0" y="3.81" visible="off" length="point" rot="R270"/>
+<pin name="E" x="0" y="-3.81" visible="off" length="point" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.508" y="-0.889"/>
+<vertex x="-1.016" y="-1.397"/>
+<vertex x="-0.254" y="-1.651"/>
+</polygon>
+<text x="3.175" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ST3232" prefix="U">
@@ -687,6 +707,23 @@
 <connect gate="G$1" pin="GND" pad="TAB"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STD1802T4" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="TAB"/>
+<connect gate="G$1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

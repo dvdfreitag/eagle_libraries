@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="R6800U-01">
+<circle x="0" y="0" radius="14.605" width="0.254" layer="21"/>
+<text x="-3.05" y="8.33" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="18.5" y1="-17.4" x2="18.5" y2="17.4" width="0.254" layer="21"/>
+<wire x1="-18.5" y1="17.4" x2="18.5" y2="17.4" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="14.605" width="0" layer="42"/>
+<pad name="P$2" x="-13.97" y="12.7" drill="3.5179" diameter="6.985" rot="R90"/>
+<pad name="P$4" x="-13.97" y="10.074275" drill="0.635"/>
+<pad name="P$5" x="-12.657140625" y="10.42605625" drill="0.635" rot="R30"/>
+<pad name="P$6" x="-11.69605625" y="11.3871375" drill="0.635" rot="R60"/>
+<pad name="P$7" x="-11.344278125" y="12.7" drill="0.635" rot="R90"/>
+<pad name="P$8" x="-11.69605625" y="14.012859375" drill="0.635" rot="R120"/>
+<pad name="P$9" x="-12.6571375" y="14.973940625" drill="0.635" rot="R150"/>
+<pad name="P$10" x="-13.97" y="15.325721875" drill="0.635" rot="R180"/>
+<pad name="P$11" x="-15.282859375" y="14.973940625" drill="0.635" rot="R210"/>
+<pad name="P$12" x="-16.24394375" y="14.0128625" drill="0.635" rot="R240"/>
+<pad name="P$13" x="-16.595721875" y="12.7" drill="0.635" rot="R270"/>
+<pad name="P$14" x="-16.24394375" y="11.387140625" drill="0.635" rot="R300"/>
+<pad name="P$15" x="-15.282859375" y="10.426059375" drill="0.635" rot="R330"/>
+<pad name="P$16" x="13.97" y="-12.7" drill="3.5179" diameter="6.985" rot="R90"/>
+<pad name="P$17" x="13.97" y="-15.325725" drill="0.635"/>
+<pad name="P$18" x="15.282859375" y="-14.97394375" drill="0.635" rot="R30"/>
+<pad name="P$19" x="16.24394375" y="-14.0128625" drill="0.635" rot="R60"/>
+<pad name="P$20" x="16.595721875" y="-12.7" drill="0.635" rot="R90"/>
+<pad name="P$21" x="16.24394375" y="-11.387140625" drill="0.635" rot="R120"/>
+<pad name="P$22" x="15.2828625" y="-10.426059375" drill="0.635" rot="R150"/>
+<pad name="P$23" x="13.97" y="-10.074278125" drill="0.635" rot="R180"/>
+<pad name="P$24" x="12.657140625" y="-10.426059375" drill="0.635" rot="R210"/>
+<pad name="P$25" x="11.69605625" y="-11.3871375" drill="0.635" rot="R240"/>
+<pad name="P$26" x="11.344278125" y="-12.7" drill="0.635" rot="R270"/>
+<pad name="P$27" x="11.69605625" y="-14.012859375" drill="0.635" rot="R300"/>
+<pad name="P$28" x="12.657140625" y="-14.973940625" drill="0.635" rot="R330"/>
+<circle x="0" y="0" radius="7.95" width="0.254" layer="21"/>
+<circle x="5.08" y="0" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="0" radius="4.7" width="0.254" layer="51"/>
+<circle x="5.08" y="2.54" radius="0.45" width="0" layer="51"/>
+<circle x="5.08" y="-2.54" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="2.54" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="2.54" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-2.54" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-2.54" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="0" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="2.54" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="-2.54" radius="0.45" width="0" layer="51"/>
+<pad name="A" x="5.08" y="2.54" drill="1.3" shape="square" rot="R270"/>
+<pad name="P$3" x="5.08" y="0" drill="1.3" rot="R270"/>
+<pad name="P$29" x="5.08" y="-2.54" drill="1.3" rot="R270"/>
+<pad name="P$30" x="0" y="-5.08" drill="1.3" rot="R270"/>
+<pad name="P$31" x="-2.54" y="-5.08" drill="1.3" rot="R270"/>
+<pad name="P$32" x="-5.08" y="-2.54" drill="1.3" rot="R270"/>
+<pad name="P$33" x="-5.08" y="0" drill="1.3" rot="R270"/>
+<pad name="C" x="-2.54" y="5.08" drill="1.3" rot="R270"/>
+<pad name="P$35" x="0" y="5.08" drill="1.3" rot="R270"/>
+<pad name="P$36" x="2.54" y="5.08" drill="1.3" rot="R270"/>
+<circle x="0" y="0" radius="4" width="0" layer="51"/>
+<circle x="0" y="0" radius="3" width="0" layer="43"/>
+<circle x="0" y="0" radius="3" width="0" layer="40"/>
+<circle x="2.54" y="2.54" radius="0.1" width="0.5" layer="22"/>
+</package>
+<package name="R6800U-01-NOSILK">
+<text x="-3.05" y="8.33" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<circle x="0" y="0" radius="7.95" width="0.254" layer="21"/>
+<circle x="5.08" y="0" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="0" radius="4.7" width="0.254" layer="51"/>
+<circle x="5.08" y="2.54" radius="0.45" width="0" layer="51"/>
+<circle x="5.08" y="-2.54" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="0" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="2.54" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="2.54" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-2.54" y="-5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-2.54" y="5.08" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="0" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="2.54" radius="0.45" width="0" layer="51"/>
+<circle x="-5.08" y="-2.54" radius="0.45" width="0" layer="51"/>
+<pad name="A" x="5.08" y="2.54" drill="1.3" shape="square" rot="R270"/>
+<pad name="P$3" x="5.08" y="0" drill="1.3" rot="R270"/>
+<pad name="P$29" x="5.08" y="-2.54" drill="1.3" rot="R270"/>
+<pad name="P$30" x="0" y="-5.08" drill="1.3" rot="R270"/>
+<pad name="P$31" x="-2.54" y="-5.08" drill="1.3" rot="R270"/>
+<pad name="P$32" x="-5.08" y="-2.54" drill="1.3" rot="R270"/>
+<pad name="P$33" x="-5.08" y="0" drill="1.3" rot="R270"/>
+<pad name="C" x="-2.54" y="5.08" drill="1.3" rot="R270"/>
+<pad name="P$35" x="0" y="5.08" drill="1.3" rot="R270"/>
+<pad name="P$36" x="2.54" y="5.08" drill="1.3" rot="R270"/>
+<circle x="0" y="0" radius="4" width="0" layer="51"/>
+<circle x="0" y="0" radius="3" width="0" layer="43"/>
+<circle x="0" y="0" radius="3" width="0" layer="40"/>
+<circle x="2.54" y="2.54" radius="0.1" width="0.5" layer="22"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PHOTODIODE">
+<pin name="A" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.905" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0.635" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<text x="3.81" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="R6800U-01" prefix="S">
+<gates>
+<gate name="G$1" symbol="PHOTODIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R6800U-01">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-NOSILK" package="R6800U-01-NOSILK">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
