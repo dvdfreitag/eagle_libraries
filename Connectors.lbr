@@ -2513,6 +2513,65 @@
 <rectangle x1="0.55" y1="2.1" x2="0.75" y2="2.7" layer="51"/>
 <rectangle x1="1.2" y1="2.1" x2="1.4" y2="2.7" layer="51"/>
 </package>
+<package name="M05X2-50MIL-SHROUD">
+<pad name="1" x="-2.54" y="-0.635" drill="0.7" diameter="1" shape="square"/>
+<pad name="2" x="-2.54" y="0.635" drill="0.7" diameter="1"/>
+<pad name="3" x="-1.27" y="-0.635" drill="0.7" diameter="1"/>
+<pad name="4" x="-1.27" y="0.635" drill="0.7" diameter="1"/>
+<pad name="5" x="0" y="-0.635" drill="0.7" diameter="1"/>
+<pad name="6" x="0" y="0.635" drill="0.7" diameter="1"/>
+<pad name="7" x="1.27" y="-0.635" drill="0.7" diameter="1"/>
+<pad name="8" x="1.27" y="0.635" drill="0.7" diameter="1"/>
+<pad name="9" x="2.54" y="-0.635" drill="0.7" diameter="1"/>
+<pad name="10" x="2.54" y="0.635" drill="0.7" diameter="1"/>
+<wire x1="6.325" y1="2.55" x2="6.325" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="-6.325" y1="2.55" x2="-6.325" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="-6.325" y1="2.55" x2="6.325" y2="2.55" width="0.1905" layer="21"/>
+<wire x1="-6.325" y1="-2.55" x2="-1.175" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="-1.175" y1="-2.55" x2="1.175" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="1.175" y1="-2.55" x2="6.325" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="-5.625" y1="1.85" x2="5.625" y2="1.85" width="0.1905" layer="21"/>
+<wire x1="-5.625" y1="-1.85" x2="-1.175" y2="-1.85" width="0.1905" layer="21"/>
+<wire x1="-1.175" y1="-1.85" x2="1.175" y2="-1.85" width="0.1905" layer="21"/>
+<wire x1="1.175" y1="-1.85" x2="5.625" y2="-1.85" width="0.1905" layer="21"/>
+<wire x1="-5.625" y1="1.85" x2="-5.625" y2="-1.85" width="0.1905" layer="21"/>
+<wire x1="5.625" y1="1.85" x2="5.625" y2="-1.85" width="0.1905" layer="21"/>
+<wire x1="-1.175" y1="-1.85" x2="-1.175" y2="-2.55" width="0.1905" layer="21"/>
+<wire x1="1.175" y1="-1.85" x2="1.175" y2="-2.55" width="0.1905" layer="21"/>
+<text x="-6.2" y="2.8" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="10118192-0001LF">
+<wire x1="0" y1="-3.75" x2="0" y2="3.75" width="0.127" layer="51"/>
+<wire x1="-5.05" y1="-3.75" x2="-5.05" y2="3.75" width="0.127" layer="51"/>
+<wire x1="-5.05" y1="-3.75" x2="0" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-5.05" y1="3.75" x2="0" y2="3.75" width="0.127" layer="51"/>
+<rectangle x1="-0.475" y1="-0.425" x2="-0.275" y2="0.425" layer="51" rot="R90"/>
+<rectangle x1="-0.475" y1="0.225" x2="-0.275" y2="1.075" layer="51" rot="R90"/>
+<rectangle x1="-0.475" y1="0.875" x2="-0.275" y2="1.725" layer="51" rot="R90"/>
+<rectangle x1="-0.475" y1="-1.075" x2="-0.275" y2="-0.225" layer="51" rot="R90"/>
+<rectangle x1="-0.475" y1="-1.725" x2="-0.275" y2="-0.875" layer="51" rot="R90"/>
+<smd name="3" x="-0.1" y="0" dx="0.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.1" y="0.65" dx="0.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="1" x="-0.1" y="1.3" dx="0.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="-0.1" y="-0.65" dx="0.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="5" x="-0.1" y="-1.3" dx="0.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.35" y="-3.1" dx="2.1" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-3.35" y1="-3.95" x2="-2.45" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="3.95" x2="-2.45" y2="3.95" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="2.45" x2="-3.35" y2="3.95" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-2.45" x2="-3.35" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-2.45" y1="-2.45" x2="-2.45" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-2.45" y1="2.45" x2="-2.45" y2="3.95" width="0.127" layer="51"/>
+<smd name="P$7" x="-0.35" y="3.1" dx="2.1" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$8" x="-2.9" y="1.3" dx="1.9" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$9" x="-2.9" y="-1.3" dx="1.9" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$10" x="-2.9" y="3.8" dx="1.9" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$11" x="-2.9" y="-3.8" dx="1.9" dy="1.8" layer="1" rot="R180"/>
+<wire x1="0.95" y1="4.95" x2="-4.445" y2="4.95" width="0.1905" layer="21"/>
+<wire x1="0.95" y1="4.95" x2="0.95" y2="-4.95" width="0.1905" layer="21"/>
+<wire x1="0.95" y1="-4.95" x2="-4.445" y2="-4.95" width="0.1905" layer="21"/>
+<text x="-4.191" y="5.207" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -3517,6 +3576,18 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-3" package="10118192-0001LF">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$6 P$7 P$8 P$9 P$10 P$11"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M03X2" prefix="J">
@@ -3912,6 +3983,18 @@
 <device name="-50MIL-SHROUDED" package="M05X2_50MIL_SHROUDED">
 <connects>
 <connect gate="G$1" pin="GND" pad="3 5 9"/>
+<connect gate="G$1" pin="RESET" pad="10"/>
+<connect gate="G$1" pin="SWCLK" pad="4"/>
+<connect gate="G$1" pin="SWDIO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-50MIL-SHROUDED2" package="M05X2-50MIL-SHROUD">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 5"/>
 <connect gate="G$1" pin="RESET" pad="10"/>
 <connect gate="G$1" pin="SWCLK" pad="4"/>
 <connect gate="G$1" pin="SWDIO" pad="2"/>
