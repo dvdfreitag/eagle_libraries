@@ -4239,8 +4239,8 @@
 <text x="-3.175" y="1.905" size="1.27" layer="95" ratio="12">&gt;NAME</text>
 </symbol>
 <symbol name="DIODE">
-<pin name="P$1" x="-3.81" y="0" visible="off" length="short"/>
-<pin name="P$2" x="3.81" y="0" visible="off" length="short" rot="R180"/>
+<pin name="A" x="-3.81" y="0" visible="off" length="short"/>
+<pin name="C" x="3.81" y="0" visible="off" length="short" rot="R180"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-1.27" y="1.27"/>
 <vertex x="1.27" y="0"/>
@@ -8133,8 +8133,8 @@
 <devices>
 <device name="" package="SOD-123">
 <connects>
-<connect gate="G$1" pin="P$1" pad="2"/>
-<connect gate="G$1" pin="P$2" pad="1"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9066,6 +9066,22 @@
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N4148" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W-TP" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
