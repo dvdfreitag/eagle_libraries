@@ -3964,6 +3964,19 @@
 <circle x="0" y="0" radius="1" width="0.1905" layer="21"/>
 <text x="-2.05" y="2.1" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="1210-CAP">
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
+<rectangle x1="1" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
+<rectangle x1="-1.6" y1="-1.25" x2="-1" y2="1.25" layer="51"/>
+<smd name="P$1" x="-1.55" y="0" dx="3" dy="1.5" layer="1" rot="R90"/>
+<smd name="P$2" x="1.55" y="0" dx="3" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-0.55" y1="1.25" x2="0.55" y2="1.25" width="0.1905" layer="21"/>
+<wire x1="-0.55" y1="-1.25" x2="0.55" y2="-1.25" width="0.1905" layer="21"/>
+<text x="-2.159" y="1.778" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -8471,6 +8484,15 @@
 </technologies>
 </device>
 <device name="-PTH" package="CAP-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1210" package="1210-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>

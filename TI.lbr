@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2567,6 +2567,64 @@
 <rectangle x1="1.95" y1="3.3425" x2="3.05" y2="3.6425" layer="51" rot="R180"/>
 <smd name="24" x="2.825" y="3.4925" dx="0.45" dy="1.75" layer="1" rot="R270"/>
 </package>
+<package name="QFN-20-4X4">
+<wire x1="-2.075" y1="2.075" x2="2.075" y2="2.075" width="0.127" layer="51"/>
+<wire x1="2.075" y1="2.075" x2="2.075" y2="-2.075" width="0.127" layer="51"/>
+<wire x1="2.075" y1="-2.075" x2="-2.075" y2="-2.075" width="0.127" layer="51"/>
+<wire x1="-2.075" y1="-2.075" x2="-2.075" y2="2.075" width="0.127" layer="51"/>
+<rectangle x1="1.75" y1="-0.2" x2="2" y2="0.2" layer="51" rot="R90"/>
+<rectangle x1="1.75" y1="0.3" x2="2" y2="0.7" layer="51" rot="R90"/>
+<rectangle x1="1.75" y1="0.8" x2="2" y2="1.2" layer="51" rot="R90"/>
+<rectangle x1="1.75" y1="-0.7" x2="2" y2="-0.3" layer="51" rot="R90"/>
+<rectangle x1="1.75" y1="-1.2" x2="2" y2="-0.8" layer="51" rot="R90"/>
+<rectangle x1="-0.125" y1="1.675" x2="0.125" y2="2.075" layer="51" rot="R180"/>
+<rectangle x1="-0.625" y1="1.675" x2="-0.375" y2="2.075" layer="51" rot="R180"/>
+<rectangle x1="-1.125" y1="1.675" x2="-0.875" y2="2.075" layer="51" rot="R180"/>
+<rectangle x1="0.375" y1="1.675" x2="0.625" y2="2.075" layer="51" rot="R180"/>
+<rectangle x1="0.875" y1="1.675" x2="1.125" y2="2.075" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="-0.2" x2="-1.75" y2="0.2" layer="51" rot="R270"/>
+<rectangle x1="-2" y1="-0.7" x2="-1.75" y2="-0.3" layer="51" rot="R270"/>
+<rectangle x1="-2" y1="-1.2" x2="-1.75" y2="-0.8" layer="51" rot="R270"/>
+<rectangle x1="-2" y1="0.3" x2="-1.75" y2="0.7" layer="51" rot="R270"/>
+<rectangle x1="-2" y1="0.8" x2="-1.75" y2="1.2" layer="51" rot="R270"/>
+<rectangle x1="-0.125" y1="-2.075" x2="0.125" y2="-1.675" layer="51"/>
+<rectangle x1="0.375" y1="-2.075" x2="0.625" y2="-1.675" layer="51"/>
+<rectangle x1="0.875" y1="-2.075" x2="1.125" y2="-1.675" layer="51"/>
+<rectangle x1="-0.625" y1="-2.075" x2="-0.375" y2="-1.675" layer="51"/>
+<rectangle x1="-1.125" y1="-2.075" x2="-0.875" y2="-1.675" layer="51"/>
+<smd name="1" x="-1.975" y="1" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="2" x="-1.975" y="0.5" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="3" x="-1.975" y="0" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="4" x="-1.975" y="-0.5" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="5" x="-1.975" y="-1" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="6" x="-1" y="-1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="7" x="-0.5" y="-1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="8" x="0" y="-1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="9" x="0.5" y="-1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="10" x="1" y="-1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="11" x="1.975" y="-1" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="12" x="1.975" y="-0.5" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="13" x="1.975" y="0" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="14" x="1.975" y="0.5" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="15" x="1.975" y="1" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R90"/>
+<smd name="16" x="1" y="1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="17" x="0.5" y="1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="18" x="0" y="1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="19" x="-0.5" y="1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="20" x="-1" y="1.975" dx="0.28" dy="0.85" layer="1" roundness="75" rot="R180"/>
+<smd name="EP" x="0" y="0" dx="2.7" dy="2.7" layer="1"/>
+<rectangle x1="-1.35" y1="-1.35" x2="1.35" y2="1.35" layer="51"/>
+<circle x="-2.5" y="2.5" radius="0.1" width="0.25" layer="21"/>
+<wire x1="-1.3695" y1="2.075" x2="-2.075" y2="2.075" width="0.1905" layer="21"/>
+<wire x1="-2.075" y1="2.075" x2="-2.075" y2="1.3695" width="0.1905" layer="21"/>
+<wire x1="-1.3695" y1="-2.075" x2="-2.075" y2="-2.075" width="0.1905" layer="21"/>
+<wire x1="-2.075" y1="-2.075" x2="-2.075" y2="-1.3695" width="0.1905" layer="21"/>
+<wire x1="1.3695" y1="-2.075" x2="2.075" y2="-2.075" width="0.1905" layer="21"/>
+<wire x1="2.075" y1="-2.075" x2="2.075" y2="-1.3695" width="0.1905" layer="21"/>
+<wire x1="1.3695" y1="2.075" x2="2.075" y2="2.075" width="0.1905" layer="21"/>
+<wire x1="2.075" y1="2.075" x2="2.075" y2="1.3695" width="0.1905" layer="21"/>
+<text x="-2" y="2.6" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX232">
@@ -3909,6 +3967,34 @@
 <text x="-9.525" y="20.955" size="1.27" layer="95">&gt;NAME</text>
 <text x="-9.525" y="-22.225" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="PCM1774">
+<pin name="MODE" x="12.7" y="13.97" length="short" rot="R180"/>
+<pin name="ADR" x="12.7" y="-6.35" length="short" rot="R180"/>
+<pin name="SDA" x="-12.7" y="-11.43" length="short"/>
+<pin name="SCL" x="-12.7" y="-13.97" length="short"/>
+<pin name="SDIN" x="-12.7" y="0" length="short"/>
+<pin name="VIO" x="-12.7" y="13.97" length="short"/>
+<pin name="VDD" x="-12.7" y="11.43" length="short"/>
+<pin name="DGND" x="12.7" y="-13.97" length="short" rot="R180"/>
+<pin name="MCLK" x="-12.7" y="-5.08" length="short"/>
+<pin name="SCK" x="-12.7" y="-2.54" length="short"/>
+<pin name="AINL" x="12.7" y="1.27" length="short" rot="R180"/>
+<pin name="AINR" x="12.7" y="3.81" length="short" rot="R180"/>
+<pin name="VCC" x="-12.7" y="8.89" length="short"/>
+<pin name="AGND" x="12.7" y="-8.89" length="short" rot="R180"/>
+<pin name="VCOM" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="HPOL" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="HPOR" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="VPA" x="-12.7" y="6.35" length="short"/>
+<pin name="PGND" x="12.7" y="-11.43" length="short" rot="R180"/>
+<pin name="LRCK" x="-12.7" y="-7.62" length="short"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-9.525" y="15.875" size="1.27" layer="95">&gt;NAME</text>
+<text x="-9.525" y="-17.145" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX232" prefix="U">
@@ -5159,6 +5245,40 @@
 <connect gate="G$1" pin="SIN" pad="2"/>
 <connect gate="G$1" pin="SOUT" pad="22"/>
 <connect gate="G$1" pin="VCC" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCM1774" prefix="U">
+<gates>
+<gate name="G$1" symbol="PCM1774" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RGPT" package="QFN-20-4X4">
+<connects>
+<connect gate="G$1" pin="ADR" pad="2"/>
+<connect gate="G$1" pin="AGND" pad="17"/>
+<connect gate="G$1" pin="AINL" pad="20"/>
+<connect gate="G$1" pin="AINR" pad="19"/>
+<connect gate="G$1" pin="DGND" pad="8 EP"/>
+<connect gate="G$1" pin="HPOL" pad="15"/>
+<connect gate="G$1" pin="HPOR" pad="14"/>
+<connect gate="G$1" pin="LRCK" pad="11"/>
+<connect gate="G$1" pin="MCLK" pad="9"/>
+<connect gate="G$1" pin="MODE" pad="1"/>
+<connect gate="G$1" pin="PGND" pad="12"/>
+<connect gate="G$1" pin="SCK" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="SDIN" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="18"/>
+<connect gate="G$1" pin="VCOM" pad="16"/>
+<connect gate="G$1" pin="VDD" pad="7"/>
+<connect gate="G$1" pin="VIO" pad="6"/>
+<connect gate="G$1" pin="VPA" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
