@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -147,54 +147,53 @@
 </polygon>
 </package>
 <package name="QFN-16-3MM">
+<smd name="1" x="-1.45" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-1.45" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-1.45" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.45" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-0.75" y="-1.45" dx="0.3" dy="0.6" layer="1" rot="R180"/>
+<smd name="6" x="-0.25" y="-1.45" dx="0.3" dy="0.6" layer="1" rot="R180"/>
+<smd name="7" x="0.25" y="-1.45" dx="0.3" dy="0.6" layer="1" rot="R180"/>
+<smd name="8" x="0.75" y="-1.45" dx="0.3" dy="0.6" layer="1" rot="R180"/>
+<smd name="9" x="1.45" y="-0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
+<smd name="10" x="1.45" y="-0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
+<smd name="11" x="1.45" y="0.25" dx="0.3" dy="0.6" layer="1" rot="R270"/>
+<smd name="12" x="1.45" y="0.75" dx="0.3" dy="0.6" layer="1" rot="R270"/>
+<smd name="13" x="0.75" y="1.45" dx="0.3" dy="0.6" layer="1"/>
+<smd name="14" x="0.25" y="1.45" dx="0.3" dy="0.6" layer="1"/>
+<smd name="15" x="-0.25" y="1.45" dx="0.3" dy="0.6" layer="1"/>
+<smd name="16" x="-0.75" y="1.45" dx="0.3" dy="0.6" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="1.8" dy="1.8" layer="1"/>
+<rectangle x1="-1.45" y1="0.075" x2="-1.2" y2="0.425" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-0.425" x2="-1.2" y2="-0.075" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="0.575" x2="-1.2" y2="0.925" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-0.925" x2="-1.2" y2="-0.575" layer="51" rot="R270"/>
+<rectangle x1="-0.375" y1="-1.5" x2="-0.125" y2="-1.15" layer="51"/>
+<rectangle x1="0.125" y1="-1.5" x2="0.375" y2="-1.15" layer="51"/>
+<rectangle x1="-0.875" y1="-1.5" x2="-0.625" y2="-1.15" layer="51"/>
+<rectangle x1="0.625" y1="-1.5" x2="0.875" y2="-1.15" layer="51"/>
+<rectangle x1="1.2" y1="-0.425" x2="1.45" y2="-0.075" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="0.075" x2="1.45" y2="0.425" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="-0.925" x2="1.45" y2="-0.575" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="0.575" x2="1.45" y2="0.925" layer="51" rot="R90"/>
+<rectangle x1="0.125" y1="1.15" x2="0.375" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.375" y1="1.15" x2="-0.125" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.625" y1="1.15" x2="0.875" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.875" y1="1.15" x2="-0.625" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="51"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<rectangle x1="1.05" y1="0.125" x2="1.5" y2="0.375" layer="51" rot="R180"/>
-<rectangle x1="1.05" y1="0.625" x2="1.5" y2="0.875" layer="51" rot="R180"/>
-<rectangle x1="1.05" y1="-0.375" x2="1.5" y2="-0.125" layer="51" rot="R180"/>
-<rectangle x1="1.05" y1="-0.875" x2="1.5" y2="-0.625" layer="51" rot="R180"/>
-<rectangle x1="-1.5" y1="-0.375" x2="-1.05" y2="-0.125" layer="51"/>
-<rectangle x1="-1.5" y1="-0.875" x2="-1.05" y2="-0.625" layer="51"/>
-<rectangle x1="-1.5" y1="0.125" x2="-1.05" y2="0.375" layer="51"/>
-<rectangle x1="-1.5" y1="0.625" x2="-1.05" y2="0.875" layer="51"/>
-<rectangle x1="0.025" y1="-1.4" x2="0.475" y2="-1.15" layer="51" rot="R90"/>
-<rectangle x1="0.525" y1="-1.4" x2="0.975" y2="-1.15" layer="51" rot="R90"/>
-<rectangle x1="-0.475" y1="-1.4" x2="-0.025" y2="-1.15" layer="51" rot="R90"/>
-<rectangle x1="-0.975" y1="-1.4" x2="-0.525" y2="-1.15" layer="51" rot="R90"/>
-<rectangle x1="-0.475" y1="1.15" x2="-0.025" y2="1.4" layer="51" rot="R270"/>
-<rectangle x1="-0.975" y1="1.15" x2="-0.525" y2="1.4" layer="51" rot="R270"/>
-<rectangle x1="0.025" y1="1.15" x2="0.475" y2="1.4" layer="51" rot="R270"/>
-<rectangle x1="0.525" y1="1.15" x2="0.975" y2="1.4" layer="51" rot="R270"/>
-<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="51"/>
-<smd name="1" x="-1.275" y="0.75" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R90"/>
-<smd name="2" x="-1.275" y="0.25" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R90"/>
-<smd name="3" x="-1.275" y="-0.25" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R90"/>
-<smd name="4" x="-1.275" y="-0.75" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R90"/>
-<smd name="5" x="-0.75" y="-1.275" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R180"/>
-<smd name="6" x="-0.25" y="-1.275" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R180"/>
-<smd name="7" x="0.25" y="-1.275" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R180"/>
-<smd name="8" x="0.75" y="-1.275" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R180"/>
-<smd name="9" x="1.275" y="-0.75" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R270"/>
-<smd name="10" x="1.275" y="-0.25" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R270"/>
-<smd name="11" x="1.275" y="0.25" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R270"/>
-<smd name="12" x="1.275" y="0.75" dx="0.3" dy="0.5" layer="1" roundness="60" rot="R270"/>
-<smd name="13" x="0.75" y="1.275" dx="0.3" dy="0.5" layer="1" roundness="60"/>
-<smd name="14" x="0.25" y="1.275" dx="0.3" dy="0.5" layer="1" roundness="60"/>
-<smd name="15" x="-0.25" y="1.275" dx="0.3" dy="0.5" layer="1" roundness="60"/>
-<smd name="16" x="-0.75" y="1.275" dx="0.3" dy="0.5" layer="1" roundness="60"/>
-<smd name="P$1" x="0" y="0" dx="1.7" dy="1.7" layer="1"/>
-<wire x1="1.1" y1="1.5" x2="1.5" y2="1.5" width="0.1905" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1" width="0.1905" layer="21"/>
 <wire x1="-1.1" y1="1.5" x2="-1.5" y2="1.5" width="0.1905" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1" width="0.1905" layer="21"/>
-<wire x1="-1.5" y1="-1.1" x2="-1.5" y2="-1.5" width="0.1905" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.1" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="1.1" y1="1.5" x2="1.5" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1" width="0.1905" layer="21"/>
 <wire x1="1.1" y1="-1.5" x2="1.5" y2="-1.5" width="0.1905" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.1" width="0.1905" layer="21"/>
-<circle x="-1.9" y="1.9" radius="0.22360625" width="0.1905" layer="21"/>
-<text x="-1.4" y="1.7" size="0.508" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-1.1" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.1" width="0.1905" layer="21"/>
+<text x="-1.524" y="2.032" size="0.6096" layer="21" ratio="12">&gt;NAME</text>
 </package>
 <package name="QFN-32-5MM">
 <smd name="9" x="-1.75" y="-2.3" dx="0.29" dy="0.4" layer="1" stop="no" cream="no"/>
@@ -653,6 +652,36 @@
 <connect gate="G$1" pin="SYS_MCLK" pad="21"/>
 <connect gate="G$1" pin="VAG" pad="10"/>
 <connect gate="G$1" pin="VDDIO" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKL0316VFG4" prefix="U">
+<gates>
+<gate name="G$1" symbol="MKL03Z8VFG4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-16-3MM">
+<connects>
+<connect gate="G$1" pin="PTA0/TPM1_CH0/SWD_CLK" pad="14"/>
+<connect gate="G$1" pin="PTA1/TPM_CLKIN0/!RESET" pad="15"/>
+<connect gate="G$1" pin="PTA2/CMP0_OUT/SWD_DIO" pad="16"/>
+<connect gate="G$1" pin="PTA3/SCL/SDA/TX" pad="3"/>
+<connect gate="G$1" pin="PTA4/SDA/SCL/RX" pad="4"/>
+<connect gate="G$1" pin="PTA5/TPM0_CH1/!SS" pad="5"/>
+<connect gate="G$1" pin="PTA6/TPM0_CH0/MISO" pad="6"/>
+<connect gate="G$1" pin="PTA7/MISO/MOSI" pad="7"/>
+<connect gate="G$1" pin="PTB0/EXTRG_IN/SCK/SCL" pad="8"/>
+<connect gate="G$1" pin="PTB1/TX/RX/SDA" pad="9"/>
+<connect gate="G$1" pin="PTB2/RX/TX" pad="10"/>
+<connect gate="G$1" pin="PTB3/SCL/TX" pad="11"/>
+<connect gate="G$1" pin="PTB4/SDA/RX" pad="12"/>
+<connect gate="G$1" pin="PTB5/TPM1_CH1/!NMI" pad="13"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
