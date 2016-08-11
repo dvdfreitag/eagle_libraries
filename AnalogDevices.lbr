@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -948,6 +948,86 @@
 <circle x="-2.3" y="2.3" radius="0.1" width="0.25" layer="21"/>
 <text x="-1.4" y="2.7" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="VFDFN-8-3X2">
+<polygon width="0" layer="51">
+<vertex x="1" y="0.125"/>
+<vertex x="1" y="0.375"/>
+<vertex x="0.725" y="0.375" curve="90"/>
+<vertex x="0.6" y="0.25" curve="90"/>
+<vertex x="0.725" y="0.125"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1" y="-0.375"/>
+<vertex x="1" y="-0.125"/>
+<vertex x="0.725" y="-0.125" curve="90"/>
+<vertex x="0.6" y="-0.25" curve="90"/>
+<vertex x="0.725" y="-0.375"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1" y="-0.875"/>
+<vertex x="1" y="-0.625"/>
+<vertex x="0.725" y="-0.625" curve="90"/>
+<vertex x="0.6" y="-0.75" curve="90"/>
+<vertex x="0.725" y="-0.875"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="1" y="0.625"/>
+<vertex x="1" y="0.875"/>
+<vertex x="0.725" y="0.875" curve="90"/>
+<vertex x="0.6" y="0.75" curve="90"/>
+<vertex x="0.725" y="0.625"/>
+</polygon>
+<wire x1="1" y1="-1.5" x2="1" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="51"/>
+<polygon width="0" layer="51">
+<vertex x="-1" y="-0.125"/>
+<vertex x="-1" y="-0.375"/>
+<vertex x="-0.725" y="-0.375" curve="90"/>
+<vertex x="-0.6" y="-0.25" curve="90"/>
+<vertex x="-0.725" y="-0.125"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1" y="0.375"/>
+<vertex x="-1" y="0.125"/>
+<vertex x="-0.725" y="0.125" curve="90"/>
+<vertex x="-0.6" y="0.25" curve="90"/>
+<vertex x="-0.725" y="0.375"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1" y="0.875"/>
+<vertex x="-1" y="0.625"/>
+<vertex x="-0.725" y="0.625" curve="90"/>
+<vertex x="-0.6" y="0.75" curve="90"/>
+<vertex x="-0.725" y="0.875"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1" y="-0.625"/>
+<vertex x="-1" y="-0.875"/>
+<vertex x="-0.725" y="-0.875" curve="90"/>
+<vertex x="-0.6" y="-0.75" curve="90"/>
+<vertex x="-0.725" y="-0.625"/>
+</polygon>
+<rectangle x1="-0.875" y1="-0.225" x2="0.875" y2="0.225" layer="51" rot="R90"/>
+<smd name="1" x="-0.9" y="0.75" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-0.9" y="0.25" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-0.9" y="-0.25" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-0.9" y="-0.75" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="0.9" y="0.75" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="0.9" y="0.25" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="0.9" y="-0.25" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="0.9" y="-0.75" dx="0.3" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="PAD" x="0" y="0" dx="1.85" dy="0.55" layer="1" rot="R90"/>
+<wire x1="-1" y1="-1.1" x2="-1" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="1" y1="-1.5" x2="1" y2="-1.1" width="0.1905" layer="21"/>
+<wire x1="1" y1="1.1" x2="1" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="1.1" width="0.1905" layer="21"/>
+<text x="-1.016" y="1.651" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<circle x="-1.25" y="1.75" radius="0.05" width="0.25" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADM101">
@@ -1184,6 +1264,22 @@
 <wire x1="16.51" y1="17.78" x2="-16.51" y2="17.78" width="0.254" layer="94"/>
 <text x="-15.875" y="18.415" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.875" y="-19.685" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="AD8319">
+<pin name="INHI" x="-11.43" y="1.27" length="short"/>
+<pin name="COMM" x="11.43" y="-5.08" length="short" rot="R180"/>
+<pin name="CLPF" x="11.43" y="-2.54" length="short" rot="R180"/>
+<pin name="VSET" x="11.43" y="2.54" length="short" rot="R180"/>
+<pin name="VOUT" x="11.43" y="5.08" length="short" rot="R180"/>
+<pin name="TADJ" x="-11.43" y="-5.08" length="short"/>
+<pin name="VPOS" x="-11.43" y="5.08" length="short"/>
+<pin name="INLO" x="-11.43" y="-1.27" length="short"/>
+<wire x1="-8.89" y1="6.35" x2="8.89" y2="6.35" width="0.254" layer="94"/>
+<wire x1="8.89" y1="6.35" x2="8.89" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-6.35" x2="-8.89" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-6.35" x2="-8.89" y2="6.35" width="0.254" layer="94"/>
+<text x="-8.255" y="6.985" size="1.27" layer="95">&gt;NAME</text>
+<text x="-8.255" y="-8.255" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1474,6 +1570,28 @@
 <connect gate="G$1" pin="VPOS@3" pad="22"/>
 <connect gate="G$1" pin="VPOS@4" pad="23"/>
 <connect gate="G$1" pin="VPOS@5" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8319" prefix="U">
+<gates>
+<gate name="G$1" symbol="AD8319" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ACPZ-R7" package="VFDFN-8-3X2">
+<connects>
+<connect gate="G$1" pin="CLPF" pad="3"/>
+<connect gate="G$1" pin="COMM" pad="2 PAD"/>
+<connect gate="G$1" pin="INHI" pad="1"/>
+<connect gate="G$1" pin="INLO" pad="8"/>
+<connect gate="G$1" pin="TADJ" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="VPOS" pad="7"/>
+<connect gate="G$1" pin="VSET" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
