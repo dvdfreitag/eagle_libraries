@@ -377,6 +377,32 @@
 <wire x1="0.85" y1="-1.55" x2="-0.85" y2="-1.55" width="0.1905" layer="21"/>
 <text x="-0.75" y="1.75" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="UDFN6-2020">
+<rectangle x1="0.65" y1="-0.175" x2="1" y2="0.175" layer="51" rot="R90"/>
+<rectangle x1="0.65" y1="0.475" x2="1" y2="0.825" layer="51" rot="R90"/>
+<rectangle x1="0.65" y1="-0.825" x2="1" y2="-0.475" layer="51" rot="R90"/>
+<rectangle x1="-1" y1="-0.175" x2="-0.65" y2="0.175" layer="51" rot="R270"/>
+<rectangle x1="-1" y1="-0.825" x2="-0.65" y2="-0.475" layer="51" rot="R270"/>
+<rectangle x1="-1" y1="0.475" x2="-0.65" y2="0.825" layer="51" rot="R270"/>
+<rectangle x1="-0.825" y1="-0.5" x2="0.825" y2="0.5" layer="51" rot="R90"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<smd name="2" x="-0.9375" y="0" dx="0.35" dy="0.525" layer="1" rot="R90"/>
+<smd name="3" x="-0.9375" y="-0.65" dx="0.35" dy="0.525" layer="1" rot="R90"/>
+<smd name="1" x="-0.9375" y="0.65" dx="0.35" dy="0.525" layer="1" rot="R90"/>
+<smd name="5" x="0.9375" y="0" dx="0.35" dy="0.525" layer="1" rot="R270"/>
+<smd name="4" x="0.9375" y="-0.65" dx="0.35" dy="0.525" layer="1" rot="R270"/>
+<smd name="6" x="0.9375" y="0.65" dx="0.35" dy="0.525" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="1.65" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.45" y1="-1.2" x2="-1.45" y2="1.2" width="0.1905" layer="21"/>
+<wire x1="-1.45" y1="1.2" x2="1.45" y2="1.2" width="0.1905" layer="21"/>
+<wire x1="1.45" y1="1.2" x2="1.45" y2="-1.2" width="0.1905" layer="21"/>
+<wire x1="1.45" y1="-1.2" x2="-1.45" y2="-1.2" width="0.1905" layer="21"/>
+<circle x="-1.7" y="1.45" radius="0.05" width="0.25" layer="21"/>
+<text x="-1.397" y="1.397" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AP2161DM8G-13">
@@ -594,6 +620,33 @@
 <wire x1="1.27" y1="-0.9525" x2="0.635" y2="-1.5875" width="0.1524" layer="94"/>
 <text x="-3.81" y="3.81" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.81" y="1.905" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="AP2553">
+<pin name="OUT" x="11.43" y="2.54" length="short" rot="R180"/>
+<pin name="ILIM" x="11.43" y="0" length="short" rot="R180"/>
+<pin name="!FLAG" x="-11.43" y="-2.54" length="short"/>
+<pin name="EN" x="-11.43" y="0" length="short"/>
+<pin name="GND" x="11.43" y="-2.54" length="short" rot="R180"/>
+<pin name="IN" x="-11.43" y="2.54" length="short"/>
+<wire x1="-8.89" y1="3.81" x2="8.89" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="8.89" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-3.81" x2="-8.89" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="3.81" width="0.254" layer="94"/>
+<text x="-8.255" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-8.255" y="-5.715" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="AP3417C">
+<pin name="EN" x="-10.16" y="5.08" length="short"/>
+<pin name="VIN" x="-10.16" y="7.62" length="short"/>
+<pin name="LX" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short"/>
+<pin name="FB" x="10.16" y="-7.62" length="short" rot="R180"/>
+<wire x1="-7.62" y1="8.89" x2="7.62" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="-7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="-7.62" y2="8.89" width="0.254" layer="94"/>
+<text x="-6.985" y="9.525" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-10.795" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -863,6 +916,45 @@
 <connects>
 <connect gate="G$1" pin="A" pad="ANODE"/>
 <connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2553" prefix="U">
+<gates>
+<gate name="G$1" symbol="AP2553" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FDC-7" package="UDFN6-2020">
+<connects>
+<connect gate="G$1" pin="!FLAG" pad="3"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5 PAD"/>
+<connect gate="G$1" pin="ILIM" pad="2"/>
+<connect gate="G$1" pin="IN" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP3417C" prefix="U">
+<gates>
+<gate name="G$1" symbol="AP3417C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DNTR-G1" package="UDFN6-2020">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="GND" pad="5 PAD"/>
+<connect gate="G$1" pin="LX" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

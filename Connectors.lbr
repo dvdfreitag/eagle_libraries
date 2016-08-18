@@ -2937,6 +2937,55 @@
 <wire x1="6.6" y1="3.175" x2="6.6" y2="-3.175" width="0.127" layer="51"/>
 <text x="-0.127" y="3.429" size="1.27" layer="21" ratio="12" align="bottom-right">&gt;NAME</text>
 </package>
+<package name="GSB4116341HR">
+<pad name="1" x="12.85" y="0.9" drill="0.7" diameter="1.1"/>
+<pad name="2" x="10.35" y="0.9" drill="0.7" diameter="1.1"/>
+<pad name="3" x="8.35" y="0.9" drill="0.7" diameter="1.1"/>
+<pad name="4" x="5.85" y="0.9" drill="0.7" diameter="1.1"/>
+<pad name="7" x="9.35" y="-1.5" drill="0.7" diameter="1.1"/>
+<pad name="6" x="7.35" y="-1.5" drill="0.7" diameter="1.1"/>
+<pad name="5" x="5.35" y="-1.5" drill="0.7" diameter="1.1"/>
+<pad name="8" x="11.35" y="-1.5" drill="0.7" diameter="1.1"/>
+<pad name="9" x="13.35" y="-1.5" drill="0.7" diameter="1.1"/>
+<pad name="P$4" x="14.7" y="-2.9" drill="1.5" diameter="2.1"/>
+<pad name="P$1" x="14.7" y="2.9" drill="1.5" diameter="2.1"/>
+<pad name="P$3" x="4" y="-2.9" drill="1.5" diameter="2.1"/>
+<pad name="P$2" x="4" y="2.9" drill="1.5" diameter="2.1"/>
+<wire x1="16.42" y1="3.1" x2="16.42" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="3.6" x2="-7.58" y2="3.6" width="0.127" layer="51"/>
+<wire x1="-7.58" y1="3.6" x2="-7.58" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-7.58" y1="3.3" x2="-7.38" y2="3.1" width="0.127" layer="51" curve="90"/>
+<wire x1="-7.38" y1="3.1" x2="0" y2="3.1" width="0.127" layer="51"/>
+<wire x1="0" y1="3.1" x2="16.42" y2="3.1" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="-3.6" x2="-7.58" y2="-3.6" width="0.127" layer="51"/>
+<wire x1="-7.58" y1="-3.6" x2="-7.58" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-7.58" y1="-3.3" x2="-7.38" y2="-3.1" width="0.127" layer="51" curve="-90"/>
+<wire x1="-7.38" y1="-3.1" x2="0" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="0" y1="-3.1" x2="16.42" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="0" y1="3.1" x2="0" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="0.4" y1="3.1" x2="2.7" y2="3.1" width="0.1905" layer="21"/>
+<wire x1="0.4" y1="-3.1" x2="2.7" y2="-3.1" width="0.1905" layer="21"/>
+<wire x1="5.25" y1="-3.1" x2="13.45" y2="-3.1" width="0.1905" layer="21"/>
+<wire x1="15.95" y1="-3.1" x2="16.42" y2="-3.1" width="0.1905" layer="21"/>
+<wire x1="16.42" y1="-3.1" x2="16.42" y2="3.1" width="0.1905" layer="21"/>
+<wire x1="16.42" y1="3.1" x2="15.95" y2="3.1" width="0.1905" layer="21"/>
+<wire x1="13.45" y1="3.1" x2="5.25" y2="3.1" width="0.1905" layer="21"/>
+<text x="5.461" y="3.302" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-7.78" y1="-3.6" x2="-7.78" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="-3.3" x2="-7.38" y2="-2.9" width="0.127" layer="51" curve="-90"/>
+<wire x1="-7.38" y1="-2.9" x2="-7.38" y2="-2.7" width="0.127" layer="51"/>
+<wire x1="-7.38" y1="-2.7" x2="-7.58" y2="-2.5" width="0.127" layer="51" curve="90"/>
+<wire x1="-7.58" y1="-2.5" x2="-7.68" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.68" y1="-2.5" x2="-7.78" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="3.6" x2="-7.78" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="3.3" x2="-7.38" y2="2.9" width="0.127" layer="51" curve="90"/>
+<wire x1="-7.38" y1="2.9" x2="-7.38" y2="2.7" width="0.127" layer="51"/>
+<wire x1="-7.38" y1="2.7" x2="-7.58" y2="2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="-7.58" y1="2.5" x2="-7.68" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-7.68" y1="2.5" x2="-7.78" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-7.78" y1="2.5" x2="-7.78" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.68" y1="2.5" x2="-7.68" y2="-2.5" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -5217,6 +5266,21 @@
 <connect gate="G$1" pin="SSRX-@1" pad="8"/>
 <connect gate="G$1" pin="SSTX+@1" pad="6"/>
 <connect gate="G$1" pin="SSTX-@1" pad="5"/>
+<connect gate="G$1" pin="VBUS@1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-VERT-R" package="GSB4116341HR">
+<connects>
+<connect gate="G$1" pin="D+@1" pad="3"/>
+<connect gate="G$1" pin="D-@1" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="4 7 P$1 P$2 P$3 P$4"/>
+<connect gate="G$1" pin="SSRX+@1" pad="6"/>
+<connect gate="G$1" pin="SSRX-@1" pad="5"/>
+<connect gate="G$1" pin="SSTX+@1" pad="9"/>
+<connect gate="G$1" pin="SSTX-@1" pad="8"/>
 <connect gate="G$1" pin="VBUS@1" pad="1"/>
 </connects>
 <technologies>
