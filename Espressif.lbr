@@ -523,11 +523,11 @@
 <pin name="GPIO03/U0TXD*/CLK_OUT3/EMAC_RXD2" x="-63.5" y="34.29" length="short"/>
 <pin name="GPIO21*/VSPIHD/EMAC_TX_EN" x="-63.5" y="-8.89" length="short"/>
 <pin name="VDDA@2" x="63.5" y="26.67" length="short" rot="R180"/>
-<pin name="XTAL_N" x="63.5" y="-26.67" length="short" rot="R180"/>
-<pin name="XTAL_P" x="63.5" y="-29.21" length="short" rot="R180"/>
+<pin name="XTAL_N" x="63.5" y="-5.08" length="short" rot="R180"/>
+<pin name="XTAL_P" x="63.5" y="-7.62" length="short" rot="R180"/>
 <pin name="VDDA@3" x="63.5" y="24.13" length="short" rot="R180"/>
-<pin name="CAP_10N" x="63.5" y="-34.29" length="short" rot="R180"/>
-<pin name="RES_14K" x="63.5" y="-36.83" length="short" rot="R180"/>
+<pin name="CAP1" x="63.5" y="-34.29" length="short" rot="R180"/>
+<pin name="CAP2" x="63.5" y="-36.83" length="short" rot="R180"/>
 <pin name="GND" x="63.5" y="-41.91" length="short" rot="R180"/>
 <wire x1="-60.96" y1="43.18" x2="-60.96" y2="-43.18" width="0.254" layer="94"/>
 <wire x1="-60.96" y1="-43.18" x2="60.96" y2="-43.18" width="0.254" layer="94"/>
@@ -546,7 +546,8 @@
 <devices>
 <device name="" package="ESP32">
 <connects>
-<connect gate="G$1" pin="CAP_10N" pad="48"/>
+<connect gate="G$1" pin="CAP1" pad="48"/>
+<connect gate="G$1" pin="CAP2" pad="47"/>
 <connect gate="G$1" pin="CHIP_PU" pad="9"/>
 <connect gate="G$1" pin="GND" pad="PAD"/>
 <connect gate="G$1" pin="GPIO00*/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK" pad="23"/>
@@ -584,7 +585,6 @@
 <connect gate="G$1" pin="GPIO38/SENSOR_CAPN*/ADC_PRE_AMP/ADC1_CH2/RTC_GPIO2" pad="7"/>
 <connect gate="G$1" pin="GPIO39/SENSOR_VN*/ADC_PRE_AMP/ADC1_CH3/RTC_GPIO3" pad="8"/>
 <connect gate="G$1" pin="LNA_IN" pad="2"/>
-<connect gate="G$1" pin="RES_14K" pad="47"/>
 <connect gate="G$1" pin="VDD3P3@1" pad="3"/>
 <connect gate="G$1" pin="VDD3P3@2" pad="4"/>
 <connect gate="G$1" pin="VDD3P3_CPU" pad="37"/>
