@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2763,6 +2763,36 @@
 <circle x="-1.85" y="1.85" radius="0.1" width="0.25" layer="21"/>
 <text x="-1.5" y="1.7" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="DFN-8-2MM">
+<rectangle x1="0.725" y1="-0.9" x2="0.975" y2="-0.6" layer="51" rot="R90"/>
+<smd name="5" x="0.9" y="-0.75" dx="0.3" dy="0.5" layer="1" rot="R90"/>
+<rectangle x1="0.725" y1="-0.4" x2="0.975" y2="-0.1" layer="51" rot="R90"/>
+<smd name="6" x="0.9" y="-0.25" dx="0.3" dy="0.5" layer="1" rot="R90"/>
+<rectangle x1="0.725" y1="0.1" x2="0.975" y2="0.4" layer="51" rot="R90"/>
+<smd name="7" x="0.9" y="0.25" dx="0.3" dy="0.5" layer="1" rot="R90"/>
+<rectangle x1="0.725" y1="0.6" x2="0.975" y2="0.9" layer="51" rot="R90"/>
+<smd name="8" x="0.9" y="0.75" dx="0.3" dy="0.5" layer="1" rot="R90"/>
+<rectangle x1="-0.975" y1="0.6" x2="-0.725" y2="0.9" layer="51" rot="R270"/>
+<smd name="1" x="-0.9" y="0.75" dx="0.3" dy="0.5" layer="1" rot="R270"/>
+<rectangle x1="-0.975" y1="0.1" x2="-0.725" y2="0.4" layer="51" rot="R270"/>
+<smd name="2" x="-0.9" y="0.25" dx="0.3" dy="0.5" layer="1" rot="R270"/>
+<rectangle x1="-0.975" y1="-0.4" x2="-0.725" y2="-0.1" layer="51" rot="R270"/>
+<smd name="3" x="-0.9" y="-0.25" dx="0.3" dy="0.5" layer="1" rot="R270"/>
+<rectangle x1="-0.975" y1="-0.9" x2="-0.725" y2="-0.6" layer="51" rot="R270"/>
+<smd name="4" x="-0.9" y="-0.75" dx="0.3" dy="0.5" layer="1" rot="R270"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<rectangle x1="-0.8" y1="-0.45" x2="0.8" y2="0.45" layer="51" rot="R90"/>
+<smd name="PAD" x="0" y="0" dx="1.8" dy="0.9" layer="1" rot="R90"/>
+<wire x1="-1.4" y1="1.2" x2="1.4" y2="1.2" width="0.1905" layer="21"/>
+<wire x1="1.4" y1="1.2" x2="1.4" y2="-1.2" width="0.1905" layer="21"/>
+<wire x1="1.4" y1="-1.2" x2="-1.4" y2="-1.2" width="0.1905" layer="21"/>
+<wire x1="-1.4" y1="-1.2" x2="-1.4" y2="1.2" width="0.1905" layer="21"/>
+<circle x="-1.7" y="1.5" radius="0.05" width="0.25" layer="21"/>
+<text x="-1.4" y="1.4" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX232">
@@ -4277,6 +4307,22 @@
 <text x="-10.795" y="5.715" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.795" y="-6.985" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS6217X">
+<pin name="PGND" x="-10.16" y="-8.89" length="short"/>
+<pin name="VIN" x="-10.16" y="8.89" length="short"/>
+<pin name="EN" x="-10.16" y="6.35" length="short"/>
+<pin name="AGND" x="-10.16" y="-6.35" length="short"/>
+<pin name="FB" x="10.16" y="-8.89" length="short" rot="R180"/>
+<pin name="VOS" x="10.16" y="6.35" length="short" rot="R180"/>
+<pin name="SW" x="10.16" y="8.89" length="short" rot="R180"/>
+<pin name="PG" x="10.16" y="-6.35" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-6.985" y="10.795" size="1.27" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-12.065" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX232" prefix="U">
@@ -5723,6 +5769,43 @@
 <connect gate="G$1" pin="VDD" pad="6"/>
 <connect gate="G$1" pin="VINA" pad="8"/>
 <connect gate="G$1" pin="VINB" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS6217" prefix="U">
+<gates>
+<gate name="G$1" symbol="TPS6217X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3DSGR" package="DFN-8-2MM">
+<connects>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="PGND" pad="1 PAD"/>
+<connect gate="G$1" pin="SW" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2DSGR" package="DFN-8-2MM">
+<connects>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="PGND" pad="1 PAD"/>
+<connect gate="G$1" pin="SW" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOS" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

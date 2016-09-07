@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2888,10 +2888,10 @@
 <pin name="OSC2" x="-12.7" y="-12.7" length="short"/>
 <pin name="OSC1" x="-12.7" y="-10.16" length="short"/>
 <pin name="GND" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="!RX1BF" x="12.7" y="-6.35" length="short" rot="R180"/>
-<pin name="!RX0BF" x="12.7" y="-8.89" length="short" rot="R180"/>
-<pin name="RXCAN" x="12.7" y="8.89" length="short" rot="R180"/>
-<pin name="TXCAN" x="12.7" y="6.35" length="short" rot="R180"/>
+<pin name="!RX1BF" x="12.7" y="-8.89" length="short" rot="R180"/>
+<pin name="!RX0BF" x="12.7" y="-6.35" length="short" rot="R180"/>
+<pin name="RXCAN" x="12.7" y="6.35" length="short" rot="R180"/>
+<pin name="TXCAN" x="12.7" y="8.89" length="short" rot="R180"/>
 <pin name="VDD" x="-12.7" y="12.7" length="short"/>
 <pin name="!RESET" x="-12.7" y="8.89" length="short"/>
 <pin name="!CS" x="-12.7" y="1.27" length="short"/>
