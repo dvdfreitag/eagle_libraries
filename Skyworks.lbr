@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -116,6 +116,91 @@
 <text x="-0.7" y="1.7" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 <circle x="-1.3" y="1.95" radius="0.05" width="0.5" layer="21"/>
 </package>
+<package name="XFDFN-6-1.5MM">
+<polygon width="0" layer="51">
+<vertex x="0.75" y="-0.125"/>
+<vertex x="0.75" y="0.125"/>
+<vertex x="0.625" y="0.125" curve="90"/>
+<vertex x="0.575" y="0.075"/>
+<vertex x="0.575" y="-0.075" curve="90"/>
+<vertex x="0.625" y="-0.125"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.75" y="0.375"/>
+<vertex x="0.75" y="0.625"/>
+<vertex x="0.625" y="0.625" curve="90"/>
+<vertex x="0.575" y="0.575"/>
+<vertex x="0.575" y="0.425" curve="90"/>
+<vertex x="0.625" y="0.375"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.75" y="-0.625"/>
+<vertex x="0.75" y="-0.375"/>
+<vertex x="0.625" y="-0.375" curve="90"/>
+<vertex x="0.575" y="-0.425"/>
+<vertex x="0.575" y="-0.575" curve="90"/>
+<vertex x="0.625" y="-0.625"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.75" y="0.125"/>
+<vertex x="-0.75" y="-0.125"/>
+<vertex x="-0.625" y="-0.125" curve="90"/>
+<vertex x="-0.575" y="-0.075"/>
+<vertex x="-0.575" y="0.075" curve="90"/>
+<vertex x="-0.625" y="0.125"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.75" y="-0.375"/>
+<vertex x="-0.75" y="-0.625"/>
+<vertex x="-0.625" y="-0.625" curve="90"/>
+<vertex x="-0.575" y="-0.575"/>
+<vertex x="-0.575" y="-0.425" curve="90"/>
+<vertex x="-0.625" y="-0.375"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.75" y="0.625"/>
+<vertex x="-0.75" y="0.375"/>
+<vertex x="-0.625" y="0.375" curve="90"/>
+<vertex x="-0.575" y="0.425"/>
+<vertex x="-0.575" y="0.575" curve="90"/>
+<vertex x="-0.625" y="0.625"/>
+</polygon>
+<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="0.75" y1="0.75" x2="0.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="0.75" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="0.75" width="0.127" layer="51"/>
+<polygon width="0" layer="51">
+<vertex x="0.2" y="-0.6"/>
+<vertex x="0.1" y="-0.6"/>
+<vertex x="0.1" y="-0.65"/>
+<vertex x="-0.1" y="-0.65"/>
+<vertex x="-0.1" y="-0.6"/>
+<vertex x="-0.2" y="-0.6" curve="-90"/>
+<vertex x="-0.35" y="-0.45"/>
+<vertex x="-0.35" y="0.45" curve="-90"/>
+<vertex x="-0.2" y="0.6"/>
+<vertex x="-0.1" y="0.6"/>
+<vertex x="-0.1" y="0.65"/>
+<vertex x="0.1" y="0.65"/>
+<vertex x="0.1" y="0.6"/>
+<vertex x="0.2" y="0.6"/>
+<vertex x="0.35" y="0.45"/>
+<vertex x="0.35" y="-0.45" curve="-90"/>
+</polygon>
+<smd name="2" x="-0.8" y="0" dx="0.5" dy="0.3" layer="1"/>
+<smd name="1" x="-0.8" y="0.5" dx="0.5" dy="0.3" layer="1"/>
+<smd name="3" x="-0.8" y="-0.5" dx="0.5" dy="0.3" layer="1"/>
+<smd name="4" x="0.8" y="-0.5" dx="0.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="0.8" y="0" dx="0.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="0.8" y="0.5" dx="0.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="PAD" x="0" y="0" dx="0.7" dy="1.3" layer="1"/>
+<wire x1="-1.3" y1="0.9" x2="1.3" y2="0.9" width="0.1905" layer="21"/>
+<wire x1="1.3" y1="0.9" x2="1.3" y2="-0.9" width="0.1905" layer="21"/>
+<wire x1="1.3" y1="-0.9" x2="-1.3" y2="-0.9" width="0.1905" layer="21"/>
+<wire x1="-1.3" y1="-0.9" x2="-1.3" y2="0.9" width="0.1905" layer="21"/>
+<circle x="-1.55" y="1.15" radius="0.05" width="0.1905" layer="21"/>
+<text x="-1.3" y="1.1" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AAT3221">
@@ -145,6 +230,20 @@
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <text x="1.27" y="-15.24" size="1.524" layer="96">&gt;VALUE</text>
 <text x="1.27" y="-12.7" size="1.524" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="SKY65404">
+<pin name="V_ENABLE" x="-13.97" y="2.54" length="short"/>
+<pin name="GND@1" x="-13.97" y="-2.54" length="short"/>
+<pin name="RF_IN" x="13.97" y="0" length="short" rot="R180"/>
+<pin name="RF_OUT" x="-13.97" y="0" length="short"/>
+<pin name="GND@2" x="13.97" y="-2.54" length="short" rot="R180"/>
+<pin name="VCC" x="13.97" y="2.54" length="short" rot="R180"/>
+<wire x1="-11.43" y1="3.81" x2="11.43" y2="3.81" width="0.254" layer="94"/>
+<wire x1="11.43" y1="3.81" x2="11.43" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-3.81" x2="-11.43" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="3.81" width="0.254" layer="94"/>
+<text x="-10.795" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.795" y="-5.715" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -191,6 +290,26 @@
 <connect gate="G$1" pin="SW" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="6"/>
 <connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKY65404" prefix="U">
+<gates>
+<gate name="G$1" symbol="SKY65404" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-31" package="XFDFN-6-1.5MM">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2 PAD"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="RF_IN" pad="3"/>
+<connect gate="G$1" pin="RF_OUT" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+<connect gate="G$1" pin="V_ENABLE" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
