@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -37,9 +37,9 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -296,6 +296,970 @@
 <wire x1="-2.54" y1="3.81" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
 <text x="-2.54" y="-5.588" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="TFBGA-100-9MM">
+<smd name="A1" x="-3.6" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B1" x="-3.6" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C1" x="-3.6" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D1" x="-3.6" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E1" x="-3.6" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F1" x="-3.6" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G1" x="-3.6" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H1" x="-3.6" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J1" x="-3.6" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K1" x="-3.6" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-3.6" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A2" x="-2.8" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B2" x="-2.8" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C2" x="-2.8" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D2" x="-2.8" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E2" x="-2.8" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F2" x="-2.8" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G2" x="-2.8" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H2" x="-2.8" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J2" x="-2.8" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K2" x="-2.8" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-2.8" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A3" x="-2" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B3" x="-2" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C3" x="-2" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D3" x="-2" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E3" x="-2" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F3" x="-2" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G3" x="-2" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H3" x="-2" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J3" x="-2" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K3" x="-2" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-2" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A4" x="-1.2" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B4" x="-1.2" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C4" x="-1.2" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D4" x="-1.2" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E4" x="-1.2" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F4" x="-1.2" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G4" x="-1.2" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H4" x="-1.2" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J4" x="-1.2" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K4" x="-1.2" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="1.2" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-1.2" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A5" x="-0.4" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B5" x="-0.4" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C5" x="-0.4" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D5" x="-0.4" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E5" x="-0.4" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F5" x="-0.4" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="2.8" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G5" x="-0.4" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H5" x="-0.4" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J5" x="-0.4" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K5" x="-0.4" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0.4" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="-0.4" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A6" x="0.4" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B6" x="0.4" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C6" x="0.4" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D6" x="0.4" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E6" x="0.4" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F6" x="0.4" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="3.6" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G6" x="0.4" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H6" x="0.4" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J6" x="0.4" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K6" x="0.4" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-0.4" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="0.4" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A7" x="1.2" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B7" x="1.2" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C7" x="1.2" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D7" x="1.2" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E7" x="1.2" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F7" x="1.2" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G7" x="1.2" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H7" x="1.2" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J7" x="1.2" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K7" x="1.2" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-1.2" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="1.2" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A8" x="2" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B8" x="2" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C8" x="2" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D8" x="2" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E8" x="2" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F8" x="2" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G8" x="2" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H8" x="2" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J8" x="2" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K8" x="2" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="2" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A9" x="2.8" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B9" x="2.8" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C9" x="2.8" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D9" x="2.8" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E9" x="2.8" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F9" x="2.8" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G9" x="2.8" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H9" x="2.8" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J9" x="2.8" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K9" x="2.8" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-2.8" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="2.8" y="-3.6" radius="0.24" width="0" layer="29"/>
+<smd name="A10" x="3.6" y="3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="-3.6" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="3.6" radius="0.24" width="0" layer="29"/>
+<smd name="B10" x="3.6" y="2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="-2.8" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="2.8" radius="0.24" width="0" layer="29"/>
+<smd name="C10" x="3.6" y="2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="-2" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="2" radius="0.24" width="0" layer="29"/>
+<smd name="D10" x="3.6" y="1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="-1.2" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="1.2" radius="0.24" width="0" layer="29"/>
+<smd name="E10" x="3.6" y="0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="-0.4" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="0.4" radius="0.24" width="0" layer="29"/>
+<smd name="F10" x="3.6" y="-0.4" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="0.4" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="-0.4" radius="0.24" width="0" layer="29"/>
+<smd name="G10" x="3.6" y="-1.2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="1.2" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="-1.2" radius="0.24" width="0" layer="29"/>
+<smd name="H10" x="3.6" y="-2" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="2" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="-2" radius="0.24" width="0" layer="29"/>
+<smd name="J10" x="3.6" y="-2.8" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="2.8" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="-2.8" radius="0.24" width="0" layer="29"/>
+<smd name="K10" x="3.6" y="-3.6" dx="0.33" dy="0.33" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="-3.6" y="3.6" radius="0.2" width="0" layer="31"/>
+<circle x="3.6" y="-3.6" radius="0.24" width="0" layer="29"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.127" layer="51"/>
+<circle x="-0.4" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<wire x1="-4.75" y1="4.75" x2="4.75" y2="4.75" width="0.1905" layer="21"/>
+<wire x1="4.75" y1="4.75" x2="4.75" y2="-4.75" width="0.1905" layer="21"/>
+<wire x1="4.75" y1="-4.75" x2="-4.75" y2="-4.75" width="0.1905" layer="21"/>
+<wire x1="-4.75" y1="-4.75" x2="-4.75" y2="4.75" width="0.1905" layer="21"/>
+<circle x="-5" y="5" radius="0.05" width="0.25" layer="21"/>
+<text x="-4.75" y="4.95" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="TFBGA-180-12MM">
+<smd name="A1" x="-5.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B1" x="-5.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C1" x="-5.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D1" x="-5.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E1" x="-5.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F1" x="-5.2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G1" x="-5.2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H1" x="-5.2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J1" x="-5.2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K1" x="-5.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L1" x="-5.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M1" x="-5.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N1" x="-5.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P1" x="-5.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-5.2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A2" x="-4.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B2" x="-4.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C2" x="-4.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D2" x="-4.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E2" x="-4.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F2" x="-4.4" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G2" x="-4.4" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H2" x="-4.4" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J2" x="-4.4" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K2" x="-4.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L2" x="-4.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M2" x="-4.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N2" x="-4.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P2" x="-4.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-4.4" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A3" x="-3.6" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B3" x="-3.6" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C3" x="-3.6" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D3" x="-3.6" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E3" x="-3.6" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F3" x="-3.6" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G3" x="-3.6" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H3" x="-3.6" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J3" x="-3.6" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K3" x="-3.6" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L3" x="-3.6" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M3" x="-3.6" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N3" x="-3.6" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P3" x="-3.6" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-3.6" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A4" x="-2.8" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B4" x="-2.8" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C4" x="-2.8" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D4" x="-2.8" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E4" x="-2.8" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F4" x="-2.8" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G4" x="-2.8" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H4" x="-2.8" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J4" x="-2.8" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K4" x="-2.8" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L4" x="-2.8" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M4" x="-2.8" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N4" x="-2.8" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P4" x="-2.8" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2.8" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A5" x="-2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B5" x="-2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C5" x="-2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D5" x="-2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E5" x="-2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F5" x="-2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G5" x="-2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H5" x="-2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J5" x="-2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K5" x="-2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L5" x="-2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M5" x="-2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N5" x="-2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P5" x="-2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A6" x="-1.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B6" x="-1.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C6" x="-1.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D6" x="-1.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E6" x="-1.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="K6" x="-1.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L6" x="-1.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M6" x="-1.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N6" x="-1.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P6" x="-1.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-1.2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A7" x="-0.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B7" x="-0.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C7" x="-0.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D7" x="-0.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E7" x="-0.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="K7" x="-0.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L7" x="-0.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M7" x="-0.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N7" x="-0.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P7" x="-0.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="-0.4" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A8" x="0.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B8" x="0.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C8" x="0.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D8" x="0.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E8" x="0.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="K8" x="0.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L8" x="0.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M8" x="0.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N8" x="0.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P8" x="0.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="0.4" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A9" x="1.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B9" x="1.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C9" x="1.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D9" x="1.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E9" x="1.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="K9" x="1.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L9" x="1.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M9" x="1.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N9" x="1.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P9" x="1.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="1.2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A10" x="2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B10" x="2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C10" x="2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D10" x="2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E10" x="2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F10" x="2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G10" x="2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H10" x="2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J10" x="2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K10" x="2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L10" x="2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M10" x="2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N10" x="2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P10" x="2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A11" x="2.8" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B11" x="2.8" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C11" x="2.8" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D11" x="2.8" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E11" x="2.8" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F11" x="2.8" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G11" x="2.8" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H11" x="2.8" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J11" x="2.8" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K11" x="2.8" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L11" x="2.8" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M11" x="2.8" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N11" x="2.8" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P11" x="2.8" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="2.8" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A12" x="3.6" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B12" x="3.6" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C12" x="3.6" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D12" x="3.6" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E12" x="3.6" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F12" x="3.6" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G12" x="3.6" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H12" x="3.6" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J12" x="3.6" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K12" x="3.6" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L12" x="3.6" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M12" x="3.6" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N12" x="3.6" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P12" x="3.6" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="3.6" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A13" x="4.4" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B13" x="4.4" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C13" x="4.4" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D13" x="4.4" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E13" x="4.4" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F13" x="4.4" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G13" x="4.4" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H13" x="4.4" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J13" x="4.4" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K13" x="4.4" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L13" x="4.4" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M13" x="4.4" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N13" x="4.4" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P13" x="4.4" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="4.4" y="-5.2" radius="0.25" width="0" layer="29"/>
+<smd name="A14" x="5.2" y="5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="5.2" radius="0.25" width="0" layer="29"/>
+<smd name="B14" x="5.2" y="4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="4.4" radius="0.25" width="0" layer="29"/>
+<smd name="C14" x="5.2" y="3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="3.6" radius="0.25" width="0" layer="29"/>
+<smd name="D14" x="5.2" y="2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="2.8" radius="0.25" width="0" layer="29"/>
+<smd name="E14" x="5.2" y="2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="2" radius="0.25" width="0" layer="29"/>
+<smd name="F14" x="5.2" y="1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="1.2" radius="0.25" width="0" layer="29"/>
+<smd name="G14" x="5.2" y="0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="0.4" radius="0.25" width="0" layer="29"/>
+<smd name="H14" x="5.2" y="-0.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-0.4" radius="0.25" width="0" layer="29"/>
+<smd name="J14" x="5.2" y="-1.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-1.2" radius="0.25" width="0" layer="29"/>
+<smd name="K14" x="5.2" y="-2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-2" radius="0.25" width="0" layer="29"/>
+<smd name="L14" x="5.2" y="-2.8" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-2.8" radius="0.25" width="0" layer="29"/>
+<smd name="M14" x="5.2" y="-3.6" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-3.6" radius="0.25" width="0" layer="29"/>
+<smd name="N14" x="5.2" y="-4.4" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-4.4" radius="0.25" width="0" layer="29"/>
+<smd name="P14" x="5.2" y="-5.2" dx="0.4" dy="0.4" layer="1" roundness="100" stop="no"/>
+<circle x="5.2" y="-5.2" radius="0.25" width="0" layer="29"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.127" layer="51"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.127" layer="51"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.127" layer="51"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.1905" layer="21"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.1905" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.1905" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.1905" layer="21"/>
+<circle x="-6.5" y="6.5" radius="0.05" width="0.25" layer="21"/>
+<text x="-6.25" y="6.45" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<circle x="-5.2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-5.2" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-4.4" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-3.6" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2.8" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-2" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-1.2" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="-0.4" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="0.4" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="1.2" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="2" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="2.8" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="3.6" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="4.4" y="-5.2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="5.2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="4.4" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="3.6" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="2.8" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="1.2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="0.4" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-0.4" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-1.2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-2" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-2.8" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-3.6" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-4.4" radius="0.225" width="0" layer="51"/>
+<circle x="5.2" y="-5.2" radius="0.225" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IP4220CZ6">
@@ -412,6 +1376,315 @@
 <wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
 <text x="4.445" y="4.445" size="1.27" layer="95" ratio="12" align="bottom-right">&gt;NAME</text>
 <text x="4.445" y="-5.715" size="1.27" layer="96" ratio="12" align="bottom-right">&gt;VALUE</text>
+</symbol>
+<symbol name="LPC4320">
+<pin name="P0_0/GPIO0[0]/SSP1_MISO/ENET_RXD1/I2S0_TX_WS/I2S1_TX_WS" x="-67.31" y="69.85" length="short"/>
+<pin name="P0_1/GPIO0[1]/SSP1_MOSI/ENET_COL/SGPIO1/ENET_TX_EN/I2S1_TX_SDA" x="-67.31" y="67.31" length="short"/>
+<pin name="P1_0/GPIO0[4]/CTIN_3/EMC_A5/SSP0_SSEL/SGPIO7" x="-67.31" y="63.5" length="short"/>
+<pin name="P1_1/GPIO0[8]/CTOUT_7/EMC_A6/SGPIO8/SSP0_MISO" x="-67.31" y="60.96" length="short"/>
+<pin name="P1_2/GPIO0[9]/CTOUT_6/EMC_A7/SGPIO9/SSP0_MOSI" x="-67.31" y="58.42" length="short"/>
+<pin name="P1_3/GPIO0[10]/CTOUT_8/SGPIO10/!EMC_OE!/USB0_INT1/SSP1_MISO/SD_RST" x="-67.31" y="55.88" length="short"/>
+<pin name="P1_4/GPIO0[11]/CTOUT_9/SGPIO11/!EMC_BLS0!/USB0_IND0/SSP1_MOSI/SD_VOLT1" x="-67.31" y="53.34" length="short"/>
+<pin name="P1_5/GPIO1[8]/CTOUT_10/!EMC_CS0!/USB0_PWR_FAULT/SSP1_SSEL/SGPIO15/SD_POW" x="-67.31" y="50.8" length="short"/>
+<pin name="P1_6/GPIO1[9]/CTIN_5/!EMC_WE!/SGPIO14/SD_CMD" x="-67.31" y="48.26" length="short"/>
+<pin name="P1_7/GPIO1[0]/U1/DSR/CTOUT_13/EMC_D0/USB0_PPWR" x="-67.31" y="45.72" length="short"/>
+<pin name="P1_8/GPIO1[1]/U1_DTR/CTOUT_12/EMC_D1/SD_VOLT0" x="-67.31" y="43.18" length="short"/>
+<pin name="P1_9/GPIO1[2]/U1_RTS/CTOUT_11/EMC_D2/SD_DATA0" x="-67.31" y="40.64" length="short"/>
+<pin name="P1_10/GPIO1[3]/U1_RI/CTOUT_14/EMC_D3/SD_DAT1" x="-67.31" y="38.1" length="short"/>
+<pin name="P1_11/GPIO1[4]/U1_CTS/CTOUT_15/EMC_D4/SD_DAT2" x="-67.31" y="35.56" length="short"/>
+<pin name="P1_12/GPIO1[5]/U1_DCD/EMC_D5/T0_CAP1/SGPIO8/SD_DAT3" x="-67.31" y="33.02" length="short"/>
+<pin name="P1_13/GPIO1[6]/U1_TXD/EMC_D6/T0_CAP0/SGPIO9/SD_CD" x="-67.31" y="30.48" length="short"/>
+<pin name="P1_14/GPIO1[7]/US_RXD/EMX_D7/T0_MAT2/SGPIO10" x="-67.31" y="27.94" length="short"/>
+<pin name="P1_15/GPIO0[2]/U2_TXD/SGPIO2/ENET_RXD0/T0_MAT1" x="-67.31" y="25.4" length="short"/>
+<pin name="P1_16/GPIO0[3]/U2_RXD/SGPIO3/ENET_CRS/T0_MAT0/ENET_RX_DV" x="-67.31" y="22.86" length="short"/>
+<pin name="P1_17/GPIO0[12]/U2_UCLK/ENET_MDIO/T0_CAP3/CAN1_TD/SGPIO11" x="-67.31" y="20.32" length="short"/>
+<pin name="P1_18/GPIO0[13]/U2_DIR/ENET_TXD0/T0_MAT3/CAN1_RD/SGPIO12" x="-67.31" y="17.78" length="short"/>
+<pin name="P1_19/ENET_TX_CLK/SSP1_SCK/CLKOUT/I2S0_RX_MCLK/I2S1_TX_SCK" x="-67.31" y="15.24" length="short"/>
+<pin name="P1_20/GPIO0[15]/SSP1_SSEL/ENET_TXD1/T0_CAP2/SGPIO13" x="-67.31" y="12.7" length="short"/>
+<pin name="CLK0" x="67.31" y="-10.16" length="short" rot="R180"/>
+<pin name="CLK2" x="67.31" y="-12.7" length="short" rot="R180"/>
+<pin name="DBGEN" x="67.31" y="38.1" length="short" rot="R180"/>
+<pin name="USB1_D-" x="67.31" y="19.05" length="short" rot="R180"/>
+<pin name="USB1_D+" x="67.31" y="21.59" length="short" rot="R180"/>
+<pin name="!RESET" x="67.31" y="40.64" length="short" rot="R180"/>
+<pin name="ADC0" x="67.31" y="1.27" length="short" rot="R180"/>
+<pin name="ADC1" x="67.31" y="-1.27" length="short" rot="R180"/>
+<pin name="ADC2" x="67.31" y="-3.81" length="short" rot="R180"/>
+<pin name="ADC3" x="67.31" y="-6.35" length="short" rot="R180"/>
+<pin name="USB0_D-" x="67.31" y="10.16" length="short" rot="R180"/>
+<pin name="USB0_D+" x="67.31" y="12.7" length="short" rot="R180"/>
+<pin name="USB0_ID" x="67.31" y="7.62" length="short" rot="R180"/>
+<pin name="USB0_RREF" x="67.31" y="5.08" length="short" rot="R180"/>
+<pin name="USB0_VBUS" x="67.31" y="15.24" length="short" rot="R180"/>
+<pin name="USB0_VDDA3V3" x="67.31" y="67.31" length="short" rot="R180"/>
+<pin name="USB0_VDDA3V3_DRIVER" x="67.31" y="69.85" length="short" rot="R180"/>
+<pin name="USB0_VSSA_REF" x="67.31" y="-67.31" length="short" rot="R180"/>
+<pin name="USB0_VSSA_TERM" x="67.31" y="-69.85" length="short" rot="R180"/>
+<pin name="I2C0_SDA" x="67.31" y="-16.51" length="short" rot="R180"/>
+<pin name="I2C0_SCL" x="67.31" y="-19.05" length="short" rot="R180"/>
+<pin name="XTAL1" x="67.31" y="-29.21" length="short" rot="R180"/>
+<pin name="XTAL2" x="67.31" y="-31.75" length="short" rot="R180"/>
+<pin name="RTCX1" x="67.31" y="-35.56" length="short" rot="R180"/>
+<pin name="RTCX2" x="67.31" y="-38.1" length="short" rot="R180"/>
+<pin name="VBAT" x="67.31" y="44.45" length="short" rot="R180"/>
+<pin name="WAKEUP0" x="67.31" y="-41.91" length="short" rot="R180"/>
+<pin name="RTC_ALARM" x="67.31" y="-44.45" length="short" rot="R180"/>
+<pin name="!TRST" x="67.31" y="35.56" length="short" rot="R180"/>
+<pin name="TCK" x="67.31" y="33.02" length="short" rot="R180"/>
+<pin name="TDI" x="67.31" y="30.48" length="short" rot="R180"/>
+<pin name="TDO" x="67.31" y="27.94" length="short" rot="R180"/>
+<pin name="TMS" x="67.31" y="25.4" length="short" rot="R180"/>
+<pin name="VSSA" x="67.31" y="-48.26" length="short" rot="R180"/>
+<pin name="VSSIO@1" x="67.31" y="-50.8" length="short" rot="R180"/>
+<pin name="VSSIO@2" x="67.31" y="-53.34" length="short" rot="R180"/>
+<pin name="VSSIO@3" x="67.31" y="-55.88" length="short" rot="R180"/>
+<pin name="VSSIO@4" x="67.31" y="-58.42" length="short" rot="R180"/>
+<pin name="VSSIO@5" x="67.31" y="-60.96" length="short" rot="R180"/>
+<pin name="VSSIO@6" x="67.31" y="-63.5" length="short" rot="R180"/>
+<pin name="P2_0/SGPIO4/U0_TXD/EMC_A13/USB0_PPWR/GPIO5[0]/T3_CAP0/ENET_MDC" x="-67.31" y="8.89" length="short"/>
+<pin name="P2_1/SGPIO5/U0_RXD/EMX_A12/USB0_PWR_FAULT/GPIO5[1]/T3_CAP1" x="-67.31" y="6.35" length="short"/>
+<pin name="P2_2/SGPIO6/U0_UCLK/EMC_A11/USB0_IND1/GPIO5[2]/CTIN_6/T3_CAP2" x="-67.31" y="3.81" length="short"/>
+<pin name="P2_3/SGPIO12/I2C1_SDA/U3_TXD/CTIN_1/GPIO5[3]/T3_MAT0/USB0_PPWR" x="-67.31" y="1.27" length="short"/>
+<pin name="P2_4/SGPIO12/I2C1_SCL/U3_RXD/CTIN_0/GPIO5[4]/T3_MAT1/USB0_PWR_FAULT" x="-67.31" y="-1.27" length="short"/>
+<pin name="P2_5/SGPIO14/CTIN_2/USB1_VBUS/ADCTRIG1/GPIO5[5]/T3_MAT2/USB0_IND0" x="-67.31" y="-3.81" length="short"/>
+<pin name="P2_6/SGPIO7/U0_DIR/EMC_A10/USB0_IND0/GPIO5[6]/CTIN_7/T3_CAP3" x="-67.31" y="-6.35" length="short"/>
+<pin name="P2_7/GPIO0[7]/CTOUT_1/U3_UCLK/EMC_A9/T3_MAT3" x="-67.31" y="-8.89" length="short"/>
+<pin name="P2_8/SGPIO15/CTOUT_0/U3_DIR/EMC_A8/GPIO5[7]" x="-67.31" y="-11.43" length="short"/>
+<pin name="P2_9/GPIO1[10]/CTOUT_3/U3_BAUD/EMC_A0" x="-67.31" y="-13.97" length="short"/>
+<pin name="P2_10/GPIO0[14]/CTOUT_2/U2_TXD/EMC_A1" x="-67.31" y="-16.51" length="short"/>
+<pin name="P2_11/GPIO1[11]/CTOUT_5/U2_RXD/EMC_A2" x="-67.31" y="-19.05" length="short"/>
+<pin name="P2_12/GPIO1[12]/CTOUT_4/EMC_A3/U2_UCLK" x="-67.31" y="-21.59" length="short"/>
+<pin name="P2_13/GPIO1[13]/CTIN_4/EMC_A4/U2_DIR" x="-67.31" y="-24.13" length="short"/>
+<pin name="P3_0/I2S0_RX_SCK/I2S0_RX_MCLK/I2S0_TX_SCK/I2S0_TX_MCLK/SSP0_SCK" x="-67.31" y="-27.94" length="short"/>
+<pin name="P3_1/I2S0_TX_WS/I2S0_RX_WS/CAN0_RD/USB1_IND1/GPIO5[8]/LCD_VD15" x="-67.31" y="-30.48" length="short"/>
+<pin name="P3_2/I2S0_TX_SDA/I2S0_RX_SDA/CAN0_TD/USB1_IND0/GPIO5[9]/LCD_VD14" x="-67.31" y="-33.02" length="short"/>
+<pin name="P3_3/SPI_SCK/SSP0_SCK/SPIFI_SCK/CGU_OUT1/I2S0_TX_MCLK/I2S1_TX_SCK" x="-67.31" y="-35.56" length="short"/>
+<pin name="P3_4/GPIO1[14]/SPIFI_SIO3/U1_TXD/I2S0_TX_WS/I2S1_RX_SDA/LCD_CD13" x="-67.31" y="-38.1" length="short"/>
+<pin name="P3_5/GPIO1[15]/SPIFI_SIO2/U1_RXD/I2S0_TX_SDA/I2S1_RX_WS/LCD_VD12" x="-67.31" y="-40.64" length="short"/>
+<pin name="P3_6/GPIO0[6]/SPI_MISO/SSP0_SSEL/SPIFI_MISO/SSP0_MISO" x="-67.31" y="-43.18" length="short"/>
+<pin name="P3_7/SPI_MOSI/SSP0_MISO/SPIFI_MOSI/GPIO5[10]/SSP0_MOSI" x="-67.31" y="-45.72" length="short"/>
+<pin name="P3_8/SPI_SSEL/SSP0_MOSI/SPIFI_CS/GPIO5[11]/SSP0_SSEL" x="-67.31" y="-48.26" length="short"/>
+<pin name="P6_0/I2S0_RX_MCLK/I2S0_RX_SCK" x="-67.31" y="-52.07" length="short"/>
+<pin name="P6_1/GPIO3[0]/!EMC_DYCS1!/U0_UCLK/I2S0_RX_WS/T2_CAP0" x="-67.31" y="-54.61" length="short"/>
+<pin name="P6_2/GPIO3[1]/EMC_CKEOUT1/U0_DIR/I2S0_RX_SDA/T2_CAP1" x="-67.31" y="-57.15" length="short"/>
+<pin name="P6_4/GPIO3[3]/CTIN_6/U0_TXD/!EMC_CAS!" x="-67.31" y="-59.69" length="short"/>
+<pin name="P6_5/GPIO3[4]/CTOUT_6/U0_RXD/!EMC_RAS" x="-67.31" y="-62.23" length="short"/>
+<pin name="P6_9/GPIO3[5]/!EMC_DYCS0!/T2_MAT2" x="-67.31" y="-64.77" length="short"/>
+<pin name="P6_11/GPIO3[7]/EMC_CKEOUT0/T2_MAT3" x="-67.31" y="-67.31" length="short"/>
+<pin name="PF_4/SSP1_SCK/GP_CLKIN/TRACECLK/I2S0_TX_MCLK/I2S0_RX_SCK" x="-67.31" y="-69.85" length="short"/>
+<pin name="VDDIO@1" x="67.31" y="54.61" length="short" rot="R180"/>
+<pin name="VDDIO@2" x="67.31" y="52.07" length="short" rot="R180"/>
+<pin name="VDDREG@1" x="67.31" y="63.5" length="short" rot="R180"/>
+<pin name="VDDREG@2" x="67.31" y="60.96" length="short" rot="R180"/>
+<pin name="VDDREG@3" x="67.31" y="58.42" length="short" rot="R180"/>
+<pin name="VDDA" x="67.31" y="48.26" length="short" rot="R180"/>
+<wire x1="-64.77" y1="71.12" x2="64.77" y2="71.12" width="0.254" layer="94"/>
+<wire x1="64.77" y1="71.12" x2="64.77" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="64.77" y1="-71.12" x2="-64.77" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="-64.77" y1="-71.12" x2="-64.77" y2="71.12" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LPC4330-180-PORT2">
+<pin name="P5_0/GPIO2[9]/MCOB2/EMC_D12/U1_DSR/T1_CAP0" x="-2.54" y="48.26" length="short"/>
+<pin name="P5_1/GPIO2[10]/MCI2/EMC_D13/U1_DTR/T1_CAP1" x="-2.54" y="45.72" length="short"/>
+<pin name="P5_2/GPIO2[11]/MCI1/EMC_D14/U1_RTS/T1_CAP2" x="-2.54" y="43.18" length="short"/>
+<pin name="P5_3/GPIO2[12]/MCI0/EMC_D15/U1_RI/T1_CAP3" x="-2.54" y="40.64" length="short"/>
+<pin name="P5_4/GPIO2[13]/MCOB0/EMC_D8/U1_CTS/T1_MAT0" x="-2.54" y="38.1" length="short"/>
+<pin name="P5_5/GPIO2[14]/MCOA1/EMC_D9/U1_DCD/T1_MAT1" x="-2.54" y="35.56" length="short"/>
+<pin name="P5_6/GPIO2[15]/MCOB1/EMC_D10/U1_TXD/T1_MAT2" x="-2.54" y="33.02" length="short"/>
+<pin name="P5_7/GPIO2[7]/MCOA2/EMC_D11/U1_RXD/T1_MAT3" x="-2.54" y="30.48" length="short"/>
+<pin name="P6_0/I2S0_RX_MCLK/I2S0_RX_SCK" x="-2.54" y="26.67" length="short"/>
+<pin name="P6_1/GPIO3[0]/!EMC_DYCS1!/U0_UCLK/I2S0_RX_WS/T2_CAP0" x="-2.54" y="24.13" length="short"/>
+<pin name="P6_2/GPIO3[1]/EMC_CKEOUT1/U0_DIR/I2S0_RX_SDA/T2_CAP1" x="-2.54" y="21.59" length="short"/>
+<pin name="P6_3/GPIO3[2]/USB0_PPWR/SGPIO4/!EMC_CS1!/T2_CAP2" x="-2.54" y="19.05" length="short"/>
+<pin name="P6_4/GPIO3[3]/CTIN_6/U0_TXD/!EMC_CAS!" x="-2.54" y="16.51" length="short"/>
+<pin name="P6_5/GPIO3[4]/CTOUT_6/U0_RXD/!EMC_RAS" x="-2.54" y="13.97" length="short"/>
+<pin name="P6_6/GPIO0[5]/!EMC_BLS1!/SGPIO5/USB0_PWR_FAULT/T2_CAP3" x="-2.54" y="11.43" length="short"/>
+<pin name="P6_7/EMC_A15/SGPIO6/USB0_IND1/GPIO5[15]/T2_MAT0" x="-2.54" y="8.89" length="short"/>
+<pin name="P6_8/EMC_A14/SGPIO7/USB0_IND0/GPIO5[16]/T2_MAT1" x="-2.54" y="6.35" length="short"/>
+<pin name="P6_9/GPIO3[5]/!EMC_DYCS0!/T2_MAT2" x="-2.54" y="3.81" length="short"/>
+<pin name="P6_10/GPIO3[6]/!MCABORT!/EMC_DQMOUT1" x="-2.54" y="1.27" length="short"/>
+<pin name="P6_11/GPIO3[7]/EMC_CKEOUT0/T2_MAT3" x="-2.54" y="-1.27" length="short"/>
+<pin name="P6_12/GPIO2[8]/CTOUT_7/EMC_DQMOUT02" x="-2.54" y="-3.81" length="short"/>
+<pin name="P7_0/GPIO3[8]/CTOUT_14/LCD_LE/SGPIO4" x="-2.54" y="-7.62" length="short"/>
+<pin name="P7_1/GPIO3[9]/CTOUT_15/I2S0_TX_WS/LCD_VD19/LCD_VD7/U2_TXD/SGPIO5" x="-2.54" y="-10.16" length="short"/>
+<pin name="P7_2/GPIO3[10]/CTIN_4/I2S0_TX_SDA/LCD_VD18/LCD_VD6/U2_RXD/SGPIO6" x="-2.54" y="-12.7" length="short"/>
+<pin name="P7_3/GPIO3[11]/CTIN_3/LCD_VD17/LCD_VD5" x="-2.54" y="-15.24" length="short"/>
+<pin name="P7_4/GPIO3[12]/CTOUT_13/LCD_VD16/LCD_VD4/TRACEDATA[0]/ADC0_4" x="-2.54" y="-17.78" length="short"/>
+<pin name="P7_5/GPIO3[13]/CTOUT_12/LCD_VD8/LCD_VD23/TRACEDATA[1]/ADC0_3" x="-2.54" y="-20.32" length="short"/>
+<pin name="P7_6/GPIO3[14]/CTOUT_11/LCD_LP/TRACEDATA[2]" x="-2.54" y="-22.86" length="short"/>
+<pin name="P7_7/GPIO3[15]/CTOUT_8/LCD_PWR/TRACEDATA[3]/ENET_MDC/SGPIO7/ADC1_6" x="-2.54" y="-25.4" length="short"/>
+<pin name="P8_0/GPIO4[0]/USB0_PWR_FAULT/MCI2/SGPIO8/T0_MAT0" x="-2.54" y="-29.21" length="short"/>
+<pin name="P8_1/GPIO4[1]/USB0_IND1/MCI1/SGPIO9/T0_MAT1" x="-2.54" y="-31.75" length="short"/>
+<pin name="P8_2/GPIO4[2]/USB0_IND0/MCI0/SGPIO10/T0_MAT2" x="-2.54" y="-34.29" length="short"/>
+<pin name="P8_3/GPIO4[3]/USB1_ULPI_D2/LCD_VD12/LCD_VD19/T0_MAT3" x="-2.54" y="-36.83" length="short"/>
+<pin name="P8_4/GPIO4[4]/USB1_ULPI_D1/LCD_VD7/LCD_VD16/T0_CAP0" x="-2.54" y="-39.37" length="short"/>
+<pin name="P8_5/GPIO4[5]/USB1_ULPI_D0/LCD_VD6/LCD_VD8/T0_CAP1" x="-2.54" y="-41.91" length="short"/>
+<pin name="P8_6/GPIO4[6]/USB1_ULPI_NXT/LCD_VD5/LCD_LP/T0_CAP2" x="-2.54" y="-44.45" length="short"/>
+<pin name="P8_7/GPIO4[7]/USB1_ULPI_STP/LCD_VD4/LCD_PWR/T0_CAP3" x="-2.54" y="-46.99" length="short"/>
+<pin name="P8_8/USB1_ULPI_CLK/CGU_OUT0/I2S1_TX_MCLK" x="-2.54" y="-49.53" length="short"/>
+<text x="0.635" y="50.165" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.635" y="-53.34" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="49.53" x2="92.71" y2="49.53" width="0.254" layer="94"/>
+<wire x1="92.71" y1="49.53" x2="92.71" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="92.71" y1="-50.8" x2="0" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="0" y1="-50.8" x2="0" y2="49.53" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LPC4330-180-PORT3">
+<pin name="P9_0/GPIO4[12]/!MCABORT!/ENET_CRS/SGPIO0/SSP0_SSEL" x="-2.54" y="39.37" length="short"/>
+<pin name="P9_1/GPIO4[13]/MCOA2/I2S0_TX_WS/ENET_RX_ER/SGPIO1/SSP0_MISO" x="-2.54" y="36.83" length="short"/>
+<pin name="P9_2/GPIO4[14]/MCOB2/I2S0_TX_SDA/ENET_RXD3/SGPIO2/SSP0_MOSI" x="-2.54" y="34.29" length="short"/>
+<pin name="P9_3/GPIO4[15]/MCOA0/USB1_IND1/ENET_RXD2/SGPIO9/U3_TXD" x="-2.54" y="31.75" length="short"/>
+<pin name="P9_4/MCOB0/USB1_IND0/GPIO5[17]/ENET_TXD2/SGPIO4/U3_RXD" x="-2.54" y="29.21" length="short"/>
+<pin name="P9_5/MCOA1/USB1_PPWR/GPIO5[18]/ENET_TXD3/SGPIO3/U0_TXD" x="-2.54" y="26.67" length="short"/>
+<pin name="P9_6/GPIO4[11]/MCOB1/USB1_PWR_FAULT/ENET_COL/SGPIO8/U0_RXD" x="-2.54" y="24.13" length="short"/>
+<pin name="PA_0/I2S1_RX_MCLK/CGU_OUT1" x="-2.54" y="20.32" length="short"/>
+<pin name="PA_1/GPIO4[8]/QEI_IDX/U2_TXD" x="-2.54" y="17.78" length="short"/>
+<pin name="PA_2/GPIO4[9]/QEI_PHB/U2_RXD" x="-2.54" y="15.24" length="short"/>
+<pin name="PA_3/GPIO4[10]/QEI_PHA" x="-2.54" y="12.7" length="short"/>
+<pin name="PA_4/CTOUT_9/EMC_A23/GPIO5[19]" x="-2.54" y="10.16" length="short"/>
+<pin name="PB_0/CTOUT_10/LCD_VD23/GPIO5[20]" x="-2.54" y="6.35" length="short"/>
+<pin name="PB_1/USB1_ULPI_DIR/LCD_VD22/GPIO5[21]/CTOUT_6" x="-2.54" y="3.81" length="short"/>
+<pin name="PB_2/USB1_ULPI_D7/LCD_VD21/GPIO5[22]/CTOUT_7" x="-2.54" y="1.27" length="short"/>
+<pin name="PB_3/USB1_ULPI_D6/LCD_VD20/GPIO5[23]/CTOUT_8" x="-2.54" y="-1.27" length="short"/>
+<pin name="PB_4/USB1_ULPI_D5/LCD_VD15/GPIO5[24]/CTIN_5" x="-2.54" y="-3.81" length="short"/>
+<pin name="PB_5/USB1_ULPI_D4/LCD_VD14/GPIO5[25]/CTIN_7/LCD_PWR" x="-2.54" y="-6.35" length="short"/>
+<pin name="PB_6/USB1_ULPI_D3/LCD_VD13/GPIO5[26]/CTIN_6/LCD_VD19/ADC0_6" x="-2.54" y="-8.89" length="short"/>
+<pin name="PD_1/!EMC_CS3!/GPIO6[25]/USB1_ULPI_D0/CTOUT_141" x="-2.54" y="-12.7" length="short"/>
+<pin name="PD_1/!EMC_CS2!/GPIO6[26]/CTOUT_102" x="-2.54" y="-15.24" length="short"/>
+<pin name="PD_1/!EMC_DYCS2!/GPIO6[28]/CTOUT_114" x="-2.54" y="-17.78" length="short"/>
+<pin name="PD_1/EMC_A17/GPIO6[29]/SD_WP/CTOUT_85" x="-2.54" y="-20.32" length="short"/>
+<pin name="PD_1/EMC_A16/GPIO6[30]/SD_VOLT2/CTOUT_126" x="-2.54" y="-22.86" length="short"/>
+<pin name="PE_0/EMC_A18/GPIO7[0]/CAN1_TD" x="-2.54" y="-26.67" length="short"/>
+<pin name="PE_1/EMC_A19/GPIO7[1]/CAN1_RD" x="-2.54" y="-29.21" length="short"/>
+<pin name="PE_2/ADCTRIG0/CAN0_RD/EMC_A20/GPIO7[2]" x="-2.54" y="-31.75" length="short"/>
+<pin name="PE_3/CAN0_TD/ADCTRIG1/EMC_A21/GPIO7[3]" x="-2.54" y="-34.29" length="short"/>
+<pin name="PE_4/NMI/EMC_A22/GPIO7[4]" x="-2.54" y="-36.83" length="short"/>
+<pin name="PF_4/SSP1_SCK/GP_CLKIN/TRACECLK/I2S0_TX_MCLK/I2S0_RX_SCK" x="-2.54" y="-40.64" length="short"/>
+<wire x1="0" y1="40.64" x2="83.82" y2="40.64" width="0.254" layer="94"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="-41.91" width="0.254" layer="94"/>
+<wire x1="83.82" y1="-41.91" x2="0" y2="-41.91" width="0.254" layer="94"/>
+<wire x1="0" y1="-41.91" x2="0" y2="40.64" width="0.254" layer="94"/>
+<text x="0.635" y="41.275" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.635" y="-44.45" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LPC4330-180">
+<pin name="P0_0/GPIO0[0]/SSP1_MISO/ENET_RXD1/I2S0_TX_WS/I2S1_TX_WS" x="-66.04" y="76.2" length="short"/>
+<pin name="P0_1/GPIO0[1]/SSP1_MOSI/ENET_COL/SGPIO1/ENET_TX_EN/I2S1_TX_SDA" x="-66.04" y="73.66" length="short"/>
+<pin name="P1_0/GPIO0[4]/CTIN_3/EMC_A5/SSP0_SSEL/SGPIO7" x="-66.04" y="68.58" length="short"/>
+<pin name="P1_1/GPIO0[8]/CTOUT_7/EMC_A6/SGPIO8/SSP0_MISO" x="-66.04" y="66.04" length="short"/>
+<pin name="P1_2/GPIO0[9]/CTOUT_6/EMC_A7/SGPIO9/SSP0_MOSI" x="-66.04" y="63.5" length="short"/>
+<pin name="P1_3/GPIO0[10]/CTOUT_8/SGPIO10/!EMC_OE!/USB0_INT1/SSP1_MISO/SD_RST" x="-66.04" y="60.96" length="short"/>
+<pin name="P1_4/GPIO0[11]/CTOUT_9/SGPIO11/!EMC_BLS0!/USB0_IND0/SSP1_MOSI/SD_VOLT1" x="-66.04" y="58.42" length="short"/>
+<pin name="P1_5/GPIO1[8]/CTOUT_10/!EMC_CS0!/USB0_PWR_FAULT/SSP1_SSEL/SGPIO15/SD_POW" x="-66.04" y="55.88" length="short"/>
+<pin name="P1_6/GPIO1[9]/CTIN_5/!EMC_WE!/SGPIO14/SD_CMD" x="-66.04" y="53.34" length="short"/>
+<pin name="P1_7/GPIO1[0]/U1/DSR/CTOUT_13/EMC_D0/USB0_PPWR" x="-66.04" y="50.8" length="short"/>
+<pin name="P1_8/GPIO1[1]/U1_DTR/CTOUT_12/EMC_D1/SD_VOLT0" x="-66.04" y="48.26" length="short"/>
+<pin name="P1_9/GPIO1[2]/U1_RTS/CTOUT_11/EMC_D2/SD_DATA0" x="-66.04" y="45.72" length="short"/>
+<pin name="P1_10/GPIO1[3]/U1_RI/CTOUT_14/EMC_D3/SD_DAT1" x="-66.04" y="43.18" length="short"/>
+<pin name="P1_11/GPIO1[4]/U1_CTS/CTOUT_15/EMC_D4/SD_DAT2" x="-66.04" y="40.64" length="short"/>
+<pin name="P1_12/GPIO1[5]/U1_DCD/EMC_D5/T0_CAP1/SGPIO8/SD_DAT3" x="-66.04" y="38.1" length="short"/>
+<pin name="P1_13/GPIO1[6]/U1_TXD/EMC_D6/T0_CAP0/SGPIO9/SD_CD" x="-66.04" y="35.56" length="short"/>
+<pin name="P1_14/GPIO1[7]/US_RXD/EMX_D7/T0_MAT2/SGPIO10" x="-66.04" y="33.02" length="short"/>
+<pin name="P1_15/GPIO0[2]/U2_TXD/SGPIO2/ENET_RXD0/T0_MAT1" x="-66.04" y="30.48" length="short"/>
+<pin name="P1_16/GPIO0[3]/U2_RXD/SGPIO3/ENET_CRS/T0_MAT0/ENET_RX_DV" x="-66.04" y="27.94" length="short"/>
+<pin name="P1_17/GPIO0[12]/U2_UCLK/ENET_MDIO/T0_CAP3/CAN1_TD/SGPIO11" x="-66.04" y="25.4" length="short"/>
+<pin name="P1_18/GPIO0[13]/U2_DIR/ENET_TXD0/T0_MAT3/CAN1_RD/SGPIO12" x="-66.04" y="22.86" length="short"/>
+<pin name="P1_19/ENET_TX_CLK/SSP1_SCK/CLKOUT/I2S0_RX_MCLK/I2S1_TX_SCK" x="-66.04" y="20.32" length="short"/>
+<pin name="P1_20/GPIO0[15]/SSP1_SSEL/ENET_TXD1/T0_CAP2/SGPIO13" x="-66.04" y="17.78" length="short"/>
+<pin name="CLK0" x="66.04" y="-15.24" length="short" rot="R180"/>
+<pin name="CLK2" x="66.04" y="-17.78" length="short" rot="R180"/>
+<pin name="DBGEN" x="66.04" y="43.18" length="short" rot="R180"/>
+<pin name="USB1_D-" x="66.04" y="24.13" length="short" rot="R180"/>
+<pin name="USB1_D+" x="66.04" y="26.67" length="short" rot="R180"/>
+<pin name="!RESET" x="66.04" y="45.72" length="short" rot="R180"/>
+<pin name="ADC0" x="66.04" y="6.35" length="short" rot="R180"/>
+<pin name="ADC1" x="66.04" y="3.81" length="short" rot="R180"/>
+<pin name="ADC2" x="66.04" y="1.27" length="short" rot="R180"/>
+<pin name="ADC3" x="66.04" y="-1.27" length="short" rot="R180"/>
+<pin name="USB0_D-" x="66.04" y="15.24" length="short" rot="R180"/>
+<pin name="USB0_D+" x="66.04" y="17.78" length="short" rot="R180"/>
+<pin name="USB0_ID" x="66.04" y="12.7" length="short" rot="R180"/>
+<pin name="USB0_RREF" x="66.04" y="10.16" length="short" rot="R180"/>
+<pin name="USB0_VBUS" x="66.04" y="20.32" length="short" rot="R180"/>
+<pin name="USB0_VDDA3V3" x="66.04" y="73.66" length="short" rot="R180"/>
+<pin name="USB0_VDDA3V3_DRIVER" x="66.04" y="76.2" length="short" rot="R180"/>
+<pin name="USB0_VSSA_REF" x="66.04" y="-73.66" length="short" rot="R180"/>
+<pin name="USB0_VSSA_TERM" x="66.04" y="-76.2" length="short" rot="R180"/>
+<pin name="I2C0_SDA" x="66.04" y="-21.59" length="short" rot="R180"/>
+<pin name="I2C0_SCL" x="66.04" y="-24.13" length="short" rot="R180"/>
+<pin name="XTAL1" x="66.04" y="-27.94" length="short" rot="R180"/>
+<pin name="XTAL2" x="66.04" y="-30.48" length="short" rot="R180"/>
+<pin name="RTCX1" x="66.04" y="-34.29" length="short" rot="R180"/>
+<pin name="RTCX2" x="66.04" y="-36.83" length="short" rot="R180"/>
+<pin name="VBAT" x="66.04" y="66.04" length="short" rot="R180"/>
+<pin name="WAKEUP0" x="66.04" y="-40.64" length="short" rot="R180"/>
+<pin name="RTC_ALARM" x="66.04" y="-48.26" length="short" rot="R180"/>
+<pin name="!TRST" x="66.04" y="40.64" length="short" rot="R180"/>
+<pin name="TCK" x="66.04" y="38.1" length="short" rot="R180"/>
+<pin name="TDI" x="66.04" y="35.56" length="short" rot="R180"/>
+<pin name="TDO" x="66.04" y="33.02" length="short" rot="R180"/>
+<pin name="TMS" x="66.04" y="30.48" length="short" rot="R180"/>
+<pin name="VSS@7" x="66.04" y="-67.31" length="short" rot="R180"/>
+<pin name="VSS@1" x="66.04" y="-52.07" length="short" rot="R180"/>
+<pin name="VSS@2" x="66.04" y="-54.61" length="short" rot="R180"/>
+<pin name="VSS@3" x="66.04" y="-57.15" length="short" rot="R180"/>
+<pin name="VSS@4" x="66.04" y="-59.69" length="short" rot="R180"/>
+<pin name="VSS@5" x="66.04" y="-62.23" length="short" rot="R180"/>
+<pin name="VSS@6" x="66.04" y="-64.77" length="short" rot="R180"/>
+<pin name="P2_0/SGPIO4/U0_TXD/EMC_A13/USB0_PPWR/GPIO5[0]/T3_CAP0/ENET_MDC" x="-66.04" y="12.7" length="short"/>
+<pin name="P2_1/SGPIO5/U0_RXD/EMX_A12/USB0_PWR_FAULT/GPIO5[1]/T3_CAP1" x="-66.04" y="10.16" length="short"/>
+<pin name="P2_2/SGPIO6/U0_UCLK/EMC_A11/USB0_IND1/GPIO5[2]/CTIN_6/T3_CAP2" x="-66.04" y="7.62" length="short"/>
+<pin name="P2_3/SGPIO12/I2C1_SDA/U3_TXD/CTIN_1/GPIO5[3]/T3_MAT0/USB0_PPWR" x="-66.04" y="5.08" length="short"/>
+<pin name="P2_4/SGPIO12/I2C1_SCL/U3_RXD/CTIN_0/GPIO5[4]/T3_MAT1/USB0_PWR_FAULT" x="-66.04" y="2.54" length="short"/>
+<pin name="P2_5/SGPIO14/CTIN_2/USB1_VBUS/ADCTRIG1/GPIO5[5]/T3_MAT2/USB0_IND0" x="-66.04" y="0" length="short"/>
+<pin name="P2_6/SGPIO7/U0_DIR/EMC_A10/USB0_IND0/GPIO5[6]/CTIN_7/T3_CAP3" x="-66.04" y="-2.54" length="short"/>
+<pin name="P2_7/GPIO0[7]/CTOUT_1/U3_UCLK/EMC_A9/T3_MAT3" x="-66.04" y="-5.08" length="short"/>
+<pin name="P2_8/SGPIO15/CTOUT_0/U3_DIR/EMC_A8/GPIO5[7]" x="-66.04" y="-7.62" length="short"/>
+<pin name="P2_9/GPIO1[10]/CTOUT_3/U3_BAUD/EMC_A0" x="-66.04" y="-10.16" length="short"/>
+<pin name="P2_10/GPIO0[14]/CTOUT_2/U2_TXD/EMC_A1" x="-66.04" y="-12.7" length="short"/>
+<pin name="P2_11/GPIO1[11]/CTOUT_5/U2_RXD/EMC_A2" x="-66.04" y="-15.24" length="short"/>
+<pin name="P2_12/GPIO1[12]/CTOUT_4/EMC_A3/U2_UCLK" x="-66.04" y="-17.78" length="short"/>
+<pin name="P2_13/GPIO1[13]/CTIN_4/EMC_A4/U2_DIR" x="-66.04" y="-20.32" length="short"/>
+<pin name="P3_0/I2S0_RX_SCK/I2S0_RX_MCLK/I2S0_TX_SCK/I2S0_TX_MCLK/SSP0_SCK" x="-66.04" y="-25.4" length="short"/>
+<pin name="P3_1/I2S0_TX_WS/I2S0_RX_WS/CAN0_RD/USB1_IND1/GPIO5[8]/LCD_VD15" x="-66.04" y="-27.94" length="short"/>
+<pin name="P3_2/I2S0_TX_SDA/I2S0_RX_SDA/CAN0_TD/USB1_IND0/GPIO5[9]/LCD_VD14" x="-66.04" y="-30.48" length="short"/>
+<pin name="P3_3/SPI_SCK/SSP0_SCK/SPIFI_SCK/CGU_OUT1/I2S0_TX_MCLK/I2S1_TX_SCK" x="-66.04" y="-33.02" length="short"/>
+<pin name="P3_4/GPIO1[14]/SPIFI_SIO3/U1_TXD/I2S0_TX_WS/I2S1_RX_SDA/LCD_CD13" x="-66.04" y="-35.56" length="short"/>
+<pin name="P3_5/GPIO1[15]/SPIFI_SIO2/U1_RXD/I2S0_TX_SDA/I2S1_RX_WS/LCD_VD12" x="-66.04" y="-38.1" length="short"/>
+<pin name="P3_6/GPIO0[6]/SPI_MISO/SSP0_SSEL/SPIFI_MISO/SSP0_MISO" x="-66.04" y="-40.64" length="short"/>
+<pin name="P3_7/SPI_MOSI/SSP0_MISO/SPIFI_MOSI/GPIO5[10]/SSP0_MOSI" x="-66.04" y="-43.18" length="short"/>
+<pin name="P3_8/SPI_SSEL/SSP0_MOSI/SPIFI_CS/GPIO5[11]/SSP0_SSEL" x="-66.04" y="-45.72" length="short"/>
+<pin name="VDDIO@1" x="66.04" y="57.15" length="short" rot="R180"/>
+<pin name="VDDIO@2" x="66.04" y="54.61" length="short" rot="R180"/>
+<pin name="VDDREG@1" x="66.04" y="62.23" length="short" rot="R180"/>
+<pin name="VDDREG@2" x="66.04" y="59.69" length="short" rot="R180"/>
+<pin name="VDDIO@3" x="66.04" y="52.07" length="short" rot="R180"/>
+<pin name="VDDA" x="66.04" y="69.85" length="short" rot="R180"/>
+<pin name="WAKEUP1" x="66.04" y="-43.18" length="short" rot="R180"/>
+<pin name="WAKEUP2" x="66.04" y="-45.72" length="short" rot="R180"/>
+<pin name="VSSA" x="66.04" y="-69.85" length="short" rot="R180"/>
+<pin name="VDDIO@4" x="66.04" y="49.53" length="short" rot="R180"/>
+<pin name="P4_0/GPIO2[0]/MCOA0/NMI/LCD_VD13/U3_UCLK" x="-66.04" y="-50.8" length="short"/>
+<pin name="P4_1/GPIO2[1]/CTOUT_1/LCD_VD0/LCD_VD19/U3_TXD/ENET_COL/ADC0_1" x="-66.04" y="-53.34" length="short"/>
+<pin name="P4_2/GPIO2[2]/CTOUT_0/LCD_VD3/LCD_VD12/U3_RXD/SGPIO8" x="-66.04" y="-55.88" length="short"/>
+<pin name="P4_3/GPIO2[3]/CTOUT_3/LCD_VD2/LCD_VD21/U3_BAUD/SGPIO9/ADC0_0" x="-66.04" y="-58.42" length="short"/>
+<pin name="P4_4/GPIO2[4]/CTOUT_2/LCD_VD1/LCD_VD20/U3_DIR/SGPIO10/DAC" x="-66.04" y="-60.96" length="short"/>
+<pin name="P4_5/GPIO2[5]/CTOUT_5/LCD_FP/SGPIO11" x="-66.04" y="-63.5" length="short"/>
+<pin name="P4_6/GPIO2[6]/CTOUT_4/LCD_ENAB/SGPIO12" x="-66.04" y="-66.04" length="short"/>
+<pin name="P4_7/LCD_DCLK/GP_CLKIN/I2S1_TX_SCK/I2S0_TX_SCK" x="-66.04" y="-68.58" length="short"/>
+<pin name="P4_8/CTIN_5/LCD_VD9/GPIO5[12]/LCD_VD22/CAN1_TD/SGPIO13" x="-66.04" y="-71.12" length="short"/>
+<pin name="P4_9/CTIN_6/LCD_VD11/GPIO5[13]/LCD_VD15/CAN1_RD/SGPIO14" x="-66.04" y="-73.66" length="short"/>
+<pin name="P4_10/CTIN_2/LCD_VD10/GPIO5[14]/LCD_VD14/SGPIO150" x="-66.04" y="-76.2" length="short"/>
+<pin name="ADC4" x="66.04" y="-3.81" length="short" rot="R180"/>
+<pin name="ADC5" x="66.04" y="-6.35" length="short" rot="R180"/>
+<pin name="ADC6" x="66.04" y="-8.89" length="short" rot="R180"/>
+<pin name="ADC7" x="66.04" y="-11.43" length="short" rot="R180"/>
+<wire x1="-63.5" y1="77.47" x2="63.5" y2="77.47" width="0.254" layer="94"/>
+<wire x1="63.5" y1="77.47" x2="63.5" y2="-77.47" width="0.254" layer="94"/>
+<wire x1="63.5" y1="-77.47" x2="-63.5" y2="-77.47" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-77.47" x2="-63.5" y2="77.47" width="0.254" layer="94"/>
+<text x="-62.865" y="78.105" size="1.778" layer="95">&gt;NAME</text>
+<text x="-62.865" y="-80.01" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -540,6 +1813,315 @@
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC4320" prefix="U">
+<gates>
+<gate name="G$1" symbol="LPC4320" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FET100,551" package="TFBGA-100-9MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="B6"/>
+<connect gate="G$1" pin="!TRST" pad="B4"/>
+<connect gate="G$1" pin="ADC0" pad="A2"/>
+<connect gate="G$1" pin="ADC1" pad="A1"/>
+<connect gate="G$1" pin="ADC2" pad="B3"/>
+<connect gate="G$1" pin="ADC3" pad="A3"/>
+<connect gate="G$1" pin="CLK0" pad="K3"/>
+<connect gate="G$1" pin="CLK2" pad="K6"/>
+<connect gate="G$1" pin="DBGEN" pad="A6"/>
+<connect gate="G$1" pin="I2C0_SCL" pad="D6"/>
+<connect gate="G$1" pin="I2C0_SDA" pad="E6"/>
+<connect gate="G$1" pin="P0_0/GPIO0[0]/SSP1_MISO/ENET_RXD1/I2S0_TX_WS/I2S1_TX_WS" pad="G2"/>
+<connect gate="G$1" pin="P0_1/GPIO0[1]/SSP1_MOSI/ENET_COL/SGPIO1/ENET_TX_EN/I2S1_TX_SDA" pad="G1"/>
+<connect gate="G$1" pin="P1_0/GPIO0[4]/CTIN_3/EMC_A5/SSP0_SSEL/SGPIO7" pad="H1"/>
+<connect gate="G$1" pin="P1_1/GPIO0[8]/CTOUT_7/EMC_A6/SGPIO8/SSP0_MISO" pad="K2"/>
+<connect gate="G$1" pin="P1_10/GPIO1[3]/U1_RI/CTOUT_14/EMC_D3/SD_DAT1" pad="H6"/>
+<connect gate="G$1" pin="P1_11/GPIO1[4]/U1_CTS/CTOUT_15/EMC_D4/SD_DAT2" pad="J7"/>
+<connect gate="G$1" pin="P1_12/GPIO1[5]/U1_DCD/EMC_D5/T0_CAP1/SGPIO8/SD_DAT3" pad="K7"/>
+<connect gate="G$1" pin="P1_13/GPIO1[6]/U1_TXD/EMC_D6/T0_CAP0/SGPIO9/SD_CD" pad="H8"/>
+<connect gate="G$1" pin="P1_14/GPIO1[7]/US_RXD/EMX_D7/T0_MAT2/SGPIO10" pad="J8"/>
+<connect gate="G$1" pin="P1_15/GPIO0[2]/U2_TXD/SGPIO2/ENET_RXD0/T0_MAT1" pad="K8"/>
+<connect gate="G$1" pin="P1_16/GPIO0[3]/U2_RXD/SGPIO3/ENET_CRS/T0_MAT0/ENET_RX_DV" pad="H9"/>
+<connect gate="G$1" pin="P1_17/GPIO0[12]/U2_UCLK/ENET_MDIO/T0_CAP3/CAN1_TD/SGPIO11" pad="H10"/>
+<connect gate="G$1" pin="P1_18/GPIO0[13]/U2_DIR/ENET_TXD0/T0_MAT3/CAN1_RD/SGPIO12" pad="J10"/>
+<connect gate="G$1" pin="P1_19/ENET_TX_CLK/SSP1_SCK/CLKOUT/I2S0_RX_MCLK/I2S1_TX_SCK" pad="K9"/>
+<connect gate="G$1" pin="P1_2/GPIO0[9]/CTOUT_6/EMC_A7/SGPIO9/SSP0_MOSI" pad="K1"/>
+<connect gate="G$1" pin="P1_20/GPIO0[15]/SSP1_SSEL/ENET_TXD1/T0_CAP2/SGPIO13" pad="K10"/>
+<connect gate="G$1" pin="P1_3/GPIO0[10]/CTOUT_8/SGPIO10/!EMC_OE!/USB0_INT1/SSP1_MISO/SD_RST" pad="J1"/>
+<connect gate="G$1" pin="P1_4/GPIO0[11]/CTOUT_9/SGPIO11/!EMC_BLS0!/USB0_IND0/SSP1_MOSI/SD_VOLT1" pad="J2"/>
+<connect gate="G$1" pin="P1_5/GPIO1[8]/CTOUT_10/!EMC_CS0!/USB0_PWR_FAULT/SSP1_SSEL/SGPIO15/SD_POW" pad="J4"/>
+<connect gate="G$1" pin="P1_6/GPIO1[9]/CTIN_5/!EMC_WE!/SGPIO14/SD_CMD" pad="K4"/>
+<connect gate="G$1" pin="P1_7/GPIO1[0]/U1/DSR/CTOUT_13/EMC_D0/USB0_PPWR" pad="G4"/>
+<connect gate="G$1" pin="P1_8/GPIO1[1]/U1_DTR/CTOUT_12/EMC_D1/SD_VOLT0" pad="H5"/>
+<connect gate="G$1" pin="P1_9/GPIO1[2]/U1_RTS/CTOUT_11/EMC_D2/SD_DATA0" pad="J5"/>
+<connect gate="G$1" pin="P2_0/SGPIO4/U0_TXD/EMC_A13/USB0_PPWR/GPIO5[0]/T3_CAP0/ENET_MDC" pad="G10"/>
+<connect gate="G$1" pin="P2_1/SGPIO5/U0_RXD/EMX_A12/USB0_PWR_FAULT/GPIO5[1]/T3_CAP1" pad="G7"/>
+<connect gate="G$1" pin="P2_10/GPIO0[14]/CTOUT_2/U2_TXD/EMC_A1" pad="E8"/>
+<connect gate="G$1" pin="P2_11/GPIO1[11]/CTOUT_5/U2_RXD/EMC_A2" pad="A9"/>
+<connect gate="G$1" pin="P2_12/GPIO1[12]/CTOUT_4/EMC_A3/U2_UCLK" pad="B9"/>
+<connect gate="G$1" pin="P2_13/GPIO1[13]/CTIN_4/EMC_A4/U2_DIR" pad="A10"/>
+<connect gate="G$1" pin="P2_2/SGPIO6/U0_UCLK/EMC_A11/USB0_IND1/GPIO5[2]/CTIN_6/T3_CAP2" pad="F5"/>
+<connect gate="G$1" pin="P2_3/SGPIO12/I2C1_SDA/U3_TXD/CTIN_1/GPIO5[3]/T3_MAT0/USB0_PPWR" pad="D8"/>
+<connect gate="G$1" pin="P2_4/SGPIO12/I2C1_SCL/U3_RXD/CTIN_0/GPIO5[4]/T3_MAT1/USB0_PWR_FAULT" pad="D9"/>
+<connect gate="G$1" pin="P2_5/SGPIO14/CTIN_2/USB1_VBUS/ADCTRIG1/GPIO5[5]/T3_MAT2/USB0_IND0" pad="D10"/>
+<connect gate="G$1" pin="P2_6/SGPIO7/U0_DIR/EMC_A10/USB0_IND0/GPIO5[6]/CTIN_7/T3_CAP3" pad="G9"/>
+<connect gate="G$1" pin="P2_7/GPIO0[7]/CTOUT_1/U3_UCLK/EMC_A9/T3_MAT3" pad="C10"/>
+<connect gate="G$1" pin="P2_8/SGPIO15/CTOUT_0/U3_DIR/EMC_A8/GPIO5[7]" pad="C6"/>
+<connect gate="G$1" pin="P2_9/GPIO1[10]/CTOUT_3/U3_BAUD/EMC_A0" pad="B10"/>
+<connect gate="G$1" pin="P3_0/I2S0_RX_SCK/I2S0_RX_MCLK/I2S0_TX_SCK/I2S0_TX_MCLK/SSP0_SCK" pad="A8"/>
+<connect gate="G$1" pin="P3_1/I2S0_TX_WS/I2S0_RX_WS/CAN0_RD/USB1_IND1/GPIO5[8]/LCD_VD15" pad="F7"/>
+<connect gate="G$1" pin="P3_2/I2S0_TX_SDA/I2S0_RX_SDA/CAN0_TD/USB1_IND0/GPIO5[9]/LCD_VD14" pad="G6"/>
+<connect gate="G$1" pin="P3_3/SPI_SCK/SSP0_SCK/SPIFI_SCK/CGU_OUT1/I2S0_TX_MCLK/I2S1_TX_SCK" pad="A7"/>
+<connect gate="G$1" pin="P3_4/GPIO1[14]/SPIFI_SIO3/U1_TXD/I2S0_TX_WS/I2S1_RX_SDA/LCD_CD13" pad="B8"/>
+<connect gate="G$1" pin="P3_5/GPIO1[15]/SPIFI_SIO2/U1_RXD/I2S0_TX_SDA/I2S1_RX_WS/LCD_VD12" pad="B7"/>
+<connect gate="G$1" pin="P3_6/GPIO0[6]/SPI_MISO/SSP0_SSEL/SPIFI_MISO/SSP0_MISO" pad="C7"/>
+<connect gate="G$1" pin="P3_7/SPI_MOSI/SSP0_MISO/SPIFI_MOSI/GPIO5[10]/SSP0_MOSI" pad="D7"/>
+<connect gate="G$1" pin="P3_8/SPI_SSEL/SSP0_MOSI/SPIFI_CS/GPIO5[11]/SSP0_SSEL" pad="E7"/>
+<connect gate="G$1" pin="P6_0/I2S0_RX_MCLK/I2S0_RX_SCK" pad="H7"/>
+<connect gate="G$1" pin="P6_1/GPIO3[0]/!EMC_DYCS1!/U0_UCLK/I2S0_RX_WS/T2_CAP0" pad="G5"/>
+<connect gate="G$1" pin="P6_11/GPIO3[7]/EMC_CKEOUT0/T2_MAT3" pad="C9"/>
+<connect gate="G$1" pin="P6_2/GPIO3[1]/EMC_CKEOUT1/U0_DIR/I2S0_RX_SDA/T2_CAP1" pad="J9"/>
+<connect gate="G$1" pin="P6_4/GPIO3[3]/CTIN_6/U0_TXD/!EMC_CAS!" pad="F6"/>
+<connect gate="G$1" pin="P6_5/GPIO3[4]/CTOUT_6/U0_RXD/!EMC_RAS" pad="F9"/>
+<connect gate="G$1" pin="P6_9/GPIO3[5]/!EMC_DYCS0!/T2_MAT2" pad="F8"/>
+<connect gate="G$1" pin="PF_4/SSP1_SCK/GP_CLKIN/TRACECLK/I2S0_TX_MCLK/I2S0_RX_SCK" pad="H4"/>
+<connect gate="G$1" pin="RTCX1" pad="A5"/>
+<connect gate="G$1" pin="RTCX2" pad="B5"/>
+<connect gate="G$1" pin="RTC_ALARM" pad="C3"/>
+<connect gate="G$1" pin="TCK" pad="H2"/>
+<connect gate="G$1" pin="TDI" pad="G3"/>
+<connect gate="G$1" pin="TDO" pad="H3"/>
+<connect gate="G$1" pin="TMS" pad="C4"/>
+<connect gate="G$1" pin="USB0_D+" pad="E1"/>
+<connect gate="G$1" pin="USB0_D-" pad="E2"/>
+<connect gate="G$1" pin="USB0_ID" pad="F1"/>
+<connect gate="G$1" pin="USB0_RREF" pad="F3"/>
+<connect gate="G$1" pin="USB0_VBUS" pad="E3"/>
+<connect gate="G$1" pin="USB0_VDDA3V3" pad="D2"/>
+<connect gate="G$1" pin="USB0_VDDA3V3_DRIVER" pad="D1"/>
+<connect gate="G$1" pin="USB0_VSSA_REF" pad="F2"/>
+<connect gate="G$1" pin="USB0_VSSA_TERM" pad="D3"/>
+<connect gate="G$1" pin="USB1_D+" pad="E9"/>
+<connect gate="G$1" pin="USB1_D-" pad="E10"/>
+<connect gate="G$1" pin="VBAT" pad="C5"/>
+<connect gate="G$1" pin="VDDA" pad="B2"/>
+<connect gate="G$1" pin="VDDIO@1" pad="K5"/>
+<connect gate="G$1" pin="VDDIO@2" pad="F10"/>
+<connect gate="G$1" pin="VDDREG@1" pad="E5"/>
+<connect gate="G$1" pin="VDDREG@2" pad="E4"/>
+<connect gate="G$1" pin="VDDREG@3" pad="F4"/>
+<connect gate="G$1" pin="VSSA" pad="C2"/>
+<connect gate="G$1" pin="VSSIO@1" pad="C8"/>
+<connect gate="G$1" pin="VSSIO@2" pad="D4"/>
+<connect gate="G$1" pin="VSSIO@3" pad="D5"/>
+<connect gate="G$1" pin="VSSIO@4" pad="G8"/>
+<connect gate="G$1" pin="VSSIO@5" pad="J3"/>
+<connect gate="G$1" pin="VSSIO@6" pad="J6"/>
+<connect gate="G$1" pin="WAKEUP0" pad="A4"/>
+<connect gate="G$1" pin="XTAL1" pad="B1"/>
+<connect gate="G$1" pin="XTAL2" pad="C1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC4330" prefix="U">
+<gates>
+<gate name="G$1" symbol="LPC4330-180" x="0" y="0"/>
+<gate name="G$2" symbol="LPC4330-180-PORT2" x="-63.66" y="-134.78"/>
+<gate name="G$3" symbol="LPC4330-180-PORT3" x="-63.34" y="-233.84"/>
+</gates>
+<devices>
+<device name="FET180,551" package="TFBGA-180-12MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="C7"/>
+<connect gate="G$1" pin="!TRST" pad="L4"/>
+<connect gate="G$1" pin="ADC0" pad="B6"/>
+<connect gate="G$1" pin="ADC1" pad="C4"/>
+<connect gate="G$1" pin="ADC2" pad="B3"/>
+<connect gate="G$1" pin="ADC3" pad="B4"/>
+<connect gate="G$1" pin="ADC4" pad="A5"/>
+<connect gate="G$1" pin="ADC5" pad="C3"/>
+<connect gate="G$1" pin="ADC6" pad="A4"/>
+<connect gate="G$1" pin="ADC7" pad="B5"/>
+<connect gate="G$1" pin="CLK0" pad="M4"/>
+<connect gate="G$1" pin="CLK2" pad="P10"/>
+<connect gate="G$1" pin="DBGEN" pad="K4"/>
+<connect gate="G$1" pin="I2C0_SCL" pad="K13"/>
+<connect gate="G$1" pin="I2C0_SDA" pad="K14"/>
+<connect gate="G$1" pin="P0_0/GPIO0[0]/SSP1_MISO/ENET_RXD1/I2S0_TX_WS/I2S1_TX_WS" pad="K3"/>
+<connect gate="G$1" pin="P0_1/GPIO0[1]/SSP1_MOSI/ENET_COL/SGPIO1/ENET_TX_EN/I2S1_TX_SDA" pad="K2"/>
+<connect gate="G$1" pin="P1_0/GPIO0[4]/CTIN_3/EMC_A5/SSP0_SSEL/SGPIO7" pad="L1"/>
+<connect gate="G$1" pin="P1_1/GPIO0[8]/CTOUT_7/EMC_A6/SGPIO8/SSP0_MISO" pad="N1"/>
+<connect gate="G$1" pin="P1_10/GPIO1[3]/U1_RI/CTOUT_14/EMC_D3/SD_DAT1" pad="N6"/>
+<connect gate="G$1" pin="P1_11/GPIO1[4]/U1_CTS/CTOUT_15/EMC_D4/SD_DAT2" pad="P8"/>
+<connect gate="G$1" pin="P1_12/GPIO1[5]/U1_DCD/EMC_D5/T0_CAP1/SGPIO8/SD_DAT3" pad="P7"/>
+<connect gate="G$1" pin="P1_13/GPIO1[6]/U1_TXD/EMC_D6/T0_CAP0/SGPIO9/SD_CD" pad="L8"/>
+<connect gate="G$1" pin="P1_14/GPIO1[7]/US_RXD/EMX_D7/T0_MAT2/SGPIO10" pad="K7"/>
+<connect gate="G$1" pin="P1_15/GPIO0[2]/U2_TXD/SGPIO2/ENET_RXD0/T0_MAT1" pad="P11"/>
+<connect gate="G$1" pin="P1_16/GPIO0[3]/U2_RXD/SGPIO3/ENET_CRS/T0_MAT0/ENET_RX_DV" pad="L5"/>
+<connect gate="G$1" pin="P1_17/GPIO0[12]/U2_UCLK/ENET_MDIO/T0_CAP3/CAN1_TD/SGPIO11" pad="L6"/>
+<connect gate="G$1" pin="P1_18/GPIO0[13]/U2_DIR/ENET_TXD0/T0_MAT3/CAN1_RD/SGPIO12" pad="N10"/>
+<connect gate="G$1" pin="P1_19/ENET_TX_CLK/SSP1_SCK/CLKOUT/I2S0_RX_MCLK/I2S1_TX_SCK" pad="N9"/>
+<connect gate="G$1" pin="P1_2/GPIO0[9]/CTOUT_6/EMC_A7/SGPIO9/SSP0_MOSI" pad="N2"/>
+<connect gate="G$1" pin="P1_20/GPIO0[15]/SSP1_SSEL/ENET_TXD1/T0_CAP2/SGPIO13" pad="J10"/>
+<connect gate="G$1" pin="P1_3/GPIO0[10]/CTOUT_8/SGPIO10/!EMC_OE!/USB0_INT1/SSP1_MISO/SD_RST" pad="M2"/>
+<connect gate="G$1" pin="P1_4/GPIO0[11]/CTOUT_9/SGPIO11/!EMC_BLS0!/USB0_IND0/SSP1_MOSI/SD_VOLT1" pad="P2"/>
+<connect gate="G$1" pin="P1_5/GPIO1[8]/CTOUT_10/!EMC_CS0!/USB0_PWR_FAULT/SSP1_SSEL/SGPIO15/SD_POW" pad="N3"/>
+<connect gate="G$1" pin="P1_6/GPIO1[9]/CTIN_5/!EMC_WE!/SGPIO14/SD_CMD" pad="P3"/>
+<connect gate="G$1" pin="P1_7/GPIO1[0]/U1/DSR/CTOUT_13/EMC_D0/USB0_PPWR" pad="N4"/>
+<connect gate="G$1" pin="P1_8/GPIO1[1]/U1_DTR/CTOUT_12/EMC_D1/SD_VOLT0" pad="M5"/>
+<connect gate="G$1" pin="P1_9/GPIO1[2]/U1_RTS/CTOUT_11/EMC_D2/SD_DATA0" pad="N5"/>
+<connect gate="G$1" pin="P2_0/SGPIO4/U0_TXD/EMC_A13/USB0_PPWR/GPIO5[0]/T3_CAP0/ENET_MDC" pad="N14"/>
+<connect gate="G$1" pin="P2_1/SGPIO5/U0_RXD/EMX_A12/USB0_PWR_FAULT/GPIO5[1]/T3_CAP1" pad="M13"/>
+<connect gate="G$1" pin="P2_10/GPIO0[14]/CTOUT_2/U2_TXD/EMC_A1" pad="F14"/>
+<connect gate="G$1" pin="P2_11/GPIO1[11]/CTOUT_5/U2_RXD/EMC_A2" pad="E13"/>
+<connect gate="G$1" pin="P2_12/GPIO1[12]/CTOUT_4/EMC_A3/U2_UCLK" pad="D13"/>
+<connect gate="G$1" pin="P2_13/GPIO1[13]/CTIN_4/EMC_A4/U2_DIR" pad="E14"/>
+<connect gate="G$1" pin="P2_2/SGPIO6/U0_UCLK/EMC_A11/USB0_IND1/GPIO5[2]/CTIN_6/T3_CAP2" pad="L13"/>
+<connect gate="G$1" pin="P2_3/SGPIO12/I2C1_SDA/U3_TXD/CTIN_1/GPIO5[3]/T3_MAT0/USB0_PPWR" pad="G11"/>
+<connect gate="G$1" pin="P2_4/SGPIO12/I2C1_SCL/U3_RXD/CTIN_0/GPIO5[4]/T3_MAT1/USB0_PWR_FAULT" pad="L9"/>
+<connect gate="G$1" pin="P2_5/SGPIO14/CTIN_2/USB1_VBUS/ADCTRIG1/GPIO5[5]/T3_MAT2/USB0_IND0" pad="J12"/>
+<connect gate="G$1" pin="P2_6/SGPIO7/U0_DIR/EMC_A10/USB0_IND0/GPIO5[6]/CTIN_7/T3_CAP3" pad="J14"/>
+<connect gate="G$1" pin="P2_7/GPIO0[7]/CTOUT_1/U3_UCLK/EMC_A9/T3_MAT3" pad="G12"/>
+<connect gate="G$1" pin="P2_8/SGPIO15/CTOUT_0/U3_DIR/EMC_A8/GPIO5[7]" pad="H14"/>
+<connect gate="G$1" pin="P2_9/GPIO1[10]/CTOUT_3/U3_BAUD/EMC_A0" pad="G14"/>
+<connect gate="G$1" pin="P3_0/I2S0_RX_SCK/I2S0_RX_MCLK/I2S0_TX_SCK/I2S0_TX_MCLK/SSP0_SCK" pad="D12"/>
+<connect gate="G$1" pin="P3_1/I2S0_TX_WS/I2S0_RX_WS/CAN0_RD/USB1_IND1/GPIO5[8]/LCD_VD15" pad="D10"/>
+<connect gate="G$1" pin="P3_2/I2S0_TX_SDA/I2S0_RX_SDA/CAN0_TD/USB1_IND0/GPIO5[9]/LCD_VD14" pad="D9"/>
+<connect gate="G$1" pin="P3_3/SPI_SCK/SSP0_SCK/SPIFI_SCK/CGU_OUT1/I2S0_TX_MCLK/I2S1_TX_SCK" pad="B13"/>
+<connect gate="G$1" pin="P3_4/GPIO1[14]/SPIFI_SIO3/U1_TXD/I2S0_TX_WS/I2S1_RX_SDA/LCD_CD13" pad="C14"/>
+<connect gate="G$1" pin="P3_5/GPIO1[15]/SPIFI_SIO2/U1_RXD/I2S0_TX_SDA/I2S1_RX_WS/LCD_VD12" pad="C11"/>
+<connect gate="G$1" pin="P3_6/GPIO0[6]/SPI_MISO/SSP0_SSEL/SPIFI_MISO/SSP0_MISO" pad="B12"/>
+<connect gate="G$1" pin="P3_7/SPI_MOSI/SSP0_MISO/SPIFI_MOSI/GPIO5[10]/SSP0_MOSI" pad="C10"/>
+<connect gate="G$1" pin="P3_8/SPI_SSEL/SSP0_MOSI/SPIFI_CS/GPIO5[11]/SSP0_SSEL" pad="C9"/>
+<connect gate="G$1" pin="P4_0/GPIO2[0]/MCOA0/NMI/LCD_VD13/U3_UCLK" pad="D4"/>
+<connect gate="G$1" pin="P4_1/GPIO2[1]/CTOUT_1/LCD_VD0/LCD_VD19/U3_TXD/ENET_COL/ADC0_1" pad="D3"/>
+<connect gate="G$1" pin="P4_10/CTIN_2/LCD_VD10/GPIO5[14]/LCD_VD14/SGPIO150" pad="J2"/>
+<connect gate="G$1" pin="P4_2/GPIO2[2]/CTOUT_0/LCD_VD3/LCD_VD12/U3_RXD/SGPIO8" pad="L3"/>
+<connect gate="G$1" pin="P4_3/GPIO2[3]/CTOUT_3/LCD_VD2/LCD_VD21/U3_BAUD/SGPIO9/ADC0_0" pad="A2"/>
+<connect gate="G$1" pin="P4_4/GPIO2[4]/CTOUT_2/LCD_VD1/LCD_VD20/U3_DIR/SGPIO10/DAC" pad="B2"/>
+<connect gate="G$1" pin="P4_5/GPIO2[5]/CTOUT_5/LCD_FP/SGPIO11" pad="A1"/>
+<connect gate="G$1" pin="P4_6/GPIO2[6]/CTOUT_4/LCD_ENAB/SGPIO12" pad="C2"/>
+<connect gate="G$1" pin="P4_7/LCD_DCLK/GP_CLKIN/I2S1_TX_SCK/I2S0_TX_SCK" pad="B1"/>
+<connect gate="G$1" pin="P4_8/CTIN_5/LCD_VD9/GPIO5[12]/LCD_VD22/CAN1_TD/SGPIO13" pad="F4"/>
+<connect gate="G$1" pin="P4_9/CTIN_6/LCD_VD11/GPIO5[13]/LCD_VD15/CAN1_RD/SGPIO14" pad="D2"/>
+<connect gate="G$1" pin="RTCX1" pad="A8"/>
+<connect gate="G$1" pin="RTCX2" pad="B7"/>
+<connect gate="G$1" pin="RTC_ALARM" pad="A10"/>
+<connect gate="G$1" pin="TCK" pad="G5"/>
+<connect gate="G$1" pin="TDI" pad="H4"/>
+<connect gate="G$1" pin="TDO" pad="J5"/>
+<connect gate="G$1" pin="TMS" pad="K5"/>
+<connect gate="G$1" pin="USB0_D+" pad="E2"/>
+<connect gate="G$1" pin="USB0_D-" pad="F2"/>
+<connect gate="G$1" pin="USB0_ID" pad="G2"/>
+<connect gate="G$1" pin="USB0_RREF" pad="G1"/>
+<connect gate="G$1" pin="USB0_VBUS" pad="E1"/>
+<connect gate="G$1" pin="USB0_VDDA3V3" pad="F3"/>
+<connect gate="G$1" pin="USB0_VDDA3V3_DRIVER" pad="E3"/>
+<connect gate="G$1" pin="USB0_VSSA_REF" pad="F1"/>
+<connect gate="G$1" pin="USB0_VSSA_TERM" pad="G3"/>
+<connect gate="G$1" pin="USB1_D+" pad="D11"/>
+<connect gate="G$1" pin="USB1_D-" pad="E11"/>
+<connect gate="G$1" pin="VBAT" pad="B9"/>
+<connect gate="G$1" pin="VDDA" pad="A6"/>
+<connect gate="G$1" pin="VDDIO@1" pad="H5"/>
+<connect gate="G$1" pin="VDDIO@2" pad="H10"/>
+<connect gate="G$1" pin="VDDIO@3" pad="K8"/>
+<connect gate="G$1" pin="VDDIO@4" pad="G10"/>
+<connect gate="G$1" pin="VDDREG@1" pad="D8"/>
+<connect gate="G$1" pin="VDDREG@2" pad="E8"/>
+<connect gate="G$1" pin="VSS@1" pad="F10"/>
+<connect gate="G$1" pin="VSS@2" pad="D7"/>
+<connect gate="G$1" pin="VSS@3" pad="E6"/>
+<connect gate="G$1" pin="VSS@4" pad="E7"/>
+<connect gate="G$1" pin="VSS@5" pad="E9"/>
+<connect gate="G$1" pin="VSS@6" pad="K6"/>
+<connect gate="G$1" pin="VSS@7" pad="K9"/>
+<connect gate="G$1" pin="VSSA" pad="A3"/>
+<connect gate="G$1" pin="WAKEUP0" pad="A9"/>
+<connect gate="G$1" pin="WAKEUP1" pad="C8"/>
+<connect gate="G$1" pin="WAKEUP2" pad="E5"/>
+<connect gate="G$1" pin="XTAL1" pad="C1"/>
+<connect gate="G$1" pin="XTAL2" pad="D1"/>
+<connect gate="G$2" pin="P5_0/GPIO2[9]/MCOB2/EMC_D12/U1_DSR/T1_CAP0" pad="L2"/>
+<connect gate="G$2" pin="P5_1/GPIO2[10]/MCI2/EMC_D13/U1_DTR/T1_CAP1" pad="M1"/>
+<connect gate="G$2" pin="P5_2/GPIO2[11]/MCI1/EMC_D14/U1_RTS/T1_CAP2" pad="M3"/>
+<connect gate="G$2" pin="P5_3/GPIO2[12]/MCI0/EMC_D15/U1_RI/T1_CAP3" pad="P6"/>
+<connect gate="G$2" pin="P5_4/GPIO2[13]/MCOB0/EMC_D8/U1_CTS/T1_MAT0" pad="N7"/>
+<connect gate="G$2" pin="P5_5/GPIO2[14]/MCOA1/EMC_D9/U1_DCD/T1_MAT1" pad="N8"/>
+<connect gate="G$2" pin="P5_6/GPIO2[15]/MCOB1/EMC_D10/U1_TXD/T1_MAT2" pad="M11"/>
+<connect gate="G$2" pin="P5_7/GPIO2[7]/MCOA2/EMC_D11/U1_RXD/T1_MAT3" pad="N11"/>
+<connect gate="G$2" pin="P6_0/I2S0_RX_MCLK/I2S0_RX_SCK" pad="M10"/>
+<connect gate="G$2" pin="P6_1/GPIO3[0]/!EMC_DYCS1!/U0_UCLK/I2S0_RX_WS/T2_CAP0" pad="P14"/>
+<connect gate="G$2" pin="P6_10/GPIO3[6]/!MCABORT!/EMC_DQMOUT1" pad="F12"/>
+<connect gate="G$2" pin="P6_11/GPIO3[7]/EMC_CKEOUT0/T2_MAT3" pad="F11"/>
+<connect gate="G$2" pin="P6_12/GPIO2[8]/CTOUT_7/EMC_DQMOUT02" pad="H13"/>
+<connect gate="G$2" pin="P6_2/GPIO3[1]/EMC_CKEOUT1/U0_DIR/I2S0_RX_SDA/T2_CAP1" pad="K11"/>
+<connect gate="G$2" pin="P6_3/GPIO3[2]/USB0_PPWR/SGPIO4/!EMC_CS1!/T2_CAP2" pad="F13"/>
+<connect gate="G$2" pin="P6_4/GPIO3[3]/CTIN_6/U0_TXD/!EMC_CAS!" pad="M14"/>
+<connect gate="G$2" pin="P6_5/GPIO3[4]/CTOUT_6/U0_RXD/!EMC_RAS" pad="L14"/>
+<connect gate="G$2" pin="P6_6/GPIO0[5]/!EMC_BLS1!/SGPIO5/USB0_PWR_FAULT/T2_CAP3" pad="N13"/>
+<connect gate="G$2" pin="P6_7/EMC_A15/SGPIO6/USB0_IND1/GPIO5[15]/T2_MAT0" pad="K12"/>
+<connect gate="G$2" pin="P6_8/EMC_A14/SGPIO7/USB0_IND0/GPIO5[16]/T2_MAT1" pad="H11"/>
+<connect gate="G$2" pin="P6_9/GPIO3[5]/!EMC_DYCS0!/T2_MAT2" pad="G13"/>
+<connect gate="G$2" pin="P7_0/GPIO3[8]/CTOUT_14/LCD_LE/SGPIO4" pad="B14"/>
+<connect gate="G$2" pin="P7_1/GPIO3[9]/CTOUT_15/I2S0_TX_WS/LCD_VD19/LCD_VD7/U2_TXD/SGPIO5" pad="C13"/>
+<connect gate="G$2" pin="P7_2/GPIO3[10]/CTIN_4/I2S0_TX_SDA/LCD_VD18/LCD_VD6/U2_RXD/SGPIO6" pad="A14"/>
+<connect gate="G$2" pin="P7_3/GPIO3[11]/CTIN_3/LCD_VD17/LCD_VD5" pad="C12"/>
+<connect gate="G$2" pin="P7_4/GPIO3[12]/CTOUT_13/LCD_VD16/LCD_VD4/TRACEDATA[0]/ADC0_4" pad="C6"/>
+<connect gate="G$2" pin="P7_5/GPIO3[13]/CTOUT_12/LCD_VD8/LCD_VD23/TRACEDATA[1]/ADC0_3" pad="A7"/>
+<connect gate="G$2" pin="P7_6/GPIO3[14]/CTOUT_11/LCD_LP/TRACEDATA[2]" pad="F5"/>
+<connect gate="G$2" pin="P7_7/GPIO3[15]/CTOUT_8/LCD_PWR/TRACEDATA[3]/ENET_MDC/SGPIO7/ADC1_6" pad="D5"/>
+<connect gate="G$2" pin="P8_0/GPIO4[0]/USB0_PWR_FAULT/MCI2/SGPIO8/T0_MAT0" pad="E4"/>
+<connect gate="G$2" pin="P8_1/GPIO4[1]/USB0_IND1/MCI1/SGPIO9/T0_MAT1" pad="G4"/>
+<connect gate="G$2" pin="P8_2/GPIO4[2]/USB0_IND0/MCI0/SGPIO10/T0_MAT2" pad="J4"/>
+<connect gate="G$2" pin="P8_3/GPIO4[3]/USB1_ULPI_D2/LCD_VD12/LCD_VD19/T0_MAT3" pad="H3"/>
+<connect gate="G$2" pin="P8_4/GPIO4[4]/USB1_ULPI_D1/LCD_VD7/LCD_VD16/T0_CAP0" pad="H2"/>
+<connect gate="G$2" pin="P8_5/GPIO4[5]/USB1_ULPI_D0/LCD_VD6/LCD_VD8/T0_CAP1" pad="H1"/>
+<connect gate="G$2" pin="P8_6/GPIO4[6]/USB1_ULPI_NXT/LCD_VD5/LCD_LP/T0_CAP2" pad="J3"/>
+<connect gate="G$2" pin="P8_7/GPIO4[7]/USB1_ULPI_STP/LCD_VD4/LCD_PWR/T0_CAP3" pad="J1"/>
+<connect gate="G$2" pin="P8_8/USB1_ULPI_CLK/CGU_OUT0/I2S1_TX_MCLK" pad="K1"/>
+<connect gate="G$3" pin="P9_0/GPIO4[12]/!MCABORT!/ENET_CRS/SGPIO0/SSP0_SSEL" pad="P1"/>
+<connect gate="G$3" pin="P9_1/GPIO4[13]/MCOA2/I2S0_TX_WS/ENET_RX_ER/SGPIO1/SSP0_MISO" pad="P4"/>
+<connect gate="G$3" pin="P9_2/GPIO4[14]/MCOB2/I2S0_TX_SDA/ENET_RXD3/SGPIO2/SSP0_MOSI" pad="M6"/>
+<connect gate="G$3" pin="P9_3/GPIO4[15]/MCOA0/USB1_IND1/ENET_RXD2/SGPIO9/U3_TXD" pad="P5"/>
+<connect gate="G$3" pin="P9_4/MCOB0/USB1_IND0/GPIO5[17]/ENET_TXD2/SGPIO4/U3_RXD" pad="M8"/>
+<connect gate="G$3" pin="P9_5/MCOA1/USB1_PPWR/GPIO5[18]/ENET_TXD3/SGPIO3/U0_TXD" pad="L7"/>
+<connect gate="G$3" pin="P9_6/GPIO4[11]/MCOB1/USB1_PWR_FAULT/ENET_COL/SGPIO8/U0_RXD" pad="M9"/>
+<connect gate="G$3" pin="PA_0/I2S1_RX_MCLK/CGU_OUT1" pad="L10"/>
+<connect gate="G$3" pin="PA_1/GPIO4[8]/QEI_IDX/U2_TXD" pad="H12"/>
+<connect gate="G$3" pin="PA_2/GPIO4[9]/QEI_PHB/U2_RXD" pad="J13"/>
+<connect gate="G$3" pin="PA_3/GPIO4[10]/QEI_PHA" pad="E10"/>
+<connect gate="G$3" pin="PA_4/CTOUT_9/EMC_A23/GPIO5[19]" pad="E12"/>
+<connect gate="G$3" pin="PB_0/CTOUT_10/LCD_VD23/GPIO5[20]" pad="D14"/>
+<connect gate="G$3" pin="PB_1/USB1_ULPI_DIR/LCD_VD22/GPIO5[21]/CTOUT_6" pad="A13"/>
+<connect gate="G$3" pin="PB_2/USB1_ULPI_D7/LCD_VD21/GPIO5[22]/CTOUT_7" pad="B11"/>
+<connect gate="G$3" pin="PB_3/USB1_ULPI_D6/LCD_VD20/GPIO5[23]/CTOUT_8" pad="A12"/>
+<connect gate="G$3" pin="PB_4/USB1_ULPI_D5/LCD_VD15/GPIO5[24]/CTIN_5" pad="B10"/>
+<connect gate="G$3" pin="PB_5/USB1_ULPI_D4/LCD_VD14/GPIO5[25]/CTIN_7/LCD_PWR" pad="A11"/>
+<connect gate="G$3" pin="PB_6/USB1_ULPI_D3/LCD_VD13/GPIO5[26]/CTIN_6/LCD_VD19/ADC0_6" pad="C5"/>
+<connect gate="G$3" pin="PD_1/!EMC_CS2!/GPIO6[26]/CTOUT_102" pad="P9"/>
+<connect gate="G$3" pin="PD_1/!EMC_CS3!/GPIO6[25]/USB1_ULPI_D0/CTOUT_141" pad="M7"/>
+<connect gate="G$3" pin="PD_1/!EMC_DYCS2!/GPIO6[28]/CTOUT_114" pad="L11"/>
+<connect gate="G$3" pin="PD_1/EMC_A16/GPIO6[30]/SD_VOLT2/CTOUT_126" pad="P12"/>
+<connect gate="G$3" pin="PD_1/EMC_A17/GPIO6[29]/SD_WP/CTOUT_85" pad="P13"/>
+<connect gate="G$3" pin="PE_0/EMC_A18/GPIO7[0]/CAN1_TD" pad="N12"/>
+<connect gate="G$3" pin="PE_1/EMC_A19/GPIO7[1]/CAN1_RD" pad="M12"/>
+<connect gate="G$3" pin="PE_2/ADCTRIG0/CAN0_RD/EMC_A20/GPIO7[2]" pad="L12"/>
+<connect gate="G$3" pin="PE_3/CAN0_TD/ADCTRIG1/EMC_A21/GPIO7[3]" pad="K10"/>
+<connect gate="G$3" pin="PE_4/NMI/EMC_A22/GPIO7[4]" pad="J11"/>
+<connect gate="G$3" pin="PF_4/SSP1_SCK/GP_CLKIN/TRACECLK/I2S0_TX_MCLK/I2S0_RX_SCK" pad="D6"/>
 </connects>
 <technologies>
 <technology name=""/>
