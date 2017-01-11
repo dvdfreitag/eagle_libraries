@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -39,7 +39,7 @@
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -16421,6 +16421,25 @@
 <circle x="-1.65" y="1.45" radius="0.05" width="0.25" layer="21"/>
 <text x="-1.4" y="1.4" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="4206-RESISTOR-4">
+<rectangle x1="-5.03" y1="-1.6" x2="-3.03" y2="3.3" layer="51"/>
+<rectangle x1="3.03" y1="-1.6" x2="5.03" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-5.03" y1="-3.3" x2="-3.03" y2="-2.6" layer="51"/>
+<rectangle x1="3.03" y1="-3.3" x2="5.03" y2="-2.6" layer="51" rot="R180"/>
+<wire x1="-3.03" y1="3.2365" x2="3.03" y2="3.2365" width="0.127" layer="51"/>
+<wire x1="-3.03" y1="-3.2365" x2="3.03" y2="-3.2365" width="0.127" layer="51"/>
+<wire x1="-3.0935" y1="-2.6" x2="-3.0935" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="3.0935" y1="-2.6" x2="3.0935" y2="-1.6" width="0.127" layer="51"/>
+<smd name="1" x="-4.655" y="0.85" dx="3.5" dy="5.1" layer="1"/>
+<smd name="3" x="-4.655" y="-2.95" dx="3.5" dy="0.9" layer="1"/>
+<smd name="2" x="4.655" y="0.85" dx="3.5" dy="5.1" layer="1"/>
+<smd name="4" x="4.655" y="-2.95" dx="3.5" dy="0.9" layer="1"/>
+<wire x1="-6.625" y1="3.625" x2="6.625" y2="3.625" width="0.1905" layer="21"/>
+<wire x1="6.625" y1="3.625" x2="6.625" y2="-3.625" width="0.1905" layer="21"/>
+<wire x1="6.625" y1="-3.625" x2="-6.625" y2="-3.625" width="0.1905" layer="21"/>
+<wire x1="-6.625" y1="-3.625" x2="-6.625" y2="3.625" width="0.1905" layer="21"/>
+<text x="-6.35" y="3.81" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -20395,6 +20414,27 @@
 <text x="-5.08" y="6.985" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="RESISTOR-4">
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-2.2225" y="2.8575" size="0.889" layer="95" rot="MR0" align="bottom-right">&gt;NAME</text>
+<text x="-2.2225" y="1.5875" size="0.889" layer="96">&gt;VALUE</text>
+<pin name="3" x="-5.08" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="4" x="5.08" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NXP-PRTR5VOU2X" prefix="D">
@@ -21780,6 +21820,24 @@
 <connect gate="G$1" pin="+@2" pad="1"/>
 <connect gate="G$1" pin="-" pad="4"/>
 <connect gate="G$1" pin="GND" pad="2 5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR-4" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-4206" package="4206-RESISTOR-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

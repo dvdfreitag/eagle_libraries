@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3017,6 +3017,37 @@
 <rectangle x1="6.03" y1="-1.59" x2="6.67" y2="2.79" layer="51"/>
 <text x="-6.35" y="-3.81" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="BNC-0731000105">
+<pad name="SIGNAL" x="0" y="0" drill="1"/>
+<pad name="P$2" x="-3.8" y="-7.8" drill="1.8"/>
+<pad name="P$1" x="3.8" y="-7.8" drill="1.8"/>
+<wire x1="-4.825" y1="-25.4" x2="4.825" y2="-25.4" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="-3.6" x2="-1" y2="-3.6" width="0.127" layer="51"/>
+<wire x1="-1" y1="-3.6" x2="1" y2="-3.6" width="0.127" layer="51"/>
+<wire x1="1" y1="-3.6" x2="4.825" y2="-3.6" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="-3.6" x2="-4.825" y2="-12.4" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="-12.4" x2="-4.825" y2="-25.4" width="0.127" layer="51"/>
+<wire x1="4.825" y1="-3.6" x2="4.825" y2="-12.4" width="0.127" layer="51"/>
+<wire x1="4.825" y1="-12.4" x2="4.825" y2="-25.4" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="-12.4" x2="4.825" y2="-12.4" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.6" x2="1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1" y1="-3.6" x2="-1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="1" y1="-3.6" x2="1" y2="-1.6" width="0.127" layer="51"/>
+<rectangle x1="-0.35" y1="-1.6" x2="0.35" y2="0.15" layer="51"/>
+<circle x="-3.8" y="-7.8" radius="0.75" width="0" layer="51"/>
+<circle x="3.8" y="-7.8" radius="0.75" width="0" layer="51"/>
+<wire x1="-4.9" y1="-6.5" x2="-4.9" y2="-3.6" width="0.1905" layer="21"/>
+<wire x1="-4.9" y1="-3.6" x2="-1" y2="-3.6" width="0.1905" layer="21"/>
+<wire x1="-1" y1="-3.6" x2="-1" y2="-1.6" width="0.1905" layer="21"/>
+<wire x1="-1" y1="-1.6" x2="1" y2="-1.6" width="0.1905" layer="21"/>
+<wire x1="1" y1="-1.6" x2="1" y2="-3.6" width="0.1905" layer="21"/>
+<wire x1="1" y1="-3.6" x2="4.9" y2="-3.6" width="0.1905" layer="21"/>
+<wire x1="4.9" y1="-3.6" x2="4.9" y2="-6.5" width="0.1905" layer="21"/>
+<wire x1="-1" y1="-3.6" x2="1" y2="-3.6" width="0.1905" layer="21"/>
+<wire x1="-4.9" y1="-9" x2="-4.9" y2="-12.05075" width="0.1905" layer="21"/>
+<wire x1="4.9" y1="-12.05075" x2="4.9" y2="-9" width="0.1905" layer="21"/>
+<circle x="0" y="-22" radius="1" width="0.1905" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -5057,6 +5088,15 @@
 <connects>
 <connect gate="G$1" pin="GND" pad="P$1 P$2 P$3 P$4"/>
 <connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PTH-H" package="BNC-0731000105">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1 P$2"/>
+<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
 </connects>
 <technologies>
 <technology name=""/>
