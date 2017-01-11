@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -402,6 +402,36 @@
 <wire x1="1.45" y1="-1.2" x2="-1.45" y2="-1.2" width="0.1905" layer="21"/>
 <circle x="-1.7" y="1.45" radius="0.05" width="0.25" layer="21"/>
 <text x="-1.397" y="1.397" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+<package name="SOT89">
+<wire x1="2.25" y1="1.225" x2="2.25" y2="-1.225" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.225" x2="-2.25" y2="-1.225" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.225" x2="2.25" y2="1.225" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1.225" x2="2.25" y2="-1.225" width="0.127" layer="51"/>
+<rectangle x1="-0.2" y1="-2.225" x2="0.2" y2="-1" layer="51" rot="R180"/>
+<rectangle x1="1.3" y1="-2.225" x2="1.7" y2="-1.225" layer="51" rot="R180"/>
+<rectangle x1="-1.7" y1="-2.225" x2="-1.3" y2="-1.225" layer="51" rot="R180"/>
+<polygon width="0" layer="51">
+<vertex x="-0.2" y="-1.02"/>
+<vertex x="0.2" y="-1.02"/>
+<vertex x="0.825" y="-0.395"/>
+<vertex x="0.825" y="1.59886875"/>
+<vertex x="0.54886875" y="1.875"/>
+<vertex x="-0.54886875" y="1.875"/>
+<vertex x="-0.825" y="1.59886875"/>
+<vertex x="-0.825" y="-0.395"/>
+</polygon>
+<smd name="1" x="-1.5" y="-1.8" dx="0.6" dy="1.4" layer="1"/>
+<smd name="2" x="0" y="-1.8" dx="0.6" dy="1.4" layer="1"/>
+<smd name="3" x="1.5" y="-1.8" dx="0.6" dy="1.4" layer="1"/>
+<text x="1.2" y="1.45" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-1.175" y1="1.225" x2="-2.25" y2="1.225" width="0.1905" layer="21"/>
+<wire x1="-2.25" y1="1.225" x2="-2.25" y2="-1.225" width="0.1905" layer="21"/>
+<wire x1="-2.25" y1="-1.225" x2="-2.025" y2="-1.225" width="0.1905" layer="21"/>
+<wire x1="2.025" y1="-1.225" x2="2.25" y2="-1.225" width="0.1905" layer="21"/>
+<wire x1="2.25" y1="-1.225" x2="2.25" y2="1.225" width="0.1905" layer="21"/>
+<wire x1="2.25" y1="1.225" x2="1.175" y2="1.225" width="0.1905" layer="21"/>
+<smd name="PAD" x="0" y="0.6" dx="1.9" dy="3.4" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -955,6 +985,23 @@
 <connect gate="G$1" pin="GND" pad="5 PAD"/>
 <connect gate="G$1" pin="LX" pad="4"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AZ1117CR-3.3" prefix="U">
+<gates>
+<gate name="G$1" symbol="VREG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TRG1" package="SOT89">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 PAD"/>
 </connects>
 <technologies>
 <technology name=""/>
