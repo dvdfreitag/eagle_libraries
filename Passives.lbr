@@ -17651,6 +17651,26 @@
 <rectangle x1="3.04495" y1="1.35495" x2="3.53515" y2="2.45505" layer="51" rot="R270"/>
 <circle x="-3.14" y="2.7" radius="0.1" width="0.5" layer="21"/>
 </package>
+<package name="750313734">
+<wire x1="-4" y1="4.57" x2="4" y2="4.57" width="0.1905" layer="21"/>
+<wire x1="-4" y1="-4.57" x2="4" y2="-4.57" width="0.1905" layer="21"/>
+<wire x1="-4" y1="4.57" x2="-4" y2="-4.57" width="0.1905" layer="21"/>
+<wire x1="4" y1="4.57" x2="4" y2="-4.57" width="0.1905" layer="21"/>
+<rectangle x1="4" y1="-0.355" x2="6.35" y2="0.355" layer="51"/>
+<rectangle x1="4" y1="2.695" x2="6.35" y2="3.405" layer="51"/>
+<rectangle x1="4" y1="-3.405" x2="6.35" y2="-2.695" layer="51"/>
+<smd name="5" x="5.75" y="0" dx="2.5" dy="1.14" layer="1"/>
+<smd name="4" x="5.75" y="3.05" dx="2.5" dy="1.14" layer="1"/>
+<smd name="6" x="5.75" y="-3.05" dx="2.5" dy="1.14" layer="1"/>
+<rectangle x1="-6.35" y1="-0.355" x2="-4" y2="0.355" layer="51" rot="R180"/>
+<rectangle x1="-6.35" y1="-3.405" x2="-4" y2="-2.695" layer="51" rot="R180"/>
+<rectangle x1="-6.35" y1="2.695" x2="-4" y2="3.405" layer="51" rot="R180"/>
+<smd name="2" x="-5.75" y="0" dx="2.5" dy="1.14" layer="1" rot="R180"/>
+<smd name="1" x="-5.75" y="-3.05" dx="2.5" dy="1.14" layer="1" rot="R180"/>
+<smd name="3" x="-5.75" y="3.05" dx="2.5" dy="1.14" layer="1" rot="R180"/>
+<circle x="-4.5" y="-4.2" radius="0.1" width="0.25" layer="21"/>
+<text x="-3.937" y="4.826" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -21727,6 +21747,44 @@
 <symbol name="BEAR_SSL">
 <text x="0" y="0" size="1.27" layer="94" font="vector">BearSSL</text>
 </symbol>
+<symbol name="750313734">
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="point" rot="R180"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="point" rot="R180"/>
+<pin name="3" x="-2.54" y="2.54" visible="pad" length="point" rot="R180"/>
+<pin name="4" x="2.54" y="2.54" visible="pad" length="point"/>
+<pin name="5" x="2.54" y="0" visible="pad" length="point"/>
+<pin name="6" x="2.54" y="-2.54" visible="pad" length="point"/>
+<wire x1="-0.79375" y1="2.54" x2="-0.79375" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="1.905" x2="-0.79375" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="1.27" x2="-0.79375" y2="0.635" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="0.635" x2="-0.79375" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="0" x2="-0.79375" y2="-0.635" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="-0.635" x2="-0.79375" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="-1.27" x2="-0.79375" y2="-1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.79375" y1="-1.905" x2="-0.79375" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.15875" y1="2.54" x2="-0.15875" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.15875" y1="-2.54" x2="0.15875" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="2.54" x2="0.79375" y2="1.905" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="1.905" x2="0.79375" y2="1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="1.27" x2="0.79375" y2="0.635" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="0.635" x2="0.79375" y2="0" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="0" x2="0.79375" y2="-0.635" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="-0.635" x2="0.79375" y2="-1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="-1.27" x2="0.79375" y2="-1.905" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.79375" y1="-1.905" x2="0.79375" y2="-2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-2.54" y1="2.54" x2="-0.79375" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.79375" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-0.79375" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.79375" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<circle x="-0.79375" y="-2.2225" radius="0.0635" width="0.1524" layer="94"/>
+<circle x="0.79375" y="-2.2225" radius="0.0635" width="0.1524" layer="94"/>
+<circle x="-0.79375" y="0.3175" radius="0.0635" width="0.1524" layer="94"/>
+<circle x="0.79375" y="0.3175" radius="0.0635" width="0.1524" layer="94"/>
+<text x="-1.905" y="-4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="-1.905" y="-6.35" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NXP-PRTR5VOU2X" prefix="D">
@@ -23252,6 +23310,26 @@
 </gates>
 <devices>
 <device name="" package="BEAR_SSL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750313734" prefix="T">
+<gates>
+<gate name="G$1" symbol="750313734" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="750313734">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
