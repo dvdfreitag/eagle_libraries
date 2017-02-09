@@ -117,6 +117,29 @@
 <wire x1="5.5" y1="-5.5" x2="-5.5" y2="-5.5" width="0.254" layer="21"/>
 <wire x1="-5.5" y1="-5.5" x2="-5.5" y2="5.5" width="0.254" layer="21"/>
 </package>
+<package name="SDE0805A">
+<wire x1="-1.75" y1="3.5" x2="1.75" y2="3.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-3.5" x2="-1.75" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-3.5" x2="1.05" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-3.5" x2="-1.05" y2="3.5" width="0.127" layer="51"/>
+<smd name="1" x="-2.5" y="0" dx="3" dy="7.5" layer="1"/>
+<wire x1="-3.85" y1="0.5" x2="-2.85" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-2.85" y1="0.5" x2="-2.35" y2="0" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2.35" y1="0" x2="-2.85" y2="-0.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2.85" y1="-0.5" x2="-3.85" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-3.5" x2="-3.85" y2="-0.5" width="0.127" layer="51" curve="-57.88087"/>
+<wire x1="-1.75" y1="3.5" x2="-3.85" y2="0.5" width="0.127" layer="51" curve="57.88087"/>
+<smd name="2" x="2.5" y="0" dx="3" dy="7.5" layer="1" rot="R180"/>
+<wire x1="3.85" y1="-0.5" x2="2.85" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="2.85" y1="-0.5" x2="2.35" y2="0" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.35" y1="0" x2="2.85" y2="0.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.85" y1="0.5" x2="3.85" y2="0.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="3.5" x2="3.85" y2="0.5" width="0.127" layer="51" curve="-57.88087"/>
+<wire x1="1.75" y1="-3.5" x2="3.85" y2="-0.5" width="0.127" layer="51" curve="57.88087"/>
+<wire x1="-0.8" y1="3.5" x2="0.8" y2="3.5" width="0.1905" layer="21"/>
+<wire x1="-0.8" y1="-3.5" x2="0.8" y2="-3.5" width="0.1905" layer="21"/>
+<text x="-3.937" y="3.937" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -187,6 +210,22 @@
 </gates>
 <devices>
 <device name="" package="SRN2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SDE0805A" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-471K" package="SDE0805A">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

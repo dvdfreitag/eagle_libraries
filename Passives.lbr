@@ -17671,6 +17671,35 @@
 <circle x="-4.5" y="-4.2" radius="0.1" width="0.25" layer="21"/>
 <text x="-3.937" y="4.826" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="LED-1W-2.8X3.2">
+<rectangle x1="0.65" y1="-0.9" x2="1.74" y2="0.9" layer="51"/>
+<rectangle x1="-1.74" y1="-0.9" x2="0.1" y2="0.9" layer="51"/>
+<smd name="C" x="-0.875" y="0" dx="2" dy="1.95" layer="1" rot="R270"/>
+<smd name="A" x="1.2" y="0" dx="2" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="1.4" width="0.1905" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.1905" layer="21"/>
+<wire x1="1.6" y1="1.4" x2="1.6" y2="1.2" width="0.1905" layer="21"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="-1.4" width="0.1905" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.1905" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.2" width="0.1905" layer="21"/>
+</package>
+<package name="FUSE-1206">
+<smd name="P$1" x="1.33" y="0" dx="1.14" dy="1.78" layer="1"/>
+<smd name="P$2" x="-1.33" y="0" dx="1.14" dy="1.78" layer="1" rot="R180"/>
+<wire x1="-1.6" y1="0.74" x2="1.6" y2="0.74" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.74" x2="1.6" y2="-0.74" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.74" x2="-1.6" y2="-0.74" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.74" x2="1.6" y2="-0.74" width="0.127" layer="51"/>
+<rectangle x1="-1.6" y1="-0.74" x2="-1.09" y2="0.74" layer="51"/>
+<rectangle x1="1.09" y1="-0.74" x2="1.6" y2="0.74" layer="51" rot="R180"/>
+<wire x1="-0.55" y1="0.74" x2="0.55" y2="0.74" width="0.1905" layer="21"/>
+<wire x1="0.55" y1="-0.74" x2="-0.55" y2="-0.74" width="0.1905" layer="21"/>
+<text x="-1.778" y="1.143" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -18318,12 +18347,12 @@
 </polygon>
 </symbol>
 <symbol name="FUSE">
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
-<text x="-2.54" y="3.81" size="1.27" layer="95">&gt;Name</text>
-<text x="-2.54" y="1.905" size="1.27" layer="96">&gt;Value</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-180"/>
+<text x="-2.54" y="3.175" size="1.27" layer="95">&gt;Name</text>
+<text x="-2.54" y="1.27" size="1.27" layer="96">&gt;Value</text>
+<pin name="1" x="-3.81" y="0" visible="off" length="short"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="OUTPUT_LABEL">
 <pin name="&gt;NAME" x="0" y="0" visible="off" length="point" direction="sup"/>
@@ -22723,6 +22752,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-1206" package="FUSE-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="OUTPUT_LABEL" uservalue="yes">
@@ -23329,6 +23367,22 @@
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-1W" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2.8X3.2" package="LED-1W-2.8X3.2">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
