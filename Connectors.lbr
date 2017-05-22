@@ -3216,6 +3216,30 @@
 <wire x1="-2" y1="6.02" x2="-4.75" y2="6.02" width="0.1905" layer="21"/>
 <text x="2.032" y="6.223" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="0436500212">
+<smd name="P$1" x="-5.385" y="1.206" dx="3.43" dy="1.65" layer="1"/>
+<smd name="1" x="1.5" y="6.676" dx="2.92" dy="1.27" layer="1" rot="R270"/>
+<smd name="2" x="-1.5" y="6.676" dx="2.92" dy="1.27" layer="1" rot="R270"/>
+<wire x1="-3.9939625" y1="-3.394" x2="3.9939625" y2="-3.394" width="0.127" layer="51"/>
+<wire x1="3.9939625" y1="-3.394" x2="4.825" y2="-2.5629625" width="0.127" layer="51"/>
+<wire x1="4.825" y1="-2.5629625" x2="4.825" y2="0" width="0.127" layer="51"/>
+<wire x1="4.825" y1="0" x2="4.825" y2="6.506" width="0.127" layer="51"/>
+<wire x1="-3.9939625" y1="-3.394" x2="-4.825" y2="-2.5629625" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="-2.5629625" x2="-4.825" y2="0" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="0" x2="-4.825" y2="6.506" width="0.127" layer="51"/>
+<wire x1="-4.825" y1="6.506" x2="4.825" y2="6.506" width="0.127" layer="51"/>
+<rectangle x1="-6.825" y1="0.556" x2="-3.625" y2="1.856" layer="51"/>
+<smd name="P$2" x="5.385" y="1.206" dx="3.43" dy="1.65" layer="1" rot="R180"/>
+<rectangle x1="3.625" y1="0.556" x2="6.825" y2="1.856" layer="51" rot="R180"/>
+<rectangle x1="0.5" y1="5.986" x2="2.5" y2="6.626" layer="51" rot="R270"/>
+<rectangle x1="-2.5" y1="5.986" x2="-0.5" y2="6.626" layer="51" rot="R270"/>
+<wire x1="-2.35" y1="6.506" x2="-4.825" y2="6.506" width="0.1905" layer="21"/>
+<wire x1="-4.825" y1="6.506" x2="-4.825" y2="2.256" width="0.1905" layer="21"/>
+<wire x1="2.35" y1="6.506" x2="4.825" y2="6.506" width="0.1905" layer="21"/>
+<wire x1="4.825" y1="6.506" x2="4.825" y2="2.256" width="0.1905" layer="21"/>
+<wire x1="-4.825" y1="0" x2="4.825" y2="0" width="0.127" layer="51"/>
+<text x="2.413" y="6.731" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -5505,6 +5529,15 @@
 </technologies>
 </device>
 <device name="-POLAR" package="M02-POLAR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0436500212" package="0436500212">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
