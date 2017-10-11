@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.55" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -637,6 +637,50 @@
 <circle x="-4.9" y="5.7" radius="0.1" width="0.25" layer="21"/>
 <text x="-4.445" y="5.588" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="TSSOP-16">
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="-2.2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-3.2" y1="-0.45" x2="-2.2" y2="-0.2" layer="51" rot="R180"/>
+<smd name="5" x="-2.85" y="-0.325" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="-1.1" x2="-2.2" y2="-0.85" layer="51" rot="R180"/>
+<smd name="6" x="-2.85" y="-0.975" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="-1.75" x2="-2.2" y2="-1.5" layer="51" rot="R180"/>
+<smd name="7" x="-2.85" y="-1.625" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="-2.4" x2="-2.2" y2="-2.15" layer="51" rot="R180"/>
+<smd name="8" x="-2.85" y="-2.275" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="2.15" x2="-2.2" y2="2.4" layer="51" rot="R180"/>
+<smd name="1" x="-2.85" y="2.275" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="1.5" x2="-2.2" y2="1.75" layer="51" rot="R180"/>
+<smd name="2" x="-2.85" y="1.625" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="0.85" x2="-2.2" y2="1.1" layer="51" rot="R180"/>
+<smd name="3" x="-2.85" y="0.975" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="-3.2" y1="0.2" x2="-2.2" y2="0.45" layer="51" rot="R180"/>
+<smd name="4" x="-2.85" y="0.325" dx="1.35" dy="0.35" layer="1" rot="R180"/>
+<rectangle x1="2.2" y1="0.2" x2="3.2" y2="0.45" layer="51"/>
+<smd name="13" x="2.85" y="0.325" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="0.85" x2="3.2" y2="1.1" layer="51"/>
+<smd name="14" x="2.85" y="0.975" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="1.5" x2="3.2" y2="1.75" layer="51"/>
+<smd name="15" x="2.85" y="1.625" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="2.15" x2="3.2" y2="2.4" layer="51"/>
+<smd name="16" x="2.85" y="2.275" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="-2.4" x2="3.2" y2="-2.15" layer="51"/>
+<smd name="9" x="2.85" y="-2.275" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="-1.75" x2="3.2" y2="-1.5" layer="51"/>
+<smd name="10" x="2.85" y="-1.625" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="-1.1" x2="3.2" y2="-0.85" layer="51"/>
+<smd name="11" x="2.85" y="-0.975" dx="1.35" dy="0.35" layer="1"/>
+<rectangle x1="2.2" y1="-0.45" x2="3.2" y2="-0.2" layer="51"/>
+<smd name="12" x="2.85" y="-0.325" dx="1.35" dy="0.35" layer="1"/>
+<circle x="-4.1" y="3" radius="0.1" width="0.25" layer="21"/>
+<text x="-3.683" y="2.921" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-3.8" y1="2.7" x2="3.8" y2="2.7" width="0.1905" layer="21"/>
+<wire x1="3.8" y1="2.7" x2="3.8" y2="-2.7" width="0.1905" layer="21"/>
+<wire x1="3.8" y1="-2.7" x2="-3.8" y2="-2.7" width="0.1905" layer="21"/>
+<wire x1="-3.8" y1="-2.7" x2="-3.8" y2="2.7" width="0.1905" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX44009">
@@ -1031,6 +1075,29 @@
 <connect gate="G$1" pin="V+" pad="15"/>
 <connect gate="G$1" pin="V-" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ECPWR" package="TSSOP-16">
+<connects>
+<connect gate="G$1" pin="!EN" pad="1"/>
+<connect gate="G$1" pin="!FORCEOFF" pad="16"/>
+<connect gate="G$1" pin="!INVALID" pad="10"/>
+<connect gate="G$1" pin="C1+" pad="2"/>
+<connect gate="G$1" pin="C1-" pad="4"/>
+<connect gate="G$1" pin="C2+" pad="5"/>
+<connect gate="G$1" pin="C2-" pad="6"/>
+<connect gate="G$1" pin="FORCEON" pad="12"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="RIN" pad="8"/>
+<connect gate="G$1" pin="ROUT" pad="9"/>
+<connect gate="G$1" pin="TIN" pad="11"/>
+<connect gate="G$1" pin="TOUT" pad="13"/>
+<connect gate="G$1" pin="V+" pad="3"/>
+<connect gate="G$1" pin="V-" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
