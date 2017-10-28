@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4781,6 +4781,25 @@
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="RST" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5265" prefix="U">
+<gates>
+<gate name="G$1" symbol="VREG_EN_BYP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.8YD5-TR" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="BYP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

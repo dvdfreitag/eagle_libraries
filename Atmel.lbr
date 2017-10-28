@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6064,8 +6064,8 @@
 <pin name="PC7/SCK/EVOUT" x="-33.02" y="-43.18" length="short"/>
 <pin name="GND@2" x="33.02" y="-33.02" length="short" rot="R180"/>
 <pin name="VCC@2" x="-33.02" y="35.56" length="short"/>
-<pin name="PD0/OC0A/SDA" x="33.02" y="43.18" length="short" rot="R180"/>
-<pin name="PD1/OC0B/XCK0/SCL" x="33.02" y="40.64" length="short" rot="R180"/>
+<pin name="PD0/OC0A" x="33.02" y="43.18" length="short" rot="R180"/>
+<pin name="PD1/OC0B/XCK0" x="33.02" y="40.64" length="short" rot="R180"/>
 <pin name="PD2/OC0C/RXD0" x="33.02" y="38.1" length="short" rot="R180"/>
 <pin name="PD3/OC0D/TXD0" x="33.02" y="35.56" length="short" rot="R180"/>
 <pin name="PD4/!SS" x="33.02" y="33.02" length="short" rot="R180"/>
@@ -8577,8 +8577,8 @@
 <connect gate="G$1" pin="PC5/OC1B/MOSI" pad="21"/>
 <connect gate="G$1" pin="PC6/MISO/RTCOUT" pad="22"/>
 <connect gate="G$1" pin="PC7/SCK/EVOUT" pad="23"/>
-<connect gate="G$1" pin="PD0/OC0A/SDA" pad="26"/>
-<connect gate="G$1" pin="PD1/OC0B/XCK0/SCL" pad="27"/>
+<connect gate="G$1" pin="PD0/OC0A" pad="26"/>
+<connect gate="G$1" pin="PD1/OC0B/XCK0" pad="27"/>
 <connect gate="G$1" pin="PD2/OC0C/RXD0" pad="28"/>
 <connect gate="G$1" pin="PD3/OC0D/TXD0" pad="29"/>
 <connect gate="G$1" pin="PD4/!SS" pad="30"/>
