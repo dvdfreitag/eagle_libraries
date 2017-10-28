@@ -4807,6 +4807,25 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="TC1015" prefix="U">
+<gates>
+<gate name="G$1" symbol="VREG_EN_BYP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3.3VCT713" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="BYP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
