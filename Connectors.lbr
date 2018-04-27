@@ -3724,6 +3724,55 @@
 <vertex x="-3.4" y="3"/>
 </polygon>
 </package>
+<package name="USB-A-3.0">
+<wire x1="0" y1="5.85" x2="0" y2="-5.85" width="0.127" layer="51"/>
+<wire x1="-18.75" y1="5.85" x2="-18.75" y2="-5.85" width="0.127" layer="51"/>
+<wire x1="0" y1="5.85" x2="-2" y2="5.85" width="0.127" layer="51"/>
+<wire x1="-2" y1="5.85" x2="-4.05" y2="5.85" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="5.85" x2="-18.75" y2="5.85" width="0.127" layer="51"/>
+<wire x1="0" y1="-5.85" x2="-2" y2="-5.85" width="0.127" layer="51"/>
+<wire x1="-2" y1="-5.85" x2="-4.05" y2="-5.85" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="-5.85" x2="-18.75" y2="-5.85" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="5.85" x2="-4.05" y2="-5.85" width="0.127" layer="51"/>
+<circle x="-1" y="-2.25" radius="0.4" width="0" layer="51"/>
+<circle x="-1" y="2.25" radius="0.4" width="0" layer="51"/>
+<rectangle x1="0.8" y1="-1.95" x2="1.1" y2="-0.05" layer="51" rot="R270"/>
+<rectangle x1="0.8" y1="0.05" x2="1.1" y2="1.95" layer="51" rot="R270"/>
+<rectangle x1="0.8" y1="2.05" x2="1.1" y2="3.95" layer="51" rot="R270"/>
+<rectangle x1="0.8" y1="-3.95" x2="1.1" y2="-2.05" layer="51" rot="R270"/>
+<rectangle x1="0.75" y1="-0.95" x2="1.15" y2="0.95" layer="51" rot="R270"/>
+<rectangle x1="0.75" y1="-2.95" x2="1.15" y2="-1.05" layer="51" rot="R270"/>
+<rectangle x1="0.75" y1="-4.95" x2="1.15" y2="-3.05" layer="51" rot="R270"/>
+<rectangle x1="0.75" y1="1.05" x2="1.15" y2="2.95" layer="51" rot="R270"/>
+<rectangle x1="0.75" y1="3.05" x2="1.15" y2="4.95" layer="51" rot="R270"/>
+<wire x1="-13.59" y1="4.25" x2="-13.59" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-13.59" y1="-1.75" x2="-13.59" y2="-4.25" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="4.25" x2="-11.59" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="-1.75" x2="-11.59" y2="-4.25" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="1.75" x2="-13.59" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="-1.75" x2="-13.59" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="4.25" x2="-13.59" y2="4.25" width="0.127" layer="51"/>
+<wire x1="-11.59" y1="-4.25" x2="-13.59" y2="-4.25" width="0.127" layer="51"/>
+<wire x1="-2" y1="5.85" x2="-2" y2="-5.85" width="0.127" layer="51"/>
+<hole x="-1" y="-2.25" drill="1.2"/>
+<hole x="-1" y="2.25" drill="1.2"/>
+<smd name="7" x="1.84" y="0" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="3" x="1.84" y="1" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="6" x="1.84" y="2" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="4" x="1.84" y="3" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="5" x="1.84" y="4" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="2" x="1.84" y="-1" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="8" x="1.84" y="-2" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="1" x="1.84" y="-3" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<smd name="9" x="1.84" y="-4" dx="0.8" dy="2.78" layer="1" rot="R270"/>
+<pad name="P$1" x="-1" y="5.85" drill="0.9" diameter="1.154" rot="R270" stop="no"/>
+<wire x1="0" y1="5.85" x2="-2" y2="5.85" width="1.408" layer="17"/>
+<wire x1="0" y1="5.85" x2="-2" y2="5.85" width="0.9" layer="20"/>
+<pad name="P$2" x="-1" y="-5.85" drill="0.9" diameter="1.154" rot="R270" stop="no"/>
+<wire x1="0" y1="-5.85" x2="-2" y2="-5.85" width="0.9" layer="20"/>
+<wire x1="0" y1="-5.85" x2="-2" y2="-5.85" width="1.408" layer="17"/>
+<text x="0.889" y="-5.969" size="1.27" layer="21" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -6558,6 +6607,21 @@
 <connect gate="G$1" pin="SSRX-@1" pad="9"/>
 <connect gate="G$1" pin="SSTX+@1" pad="7"/>
 <connect gate="G$1" pin="SSTX-@1" pad="6"/>
+<connect gate="G$1" pin="VBUS@1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A" package="USB-A-3.0">
+<connects>
+<connect gate="G$1" pin="D+@1" pad="3"/>
+<connect gate="G$1" pin="D-@1" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="4 7 P$1 P$2"/>
+<connect gate="G$1" pin="SSRX+@1" pad="6"/>
+<connect gate="G$1" pin="SSRX-@1" pad="5"/>
+<connect gate="G$1" pin="SSTX+@1" pad="9"/>
+<connect gate="G$1" pin="SSTX-@1" pad="8"/>
 <connect gate="G$1" pin="VBUS@1" pad="1"/>
 </connects>
 <technologies>
