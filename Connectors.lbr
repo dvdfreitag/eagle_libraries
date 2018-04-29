@@ -3813,6 +3813,24 @@
 <wire x1="-0.75" y1="-6.02" x2="0.75" y2="-6.02" width="1.5" layer="29"/>
 <wire x1="-0.75" y1="-6.02" x2="0.75" y2="-6.02" width="1.5" layer="30"/>
 </package>
+<package name="M05-2">
+<pad name="1" x="-5.08" y="0" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.8796"/>
+<text x="-6.223" y="1.397" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51" rot="R90"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51" rot="R90"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51" rot="R90"/>
+<wire x1="6.223" y1="-1.143" x2="6.223" y2="1.143" width="0.1905" layer="21"/>
+<wire x1="6.223" y1="1.143" x2="-6.223" y2="1.143" width="0.1905" layer="21"/>
+<wire x1="-6.223" y1="1.143" x2="-6.223" y2="-1.143" width="0.1905" layer="21"/>
+<wire x1="-6.223" y1="-1.143" x2="6.223" y2="-1.143" width="0.1905" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK">
@@ -5989,6 +6007,18 @@
 </gates>
 <devices>
 <device name="-PTH" package="M05">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PTH-2" package="M05-2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
