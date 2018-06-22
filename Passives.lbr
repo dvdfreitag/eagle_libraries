@@ -20408,6 +20408,20 @@
 <wire x1="-1.95" y1="-1.2" x2="-1.95" y2="1.2" width="0.1905" layer="21"/>
 <text x="-1.95" y="1.35" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 </package>
+<package name="DIODE-PTH">
+<pad name="A" x="-3.81" y="0" drill="0.8"/>
+<pad name="C" x="3.81" y="0" drill="0.8"/>
+<text x="0" y="1.143" size="1.27" layer="21" ratio="12" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.921" y1="0" x2="-0.635" y2="0" width="0.254" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="-0.635" y="0.635"/>
+<vertex x="-0.635" y="-0.635"/>
+<vertex x="0.635" y="0"/>
+</polygon>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0" x2="2.921" y2="0" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP-PRTR5VOU2X">
@@ -25424,6 +25438,15 @@
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PTH" package="DIODE-PTH">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
