@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6114,6 +6114,98 @@
 <text x="-29.845" y="45.085" size="1.778" layer="95">&gt;NAME</text>
 <text x="-29.845" y="-46.99" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ATMEGA8">
+<pin name="PD3" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PD4" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="GND@1" x="-12.7" y="-16.51" length="short"/>
+<pin name="VCC@1" x="-12.7" y="21.59" length="short"/>
+<pin name="GND@2" x="-12.7" y="-19.05" length="short"/>
+<pin name="VCC@2" x="-12.7" y="19.05" length="short"/>
+<pin name="PB6" x="-12.7" y="-8.89" length="short"/>
+<pin name="PB7" x="-12.7" y="-11.43" length="short"/>
+<pin name="PD5" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="PD6" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PD7" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PB0" x="-12.7" y="6.35" length="short"/>
+<pin name="PB1" x="-12.7" y="3.81" length="short"/>
+<pin name="PB2" x="-12.7" y="1.27" length="short"/>
+<pin name="PB3" x="-12.7" y="-1.27" length="short"/>
+<pin name="PB4" x="-12.7" y="-3.81" length="short"/>
+<pin name="PB5" x="-12.7" y="-6.35" length="short"/>
+<pin name="AVCC" x="-12.7" y="13.97" length="short"/>
+<pin name="ADC6" x="12.7" y="-19.05" length="short" rot="R180"/>
+<pin name="AREF" x="-12.7" y="11.43" length="short"/>
+<pin name="GND@3" x="-12.7" y="-21.59" length="short"/>
+<pin name="ADC7" x="12.7" y="-21.59" length="short" rot="R180"/>
+<pin name="PC0" x="12.7" y="21.59" length="short" rot="R180"/>
+<pin name="PC1" x="12.7" y="19.05" length="short" rot="R180"/>
+<pin name="PC2" x="12.7" y="16.51" length="short" rot="R180"/>
+<pin name="PC3" x="12.7" y="13.97" length="short" rot="R180"/>
+<pin name="PC4" x="12.7" y="11.43" length="short" rot="R180"/>
+<pin name="PC5" x="12.7" y="8.89" length="short" rot="R180"/>
+<pin name="PC6" x="12.7" y="6.35" length="short" rot="R180"/>
+<pin name="PD0" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PD1" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PD2" x="12.7" y="-2.54" length="short" rot="R180"/>
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-9.525" y="23.495" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.525" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATMEGA8535L">
+<pin name="PB5" x="-12.7" y="-24.13" length="short"/>
+<pin name="PB6" x="-12.7" y="-26.67" length="short"/>
+<pin name="PB7" x="-12.7" y="-29.21" length="short"/>
+<pin name="RESET" x="-12.7" y="20.32" length="short"/>
+<pin name="VCC@1" x="-12.7" y="29.21" length="short"/>
+<pin name="GND@1" x="12.7" y="-21.59" length="short" rot="R180"/>
+<pin name="XTAL2" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="XTAL1" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="PD0" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PD1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PD2" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PD3" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PD4" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PD5" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PD6" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PD7" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="VCC@2" x="-12.7" y="26.67" length="short"/>
+<pin name="GND@2" x="12.7" y="-24.13" length="short" rot="R180"/>
+<pin name="PC0" x="12.7" y="29.21" length="short" rot="R180"/>
+<pin name="PC1" x="12.7" y="26.67" length="short" rot="R180"/>
+<pin name="PC2" x="12.7" y="24.13" length="short" rot="R180"/>
+<pin name="PC3" x="12.7" y="21.59" length="short" rot="R180"/>
+<pin name="PC4" x="12.7" y="19.05" length="short" rot="R180"/>
+<pin name="PC5" x="12.7" y="16.51" length="short" rot="R180"/>
+<pin name="PC6" x="12.7" y="13.97" length="short" rot="R180"/>
+<pin name="PC7" x="12.7" y="11.43" length="short" rot="R180"/>
+<pin name="AVCC" x="-12.7" y="16.51" length="short"/>
+<pin name="GND@3" x="12.7" y="-26.67" length="short" rot="R180"/>
+<pin name="AREF" x="-12.7" y="13.97" length="short"/>
+<pin name="PA7" x="-12.7" y="-7.62" length="short"/>
+<pin name="PA6" x="-12.7" y="-5.08" length="short"/>
+<pin name="PA5" x="-12.7" y="-2.54" length="short"/>
+<pin name="PA4" x="-12.7" y="0" length="short"/>
+<pin name="PA3" x="-12.7" y="2.54" length="short"/>
+<pin name="PA2" x="-12.7" y="5.08" length="short"/>
+<pin name="PA1" x="-12.7" y="7.62" length="short"/>
+<pin name="PA0" x="-12.7" y="10.16" length="short"/>
+<pin name="VCC@3" x="-12.7" y="24.13" length="short"/>
+<pin name="GND@4" x="12.7" y="-29.21" length="short" rot="R180"/>
+<pin name="PB0" x="-12.7" y="-11.43" length="short"/>
+<pin name="PB1" x="-12.7" y="-13.97" length="short"/>
+<pin name="PB2" x="-12.7" y="-16.51" length="short"/>
+<pin name="PB3" x="-12.7" y="-19.05" length="short"/>
+<pin name="PB4" x="-12.7" y="-21.59" length="short"/>
+<wire x1="-10.16" y1="30.48" x2="10.16" y2="30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="30.48" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-30.48" x2="-10.16" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-30.48" x2="-10.16" y2="30.48" width="0.254" layer="94"/>
+<text x="-9.525" y="31.115" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.525" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATXMEGA32A4U" prefix="U">
@@ -8613,6 +8705,110 @@
 <connect gate="G$1" pin="VCC@3" pad="35"/>
 <connect gate="G$1" pin="VCC@4" pad="45"/>
 <connect gate="G$1" pin="VCC@5" pad="53"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA8" prefix="U">
+<gates>
+<gate name="G$1" symbol="ATMEGA8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP-32">
+<connects>
+<connect gate="G$1" pin="ADC6" pad="19"/>
+<connect gate="G$1" pin="ADC7" pad="21"/>
+<connect gate="G$1" pin="AREF" pad="20"/>
+<connect gate="G$1" pin="AVCC" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="GND@3" pad="22"/>
+<connect gate="G$1" pin="PB0" pad="12"/>
+<connect gate="G$1" pin="PB1" pad="13"/>
+<connect gate="G$1" pin="PB2" pad="14"/>
+<connect gate="G$1" pin="PB3" pad="15"/>
+<connect gate="G$1" pin="PB4" pad="16"/>
+<connect gate="G$1" pin="PB5" pad="17"/>
+<connect gate="G$1" pin="PB6" pad="7"/>
+<connect gate="G$1" pin="PB7" pad="8"/>
+<connect gate="G$1" pin="PC0" pad="23"/>
+<connect gate="G$1" pin="PC1" pad="24"/>
+<connect gate="G$1" pin="PC2" pad="25"/>
+<connect gate="G$1" pin="PC3" pad="26"/>
+<connect gate="G$1" pin="PC4" pad="27"/>
+<connect gate="G$1" pin="PC5" pad="28"/>
+<connect gate="G$1" pin="PC6" pad="29"/>
+<connect gate="G$1" pin="PD0" pad="30"/>
+<connect gate="G$1" pin="PD1" pad="31"/>
+<connect gate="G$1" pin="PD2" pad="32"/>
+<connect gate="G$1" pin="PD3" pad="1"/>
+<connect gate="G$1" pin="PD4" pad="2"/>
+<connect gate="G$1" pin="PD5" pad="9"/>
+<connect gate="G$1" pin="PD6" pad="10"/>
+<connect gate="G$1" pin="PD7" pad="11"/>
+<connect gate="G$1" pin="VCC@1" pad="4"/>
+<connect gate="G$1" pin="VCC@2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA8535L" prefix="U">
+<gates>
+<gate name="G$1" symbol="ATMEGA8535L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TQFP-44">
+<connects>
+<connect gate="G$1" pin="AREF" pad="29"/>
+<connect gate="G$1" pin="AVCC" pad="27"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="18"/>
+<connect gate="G$1" pin="GND@3" pad="28"/>
+<connect gate="G$1" pin="GND@4" pad="39"/>
+<connect gate="G$1" pin="PA0" pad="37"/>
+<connect gate="G$1" pin="PA1" pad="36"/>
+<connect gate="G$1" pin="PA2" pad="35"/>
+<connect gate="G$1" pin="PA3" pad="34"/>
+<connect gate="G$1" pin="PA4" pad="33"/>
+<connect gate="G$1" pin="PA5" pad="32"/>
+<connect gate="G$1" pin="PA6" pad="31"/>
+<connect gate="G$1" pin="PA7" pad="30"/>
+<connect gate="G$1" pin="PB0" pad="40"/>
+<connect gate="G$1" pin="PB1" pad="41"/>
+<connect gate="G$1" pin="PB2" pad="42"/>
+<connect gate="G$1" pin="PB3" pad="43"/>
+<connect gate="G$1" pin="PB4" pad="44"/>
+<connect gate="G$1" pin="PB5" pad="1"/>
+<connect gate="G$1" pin="PB6" pad="2"/>
+<connect gate="G$1" pin="PB7" pad="3"/>
+<connect gate="G$1" pin="PC0" pad="19"/>
+<connect gate="G$1" pin="PC1" pad="20"/>
+<connect gate="G$1" pin="PC2" pad="21"/>
+<connect gate="G$1" pin="PC3" pad="22"/>
+<connect gate="G$1" pin="PC4" pad="23"/>
+<connect gate="G$1" pin="PC5" pad="24"/>
+<connect gate="G$1" pin="PC6" pad="25"/>
+<connect gate="G$1" pin="PC7" pad="26"/>
+<connect gate="G$1" pin="PD0" pad="9"/>
+<connect gate="G$1" pin="PD1" pad="10"/>
+<connect gate="G$1" pin="PD2" pad="11"/>
+<connect gate="G$1" pin="PD3" pad="12"/>
+<connect gate="G$1" pin="PD4" pad="13"/>
+<connect gate="G$1" pin="PD5" pad="14"/>
+<connect gate="G$1" pin="PD6" pad="15"/>
+<connect gate="G$1" pin="PD7" pad="16"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="VCC@1" pad="5"/>
+<connect gate="G$1" pin="VCC@2" pad="17"/>
+<connect gate="G$1" pin="VCC@3" pad="38"/>
+<connect gate="G$1" pin="XTAL1" pad="8"/>
+<connect gate="G$1" pin="XTAL2" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
