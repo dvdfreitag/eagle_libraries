@@ -27465,6 +27465,21 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="AMCA72-2R470G-S1F-T4" prefix="A">
+<gates>
+<gate name="G$1" symbol="ANTENNA2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0915AT43A0026E">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

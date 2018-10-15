@@ -2596,6 +2596,40 @@
 <rectangle x1="-0.125" y1="-0.5" x2="0.125" y2="-0.25" layer="31"/>
 <rectangle x1="-0.125" y1="-0.125" x2="0.125" y2="0.125" layer="31"/>
 </package>
+<package name="WSON-8-5X6">
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="-3" y1="0.435" x2="-2.4" y2="0.835" layer="51"/>
+<rectangle x1="-3" y1="1.705" x2="-2.4" y2="2.105" layer="51"/>
+<rectangle x1="-3" y1="-0.835" x2="-2.4" y2="-0.435" layer="51"/>
+<rectangle x1="-3" y1="-2.105" x2="-2.4" y2="-1.705" layer="51"/>
+<rectangle x1="-1.7" y1="-2" x2="1.7" y2="2" layer="51"/>
+<smd name="1" x="-2.8575" y="1.905" dx="1.27" dy="0.635" layer="1"/>
+<smd name="2" x="-2.8575" y="0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="3" x="-2.8575" y="-0.635" dx="1.27" dy="0.635" layer="1"/>
+<smd name="4" x="-2.8575" y="-1.905" dx="1.27" dy="0.635" layer="1"/>
+<smd name="PAD" x="0" y="0" dx="3.6" dy="4.44" layer="1" cream="no"/>
+<rectangle x1="2.4" y1="-0.835" x2="3" y2="-0.435" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="-2.105" x2="3" y2="-1.705" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="0.435" x2="3" y2="0.835" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="1.705" x2="3" y2="2.105" layer="51" rot="R180"/>
+<smd name="5" x="2.8575" y="-1.905" dx="1.27" dy="0.635" layer="1" rot="R180"/>
+<smd name="6" x="2.8575" y="-0.635" dx="1.27" dy="0.635" layer="1" rot="R180"/>
+<smd name="7" x="2.8575" y="0.635" dx="1.27" dy="0.635" layer="1" rot="R180"/>
+<smd name="8" x="2.8575" y="1.905" dx="1.27" dy="0.635" layer="1" rot="R180"/>
+<rectangle x1="-1.5" y1="0.5" x2="-0.5" y2="1.75" layer="31"/>
+<rectangle x1="0.5" y1="0.5" x2="1.5" y2="1.75" layer="31"/>
+<rectangle x1="0.5" y1="-1.75" x2="1.5" y2="-0.5" layer="31"/>
+<rectangle x1="-1.5" y1="-1.75" x2="-0.5" y2="-0.5" layer="31"/>
+<wire x1="-3.7" y1="2.7" x2="3.7" y2="2.7" width="0.1905" layer="21"/>
+<wire x1="3.7" y1="2.7" x2="3.7" y2="-2.7" width="0.1905" layer="21"/>
+<wire x1="3.7" y1="-2.7" x2="-3.7" y2="-2.7" width="0.1905" layer="21"/>
+<wire x1="-3.7" y1="-2.7" x2="-3.7" y2="2.7" width="0.1905" layer="21"/>
+<circle x="-3.95" y="2.95" radius="0.05" width="0.25" layer="21"/>
+<text x="-3.683" y="2.921" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP23017">
@@ -4568,7 +4602,22 @@
 <connect gate="G$1" pin="SI/SIO0" pad="5"/>
 <connect gate="G$1" pin="SO/SIO1" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="4 P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-WSON" package="WSON-8-5X6">
+<connects>
+<connect gate="G$1" pin="!CE" pad="1"/>
+<connect gate="G$1" pin="!HOLD!/SIO3" pad="7"/>
+<connect gate="G$1" pin="!WP!/SIO2" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI/SIO0" pad="5"/>
+<connect gate="G$1" pin="SO/SIO1" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4 PAD"/>
 </connects>
 <technologies>
 <technology name=""/>
