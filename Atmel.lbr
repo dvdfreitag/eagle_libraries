@@ -205,10 +205,8 @@
 <package name="TQFP-32">
 <wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
 <wire x1="3.505" y1="-3.505" x2="-3.505" y2="-3.505" width="0.1524" layer="21"/>
-<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
-<wire x1="-3.15" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
-<wire x1="-3.15" y1="3.505" x2="-3.505" y2="3.15" width="0.1524" layer="21"/>
-<circle x="-2.7432" y="2.7432" radius="0.3592" width="0.1524" layer="21"/>
+<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.505" width="0.1524" layer="21"/>
+<wire x1="-3.505" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
 <smd name="1" x="-4.2926" y="2.8" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="2" x="-4.2926" y="2" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="3" x="-4.2926" y="1.2" dx="1.27" dy="0.5588" layer="1"/>
@@ -241,7 +239,7 @@
 <smd name="30" x="-1.2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
 <smd name="31" x="-2" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
 <smd name="32" x="-2.8" y="4.2926" dx="0.5588" dy="1.27" layer="1"/>
-<text x="-3.81" y="3.81" size="1.27" layer="21" align="bottom-right">&gt;NAME</text>
+<text x="-3.048" y="5.207" size="1.27" layer="21" ratio="12">&gt;NAME</text>
 <rectangle x1="-4.5466" y1="2.5714" x2="-3.556" y2="3.0286" layer="51"/>
 <rectangle x1="-4.5466" y1="1.7714" x2="-3.556" y2="2.2286" layer="51"/>
 <rectangle x1="-4.5466" y1="0.9714" x2="-3.556" y2="1.4286" layer="51"/>
@@ -274,6 +272,7 @@
 <rectangle x1="-1.4286" y1="3.556" x2="-0.9714" y2="4.5466" layer="51"/>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
+<circle x="-3.85" y="3.85" radius="0.1" width="0.25" layer="21"/>
 </package>
 <package name="QFN-32">
 <wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
@@ -6893,10 +6892,49 @@
 <gate name="G$1" symbol="ATXMEGA32E5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN-32">
+<device name="-MU" package="QFN-32">
 <connects>
 <connect gate="G$1" pin="AVCC" pad="32"/>
 <connect gate="G$1" pin="GND@1" pad="1 EP"/>
+<connect gate="G$1" pin="GND@2" pad="18"/>
+<connect gate="G$1" pin="PA0/ADC0/AC0/AREF" pad="6"/>
+<connect gate="G$1" pin="PA1/ADC1/AC1" pad="5"/>
+<connect gate="G$1" pin="PA2/ADC2/DAC0/AC2" pad="4"/>
+<connect gate="G$1" pin="PA3/ADC3/DAC1/AC3" pad="3"/>
+<connect gate="G$1" pin="PA4/ADC4/AC4" pad="2"/>
+<connect gate="G$1" pin="PA5/ADC5/AC5" pad="31"/>
+<connect gate="G$1" pin="PA6/ADC6/AC6" pad="30"/>
+<connect gate="G$1" pin="PA7/ADC7/AC7" pad="29"/>
+<connect gate="G$1" pin="PC0/OC4A/SDA" pad="16"/>
+<connect gate="G$1" pin="PC1/OC4B/XCK0/SCL" pad="15"/>
+<connect gate="G$1" pin="PC2/OC4C/RXD0" pad="14"/>
+<connect gate="G$1" pin="PC3/OC4D/TXD0" pad="13"/>
+<connect gate="G$1" pin="PC4/OC4A/OC5A/!SS!" pad="12"/>
+<connect gate="G$1" pin="PC5/OC4B/OC5B/XCK0/SCK" pad="11"/>
+<connect gate="G$1" pin="PC6/OC4C/RXD0/MISO" pad="10"/>
+<connect gate="G$1" pin="PC7/OC4D/TXD0/MOSI" pad="9"/>
+<connect gate="G$1" pin="PD0/ADC8/SDA/AREF" pad="28"/>
+<connect gate="G$1" pin="PD1/ADC9/XCK0/SCL" pad="27"/>
+<connect gate="G$1" pin="PD2/ADC10/RXD0" pad="26"/>
+<connect gate="G$1" pin="PD3/ADC11/TXD0" pad="25"/>
+<connect gate="G$1" pin="PD4/ADC12/OC5A" pad="24"/>
+<connect gate="G$1" pin="PD5/ADC13/OC5B/XCK0" pad="23"/>
+<connect gate="G$1" pin="PD6/ADC14/RXD0" pad="22"/>
+<connect gate="G$1" pin="PD7/ADC15/TXD0" pad="21"/>
+<connect gate="G$1" pin="PDI_CLK/!RESET" pad="8"/>
+<connect gate="G$1" pin="PDI_DATA" pad="7"/>
+<connect gate="G$1" pin="PR0/XTAL2" pad="20"/>
+<connect gate="G$1" pin="PR1/XTAL1" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-AU" package="TQFP-32">
+<connects>
+<connect gate="G$1" pin="AVCC" pad="32"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
 <connect gate="G$1" pin="GND@2" pad="18"/>
 <connect gate="G$1" pin="PA0/ADC0/AC0/AREF" pad="6"/>
 <connect gate="G$1" pin="PA1/ADC1/AC1" pad="5"/>

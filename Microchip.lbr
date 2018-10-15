@@ -436,10 +436,13 @@
 <rectangle x1="-1.6" y1="-0.1775" x2="-0.775" y2="0.1775" layer="51" rot="R180"/>
 <rectangle x1="-1.6" y1="-1.1275" x2="-0.775" y2="-0.7725" layer="51" rot="R180"/>
 <rectangle x1="-1.6" y1="0.7725" x2="-0.775" y2="1.1275" layer="51" rot="R180"/>
-<wire x1="-0.75" y1="1.48" x2="0.75" y2="1.48" width="0.1905" layer="21"/>
 <wire x1="-0.75" y1="-1.48" x2="0.75" y2="-1.48" width="0.1905" layer="21"/>
-<circle x="-1.15" y="1.85" radius="0.21213125" width="0.1905" layer="21"/>
-<text x="-0.75" y="1.65" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<text x="-2.159" y="1.651" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+<wire x1="-2.2" y1="1.5" x2="-2.2" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="-2.2" y1="-1.5" x2="2.2" y2="-1.5" width="0.1905" layer="21"/>
+<wire x1="2.2" y1="-1.5" x2="2.2" y2="1.5" width="0.1905" layer="21"/>
+<wire x1="2.2" y1="1.5" x2="-2.2" y2="1.5" width="0.1905" layer="21"/>
+<circle x="-2.45" y="1.75" radius="0.05" width="0.25" layer="21"/>
 </package>
 <package name="SSOP-28">
 <wire x1="-2.65" y1="5.1" x2="2.65" y2="5.1" width="0.127" layer="51"/>
@@ -4865,6 +4868,24 @@
 <connect gate="G$1" pin="GND" pad="3 PAD"/>
 <connect gate="G$1" pin="IN" pad="6"/>
 <connect gate="G$1" pin="OUT" pad="1 2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1501" prefix="U">
+<gates>
+<gate name="G$1" symbol="VREG_EN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="T-25E/CHY" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2 3 5"/>
+<connect gate="G$1" pin="IN" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
