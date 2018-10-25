@@ -6996,6 +6996,17 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-POWER" package="0039281043">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M02X2-POWER" prefix="J">
