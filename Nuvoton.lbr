@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN-20-4MMX4MM">
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
+<rectangle x1="-2" y1="-0.125" x2="-1.6" y2="0.125" layer="51"/>
+<rectangle x1="-2" y1="0.375" x2="-1.6" y2="0.625" layer="51"/>
+<rectangle x1="-2" y1="0.875" x2="-1.6" y2="1.125" layer="51"/>
+<rectangle x1="-2" y1="-0.625" x2="-1.6" y2="-0.375" layer="51"/>
+<rectangle x1="-2" y1="-1.125" x2="-1.6" y2="-0.875" layer="51"/>
+<smd name="3" x="-1.95" y="0" dx="0.275" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-1.95" y="0.5" dx="0.275" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-1.95" y="1" dx="0.275" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="-1.95" y="-0.5" dx="0.275" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="-1.95" y="-1" dx="0.275" dy="0.8" layer="1" rot="R90"/>
+<rectangle x1="-0.2" y1="-1.925" x2="0.2" y2="-1.675" layer="51" rot="R90"/>
+<rectangle x1="-0.7" y1="-1.925" x2="-0.3" y2="-1.675" layer="51" rot="R90"/>
+<rectangle x1="-1.2" y1="-1.925" x2="-0.8" y2="-1.675" layer="51" rot="R90"/>
+<rectangle x1="0.3" y1="-1.925" x2="0.7" y2="-1.675" layer="51" rot="R90"/>
+<rectangle x1="0.8" y1="-1.925" x2="1.2" y2="-1.675" layer="51" rot="R90"/>
+<smd name="8" x="0" y="-1.95" dx="0.275" dy="0.8" layer="1" rot="R180"/>
+<smd name="7" x="-0.5" y="-1.95" dx="0.275" dy="0.8" layer="1" rot="R180"/>
+<smd name="6" x="-1" y="-1.95" dx="0.275" dy="0.8" layer="1" rot="R180"/>
+<smd name="9" x="0.5" y="-1.95" dx="0.275" dy="0.8" layer="1" rot="R180"/>
+<smd name="10" x="1" y="-1.95" dx="0.275" dy="0.8" layer="1" rot="R180"/>
+<rectangle x1="1.6" y1="-0.125" x2="2" y2="0.125" layer="51" rot="R180"/>
+<rectangle x1="1.6" y1="-0.625" x2="2" y2="-0.375" layer="51" rot="R180"/>
+<rectangle x1="1.6" y1="-1.125" x2="2" y2="-0.875" layer="51" rot="R180"/>
+<rectangle x1="1.6" y1="0.375" x2="2" y2="0.625" layer="51" rot="R180"/>
+<rectangle x1="1.6" y1="0.875" x2="2" y2="1.125" layer="51" rot="R180"/>
+<smd name="13" x="1.95" y="0" dx="0.275" dy="0.8" layer="1" rot="R270"/>
+<smd name="12" x="1.95" y="-0.5" dx="0.275" dy="0.8" layer="1" rot="R270"/>
+<smd name="11" x="1.95" y="-1" dx="0.275" dy="0.8" layer="1" rot="R270"/>
+<smd name="14" x="1.95" y="0.5" dx="0.275" dy="0.8" layer="1" rot="R270"/>
+<smd name="15" x="1.95" y="1" dx="0.275" dy="0.8" layer="1" rot="R270"/>
+<rectangle x1="-0.2" y1="1.675" x2="0.2" y2="1.925" layer="51" rot="R270"/>
+<rectangle x1="0.3" y1="1.675" x2="0.7" y2="1.925" layer="51" rot="R270"/>
+<rectangle x1="0.8" y1="1.675" x2="1.2" y2="1.925" layer="51" rot="R270"/>
+<rectangle x1="-0.7" y1="1.675" x2="-0.3" y2="1.925" layer="51" rot="R270"/>
+<rectangle x1="-1.2" y1="1.675" x2="-0.8" y2="1.925" layer="51" rot="R270"/>
+<smd name="18" x="0" y="1.95" dx="0.275" dy="0.8" layer="1"/>
+<smd name="17" x="0.5" y="1.95" dx="0.275" dy="0.8" layer="1"/>
+<smd name="16" x="1" y="1.95" dx="0.275" dy="0.8" layer="1"/>
+<smd name="19" x="-0.5" y="1.95" dx="0.275" dy="0.8" layer="1"/>
+<smd name="20" x="-1" y="1.95" dx="0.275" dy="0.8" layer="1"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="51"/>
+<smd name="PAD" x="0" y="0" dx="2.2" dy="2.2" layer="1" cream="no"/>
+<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31"/>
+<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31"/>
+<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31"/>
+<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31"/>
+<circle x="-2.25" y="2.25" radius="0.05" width="0.25" layer="21"/>
+<text x="-2.032" y="2.54" size="1.27" layer="21" ratio="12">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NAU8810">
+<pin name="MICBIAS" x="15.24" y="-1.27" length="short" rot="R180"/>
+<pin name="VDDA" x="-15.24" y="13.97" length="short"/>
+<pin name="VSSA" x="15.24" y="-8.89" length="short" rot="R180"/>
+<pin name="VDDD" x="-15.24" y="11.43" length="short"/>
+<pin name="VSSD" x="15.24" y="-11.43" length="short" rot="R180"/>
+<pin name="SDOUT" x="-15.24" y="-6.35" length="short"/>
+<pin name="SDIN" x="-15.24" y="-3.81" length="short"/>
+<pin name="LRCK" x="-15.24" y="-1.27" length="short"/>
+<pin name="SCK" x="-15.24" y="1.27" length="short"/>
+<pin name="MCK" x="-15.24" y="3.81" length="short"/>
+<pin name="MIC+" x="15.24" y="3.81" length="short" rot="R180"/>
+<pin name="MIC-" x="15.24" y="1.27" length="short" rot="R180"/>
+<pin name="VREF" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="VDDSPK" x="-15.24" y="8.89" length="short"/>
+<pin name="SPKOUT-" x="15.24" y="11.43" length="short" rot="R180"/>
+<pin name="VSSSPK" x="15.24" y="-13.97" length="short" rot="R180"/>
+<pin name="SPKOUT+" x="15.24" y="13.97" length="short" rot="R180"/>
+<pin name="MOUT" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="SDA" x="-15.24" y="-11.43" length="short"/>
+<pin name="SCL" x="-15.24" y="-13.97" length="short"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.065" y="15.875" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.065" y="-17.145" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NAU8810" prefix="U">
+<gates>
+<gate name="G$1" symbol="NAU8810" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-20-4MMX4MM">
+<connects>
+<connect gate="G$1" pin="LRCK" pad="8"/>
+<connect gate="G$1" pin="MCK" pad="10"/>
+<connect gate="G$1" pin="MIC+" pad="20"/>
+<connect gate="G$1" pin="MIC-" pad="19"/>
+<connect gate="G$1" pin="MICBIAS" pad="1"/>
+<connect gate="G$1" pin="MOUT" pad="13"/>
+<connect gate="G$1" pin="SCK" pad="9"/>
+<connect gate="G$1" pin="SCL" pad="11"/>
+<connect gate="G$1" pin="SDA" pad="12"/>
+<connect gate="G$1" pin="SDIN" pad="7"/>
+<connect gate="G$1" pin="SDOUT" pad="6"/>
+<connect gate="G$1" pin="SPKOUT+" pad="14"/>
+<connect gate="G$1" pin="SPKOUT-" pad="16"/>
+<connect gate="G$1" pin="VDDA" pad="2"/>
+<connect gate="G$1" pin="VDDD" pad="4"/>
+<connect gate="G$1" pin="VDDSPK" pad="17"/>
+<connect gate="G$1" pin="VREF" pad="18"/>
+<connect gate="G$1" pin="VSSA" pad="3 PAD"/>
+<connect gate="G$1" pin="VSSD" pad="5"/>
+<connect gate="G$1" pin="VSSSPK" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
